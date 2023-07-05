@@ -38,4 +38,32 @@ public static class AnimationExtensions
             return UniTask.CompletedTask;
         }
     }
+	
+	public static async UniTask CrossFade(this Animation animation, string animationName, float crossFadeDuration)
+        {
+            try
+            {
+                while (crossFadeDuration > 0)
+                {
+                    animation.CrossFade(animationName, crossFadeDuration, PlayMode.StopSameLayer);
+                    crossFadeDuration -= Time.deltaTime;
+                    await UniTask.Yield();
+                }
+            }
+            catch (Exception e)
+            {
+                Debug.LogError($"Failed to play animation: {animationName}, {e}");
+            }
+        }
+
+        public static float GetAnimationLength(this Animation animation, string animationName)
+        {
+            var animationState = animation[animationName];
+            return animationState.length * (1 / Mathf.Abs(animationState.speed));
+        }
+        
+        public static float GetClipLength(this Animation animation, string clipName)
+        {
+            return animation.GetClip(clipName).length;
+        }
 }
