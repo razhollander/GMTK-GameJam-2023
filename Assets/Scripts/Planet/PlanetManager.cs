@@ -24,7 +24,8 @@ namespace Planet
 
             foreach (var part in parts)
             {
-                Instantiate(_planetPart, part.Position, Quaternion.LookRotation(part.Position));
+                Instantiate(_planetPart, part.Position, Quaternion.LookRotation(part.Position), transform);
+                Destroy(part.gameObject);
             }
         }
     }
