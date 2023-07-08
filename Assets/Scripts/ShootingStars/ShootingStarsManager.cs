@@ -29,7 +29,6 @@ public class ShootingStarsManager : MonoBehaviour
         }
 
         var newStar = Instantiate(star, land.Position * radius, Quaternion.identity);
-        newStar.SetEffect(Random.Range(0,2));
         newStar.SetLand(land);
         SpawnStar();
     }

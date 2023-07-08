@@ -7,7 +7,6 @@ public class ShootingStar : MonoBehaviour
 {
     private const float Epsilon = 0.1f;
     
-    [SerializeField] private int curEffect;
     [SerializeField] private float speed = .5f;
     [SerializeField] private Land targetLand;
     [SerializeField] private float timeToSelfDestruct = 5;
@@ -35,8 +34,6 @@ public class ShootingStar : MonoBehaviour
 
     #region getters&setters
 
-        public int GetEffect(){return curEffect;}
-        public void SetEffect(int effect){curEffect = effect;}
         public void SetLand(Land land){targetLand = land;}
         
     #endregion
