@@ -49,6 +49,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _Edge: 1
     - _Hieght: 0.09
     - _QueueControl: 0
     - _QueueOffset: 0
@@ -56,7 +57,9 @@ Material:
     - _Strength: 0.97
     - _Strength_Displacmetn: 0.02
     - _Tilling: 2.38
+    - _strenfth: 0.48
     m_Colors:
+    - _Center: {r: 0, g: 0, b: 0, a: 0}
     - _Color: {r: 0, g: 0.5137255, b: 1, a: 1}
     - _ColorDeep: {r: 1.6792452, g: 3.8609486, b: 4, a: 1}
     - _Tilling: {r: 0.67, g: 1.77, b: 0, a: 0}

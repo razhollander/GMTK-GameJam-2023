@@ -138,11 +138,11 @@ RectTransform:
   m_Father: {fileID: 999349178188387823}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 1, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: 12.49, y: 0}
   m_SizeDelta: {x: 34.9806, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_Pivot: {x: 1, y: 0.5}
 --- !u!222 &7574431081579997269
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -279,7 +279,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4847892492637688766, guid: e4d1feaba6d9298499385d935ea86baf, type: 3}
       propertyPath: m_Value
-      value: 0.761
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5654139173151801841, guid: e4d1feaba6d9298499385d935ea86baf, type: 3}
       propertyPath: m_Enabled
@@ -301,6 +301,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 0dfd3b15793c9234099232eea17c3098, type: 3}
+    - target: {fileID: 8900067517230526746, guid: e4d1feaba6d9298499385d935ea86baf, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
