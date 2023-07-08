@@ -47,9 +47,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bddec1a92ede4467878ef6bd3cfc57d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _sea: {fileID: 5592615838110460667}
-  _land: {fileID: 8951928770125807754}
-  _renderer: {fileID: 2141651555451850730}
+  _buildingObjects: []
+  _isSea: 0
+  _forestMaxHearts: 3
+  _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!65 &5308783581844402290
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -136,19 +137,9 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: efb45882a74df974d8aacb1c25dce59b, type: 3}
---- !u!23 &2141651555451850730 stripped
-MeshRenderer:
-  m_CorrespondingSourceObject: {fileID: 8704508871449377003, guid: efb45882a74df974d8aacb1c25dce59b, type: 3}
-  m_PrefabInstance: {fileID: 7310481345533654785}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &4565105260347753763 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6498288546882564642, guid: efb45882a74df974d8aacb1c25dce59b, type: 3}
-  m_PrefabInstance: {fileID: 7310481345533654785}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &8951928770125807754 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1823869632140146571, guid: efb45882a74df974d8aacb1c25dce59b, type: 3}
   m_PrefabInstance: {fileID: 7310481345533654785}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7529790529462837611
@@ -219,10 +210,5 @@ PrefabInstance:
 --- !u!4 &2491005912775889062 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5399503939040981453, guid: fa991c52c602ec0488e7941becb080d6, type: 3}
-  m_PrefabInstance: {fileID: 7529790529462837611}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &5592615838110460667 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2730244527950891920, guid: fa991c52c602ec0488e7941becb080d6, type: 3}
   m_PrefabInstance: {fileID: 7529790529462837611}
   m_PrefabAsset: {fileID: 0}

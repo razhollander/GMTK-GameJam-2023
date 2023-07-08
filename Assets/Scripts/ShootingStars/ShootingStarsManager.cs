@@ -21,7 +21,6 @@ public class ShootingStarsManager : MonoBehaviour
     private async UniTask SpawnStar()
     {
         await UniTask.Delay(TimeSpan.FromSeconds(timeBtwSpawns));
-        print("spawn");
         var land = _planetManager.Lands[Random.Range(0, _planetManager.Lands.Count)];
         while (land.Vertex == 5)
         {
