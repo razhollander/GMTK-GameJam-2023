@@ -10,18 +10,17 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float radius = 5;
     [SerializeField] private float speed = 1;
     [SerializeField] private LayerMask world;
+    [SerializeField] private MeshRenderer humanMeshRenderer;
+    private Vector3 wayUp;
     private Vector3 center = Vector3.zero;
     private Vector3 _lastPos;
-    
+
     private void Start()
     {
         var myTransform = transform;
         renderer = myTransform.GetChild(0);
         rayPos = myTransform.GetChild(1);
-        Debug.Log(target.name);
         SetTarget(target.Neighbors[Random.Range(0, target.Neighbors.Count)]);
-        Debug.Log(target.name);
-
     }
 
     private void LateUpdate()
@@ -31,35 +30,40 @@ public class PlayerController : MonoBehaviour
 
     private void Update ()
     {
-       if (target) MoveTowardsTarget(target.transform);
        
        var ray = new Ray(rayPos.position, -transform.up);
-       if (!Physics.Raycast(ray, out var hit, 1, world)) return;
+       Physics.Raycast(ray, out var hit, 1, world);
+       wayUp = hit.normal;
        var newPos = hit.point;
        newPos += transform.up * yOffset;
        renderer.position = newPos;
+       if (target) MoveTowardsTarget(target);
+
     }
 
-    private void MoveTowardsTarget(Transform target)
+    private void MoveTowardsTarget(Land target)
     {
-        var direction = target.position - transform.position;
+        var direction = target.Position - transform.position;
+        var cross =  Vector3.Cross(direction, wayUp);
+        cross.Normalize();
+        var newDirection = direction + cross;
         direction.Normalize();
-        if (direction.magnitude < 0.1) return;
+        if (newDirection.magnitude < 0.1) return;
         
         var myTransform = transform;
         var pos = myTransform.position; //get position
-        pos += direction * (speed * Time.deltaTime); //move forward
+        pos += newDirection * (speed * Time.deltaTime); //move forward
         var v = pos - center; //get new position relative to center of sphere
         pos = center + v.normalized * radius; //constrain position to surface of sphere
-        
         myTransform.position = pos; //set position
+
         if (transform.position == _lastPos) return;
 
         if (myTransform.position - _lastPos != Vector3.zero)
         {
             myTransform.rotation = Quaternion.FromToRotation(transform.up, myTransform.position) * transform.rotation;
         }
-        
+
     }
 
     public void FindNextTarget()
@@ -80,6 +84,11 @@ public class PlayerController : MonoBehaviour
         public float GetSpeed() {return speed;}
         
         public void SetTarget(Land _target) {target = _target;}
+
+        public void SetLook(Material material)
+        {
+            humanMeshRenderer.material = material;
+        }
 
     #endregion
 }

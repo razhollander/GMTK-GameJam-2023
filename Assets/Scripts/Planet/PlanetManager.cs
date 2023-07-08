@@ -31,6 +31,8 @@ namespace Planet
                 land.Id = idCounter;
                 land.AmountNeighbors = part.Vertex;
                 land.Position = part.Position;
+                land.Vertex = part.Vertex;
+                land.BuildingType = BuildingType.None;
                 idCounter++;
             }
 
@@ -48,6 +50,8 @@ namespace Planet
                 }
 
                 land.Neighbors.RemoveAll(i => minimumDistance + 0.2f < Vector3.Distance(land.Position, i.Position));
+                
+                land.SetupBuilding();
             }
         }
     }

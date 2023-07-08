@@ -30,7 +30,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2726337132870566096
 MonoBehaviour:
@@ -44,5 +44,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e30445064b7df540bb4b68b8ed2e583, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  person: {fileID: 0}
+  person: {fileID: 2607126428937965409, guid: 1c74c370c4931fb419dd637ce9e0850c, type: 3}
   timeBtwSpawns: 3
+  humanSkins:
+  - {fileID: 2100000, guid: 4104d8b69e82c5e4ca0e6212492329f9, type: 2}
+  - {fileID: 2100000, guid: d6bd074db37941f4daa69f83faf8d8c2, type: 2}
+  - {fileID: 2100000, guid: 64cf373b5ae5b4b40836181379655662, type: 2}
+  - {fileID: 2100000, guid: 7934e8d2fea2674429cea1aae4743f46, type: 2}
+  - {fileID: 2100000, guid: ace0e1b0686f4994fadfa69aca83babf, type: 2}
+  - {fileID: 2100000, guid: 921caf54dafc80545bc1eeda47d5a825, type: 2}
+  - {fileID: 2100000, guid: 87cd7099187ca8945aa7ef6c6fcb6623, type: 2}
+  - {fileID: 2100000, guid: 02010518a2345184b9e5355667de71a3, type: 2}
+  - {fileID: 2100000, guid: 07ead77e0abc283419c1e8e3d387c736, type: 2}
+  - {fileID: 2100000, guid: 0ccd804d54a0b2546b7386f59f3c4c2b, type: 2}
