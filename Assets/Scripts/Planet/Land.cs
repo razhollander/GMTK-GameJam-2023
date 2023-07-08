@@ -20,7 +20,7 @@ namespace Planet
         public Vector3 Position { get; set; }
         public int Vertex { get; set; }
         public int Heart { get; set; }
-
+        public Action BuildingTypeChangedEvent;
         public int Level
         {
             get { return _level; }
@@ -38,6 +38,7 @@ namespace Planet
             set
             {
                 _buildingType = value;
+                BuildingTypeChangedEvent?.Invoke();
                 UpdateColorView();
             }
         }
