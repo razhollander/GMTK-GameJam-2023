@@ -99,7 +99,7 @@ public class LandClickedManager : MonoBehaviour
 
     private void HitBuildingsInCurrentLand()
     {
-        _currentLandMouseDown.HitBuilding();
+        _currentLandMouseDown.HitBuilding().Forget();
     }
 
     private void ChangeToCursorImage(Texture2D cursorTexture)
