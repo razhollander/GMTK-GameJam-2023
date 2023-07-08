@@ -72,6 +72,6 @@ public class LandClickedManager : MonoBehaviour
 
     private void CreateForestInCurrentLand()
     {
-        _currentLandMouseDown.BuildForest(1);
+        _currentLandMouseDown.BuildForest();
     }
 }
