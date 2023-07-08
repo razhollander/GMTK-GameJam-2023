@@ -6,12 +6,10 @@ namespace Planet
 {
     public class PlanetManager : MonoBehaviour
     {
-        [SerializeField] private Land _landPrefab;
-
-        public PlanetManager Instance { get; private set; }
+        public static PlanetManager Instance { get; private set; }
         public List<Land> Lands { get; private set; }
 
-        private void Awake()
+        private void Start()
         {
             if (Instance == null)
             {
@@ -28,9 +26,7 @@ namespace Planet
             int idCounter = 0;
             foreach (var part in parts)
             {
-                // var land = Instantiate(_landPrefab, part.Position, Quaternion.LookRotation(part.Position), transform);
-                var land = Instantiate(_landPrefab, part.Position, Quaternion.LookRotation(part.Position), transform);
-                Destroy(part.gameObject);
+                var land = part.gameObject.GetComponent<Land>();
                 Lands.Add(land);
                 land.Id = idCounter;
                 land.AmountNeighbors = part.Vertex;

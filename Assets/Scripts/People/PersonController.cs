@@ -1,23 +1,27 @@
-using System;
+using Planet;
 using UnityEngine;
- 
+
 public class PlayerController : MonoBehaviour
 {
-    [SerializeField] private Transform target;
+    [SerializeField] private Land target;
     [SerializeField] private Transform renderer;
     [SerializeField] private Transform rayPos;
     [SerializeField] private float yOffset = .1f;
     [SerializeField] private float radius = 5;
+    [SerializeField] private float speed = 1;
     [SerializeField] private LayerMask world;
-    public float speed = 1;
     private Vector3 center = Vector3.zero;
     private Vector3 _lastPos;
-
+    
     private void Start()
     {
         var myTransform = transform;
         renderer = myTransform.GetChild(0);
         rayPos = myTransform.GetChild(1);
+        Debug.Log(target.name);
+        SetTarget(target.Neighbors[Random.Range(0, target.Neighbors.Count)]);
+        Debug.Log(target.name);
+
     }
 
     private void LateUpdate()
@@ -27,7 +31,7 @@ public class PlayerController : MonoBehaviour
 
     private void Update ()
     {
-       MoveTowardsTarget(target);
+       if (target) MoveTowardsTarget(target.transform);
        
        var ray = new Ray(rayPos.position, -transform.up);
        if (!Physics.Raycast(ray, out var hit, 1, world)) return;
@@ -50,9 +54,17 @@ public class PlayerController : MonoBehaviour
         
         myTransform.position = pos; //set position
         if (transform.position == _lastPos) return;
+
+        if (myTransform.position - _lastPos != Vector3.zero)
+        {
+            myTransform.rotation = Quaternion.FromToRotation(transform.up, myTransform.position) * transform.rotation;
+        }
         
-        var transform1 = transform;
-        if (transform1.position - _lastPos != Vector3.zero) transform1.forward = -(transform1.position - _lastPos);
+    }
+
+    public void FindNextTarget()
+    {
+        SetTarget(target.Neighbors[Random.Range(0, target.Neighbors.Count)]);
     }
 
     private void OnDrawGizmos()
@@ -60,4 +72,14 @@ public class PlayerController : MonoBehaviour
         Gizmos.color = Color.red;
         Gizmos.DrawRay(rayPos.position, -transform.up);
     }
+
+    #region getters&setters
+
+        public void SetSpeed(float _speed) {speed = _speed;}
+        
+        public float GetSpeed() {return speed;}
+        
+        public void SetTarget(Land _target) {target = _target;}
+
+    #endregion
 }
