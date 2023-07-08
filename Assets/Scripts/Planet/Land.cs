@@ -16,12 +16,22 @@ namespace Planet
         private int _level;
         private BuildingType _buildingType;
         private List<GameObject> _objects = new();
+        private float _timerSeconds;
+        private const float _nextLevelSeconds = 15f;
 
+        private Dictionary<int, int> _levelToBuildingsMaxHeartDits = new Dictionary<int, int>()
+        {
+            {1, 3},
+            {2, 4},
+            {3, 5},
+            {4, 7},
+        };
+        
+        [SerializeField] private int _forestMaxHearts = 3; 
         public int Id { get; set; }
         public List<Land> Neighbors { get; set; }
         public Vector3 Position { get; set; }
         public int Vertex { get; set; }
-        [SerializeField] private int _maxHearts;
         [SerializeField] private float _maxSecondsBetweenHitsBeforeReset;
 
         public int Heart { get; set; }
@@ -144,22 +154,25 @@ namespace Planet
 
         private void Build(int level, BuildingType buildType)
         {
-            if (Vertex == 6)
+            if (Vertex == 6 && _buildingObjects.Find(i => i.Type == buildType).Objects.Count >= level)
             {
+                _timerSeconds = 0f;
                 var index = 0;
                 Level = level;
+                BuildingType = buildType;
                 var buildPrefab = _buildingObjects.Find(i => i.Type == buildType).Objects[Level - 1];
-
+                SetHeartsToMaximum();
+                
                 var inst = Instantiate(buildPrefab, this.transform);
                 inst.transform.position = Vector3.zero;
                 inst.transform.rotation = Quaternion.Euler(Vector3.zero);
                 inst.transform.position = Position;
 
                 inst.transform.LookAt(transform);
-                
+
                 _objects.ForEach(j => Destroy(j.gameObject));
                 _objects.Clear();
-                
+
                 _objects.Add(inst);
             }
         }
@@ -168,21 +181,22 @@ namespace Planet
         {
             _objects.ForEach(j => Destroy(j.gameObject));
             _objects.Clear();
-            // TODO : change to BuildingType.None
+            _buildingType = BuildingType.None;
         }
 
         public async UniTask HitBuilding()
         {
             Heart--;
 
-            if (Heart == 0)
-            {
-                DestroyBuilding();
-            }
-            
             if (_resetHeartCountdownCancellationToken != null)
             {
                 _resetHeartCountdownCancellationToken.Cancel();
+            }
+            
+            if (Heart == 0)
+            {
+                DestroyBuilding();
+                return;
             }
             
             _resetHeartCountdownCancellationToken = new CancellationTokenSource();
@@ -197,7 +211,19 @@ namespace Planet
             
             if (!_resetHeartCountdownCancellationToken.IsCancellationRequested)
             {
-                Heart = _maxHearts;
+                SetHeartsToMaximum();
+            }
+        }
+
+        private void SetHeartsToMaximum()
+        {
+            if(BuildingType == BuildingType.Building)
+            {
+                Heart = _levelToBuildingsMaxHeartDits[Level];
+            }
+            else
+            {
+                Heart = _forestMaxHearts;
             }
         }
 
@@ -205,7 +231,7 @@ namespace Planet
         {
             _objects.ForEach(j => Destroy(j.gameObject));
             _objects.Clear();
-            // TODO : change to BuildingType.None
+            _buildingType = BuildingType.None;
         }
 
         public void HitForest()
@@ -218,6 +244,25 @@ namespace Planet
         {
             public BuildingType Type;
             public List<GameObject> Objects;
+        }
+
+        private void Update()
+        {
+            UpdateNextLevel();
+        }
+
+        private void UpdateNextLevel()
+        {
+            _timerSeconds = Time.deltaTime;
+            if (_timerSeconds > _nextLevelSeconds)
+            {
+                _timerSeconds = 0f;
+
+                if (_buildingType == BuildingType.Building)
+                {
+                    Build(_level + 1, BuildingType.Building);
+                }
+            }
         }
     }
 }
