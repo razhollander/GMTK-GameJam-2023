@@ -8,7 +8,8 @@ namespace Planet
     {
         private Renderer _renderer;
         private int _amountNeighbors;
-        
+        private Material _material;
+
         public int Id { get; set; }
         public List<Land> Neighbors { get; set; }
 
@@ -23,17 +24,17 @@ namespace Planet
 
         private void Awake()
         {
-            _renderer = GetComponent<Renderer>();
+            _material = GetComponent<Renderer>().material;
         }
 
         private void OnMouseEnter()
         {
-            _renderer.sharedMaterial.SetFloat("OutLineOpacity", 1f);
+            _material.SetFloat("_OutLineOpacity", 1f);
         }
 
         private void OnMouseExit()
         {
-            _renderer.sharedMaterial.SetFloat("OutLineOpacity", 0f);
+            _material.SetFloat("_OutLineOpacity", 0f);
         }
 
         private void OnMouseUpAsButton()

@@ -47,7 +47,7 @@ Material:
     - _ISOUTLINEON: 1
     - _Opacity: 0
     - _OutLine: 1
-    - _OutLineOpacity: 1
+    - _OutLineOpacity: 0
     - _QueueControl: 0
     - _QueueOffset: 0
     - _Smoothness: 3.43
