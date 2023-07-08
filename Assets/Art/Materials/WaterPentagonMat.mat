@@ -40,7 +40,7 @@ Material:
     - _QueueControl: 0
     - _QueueOffset: 0
     - _Speed: 0.2
-    - _Strength: 2.71
+    - _Strength: 1.2
     - _Tilling: 2.38
     m_Colors:
     - _Color: {r: 0, g: 0.51324224, b: 1, a: 1}

@@ -20,7 +20,7 @@ Material:
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
-  m_LockedProperties: 
+  m_LockedProperties: _ColorStateA
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -42,8 +42,8 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _BorderWidth: 0.485
-    - _Color: 1
+    - _BorderWidth: 0
+    - _Color: 0
     - _ISOUTLINEON: 1
     - _Opacity: 0
     - _OutLine: 1
