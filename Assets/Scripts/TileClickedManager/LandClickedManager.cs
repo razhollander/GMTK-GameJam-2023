@@ -15,16 +15,16 @@ public class LandClickedManager : MonoBehaviour
 
     public void LandMouseExit(Land land)
     {
-        throw new NotImplementedException();
+        Debug.Log(nameof(LandMouseExit));
     }
 
     public void LandMouseUp(Land land)
     {
-        throw new NotImplementedException();
+        Debug.Log(nameof(LandMouseUp));
     }
 
     public void LandMouseDown(Land land)
     {
-        throw new NotImplementedException();
+        Debug.Log(nameof(LandMouseDown));
     }
 }

@@ -9,7 +9,7 @@ namespace Planet
         private Renderer _renderer;
         private int _amountNeighbors;
         private Material _material;
-
+         
         public int Id { get; set; }
         public List<Land> Neighbors { get; set; }
         public Vector3 Position { get; set; }
@@ -37,12 +37,23 @@ namespace Planet
 
         private void OnMouseExit()
         {
+            LandClickedManager.Instance.LandMouseExit(this);
             _material.SetFloat("_OutLineOpacity", 0f);
         }
 
         private void OnMouseUpAsButton()
         {
             Debug.Log("Clicked");
+        }
+
+        private void OnMouseDown()
+        {
+            LandClickedManager.Instance.LandMouseDown(this);
+        }
+
+        private void OnMouseUp()
+        {
+            LandClickedManager.Instance.LandMouseUp(this);
         }
     }
 }
