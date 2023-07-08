@@ -28,6 +28,7 @@ namespace Planet
             int idCounter = 0;
             foreach (var part in parts)
             {
+                // var land = Instantiate(_landPrefab, part.Position, Quaternion.LookRotation(part.Position), transform);
                 var land = Instantiate(_landPrefab, part.Position, Quaternion.LookRotation(part.Position), transform);
                 Destroy(part.gameObject);
                 Lands.Add(land);
