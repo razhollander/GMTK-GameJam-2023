@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -11,6 +12,11 @@ public class HeatMeter : MonoBehaviour, IHeatIntervalObserver
     {
         HeatSystem.Instance.AddHeatIntervalObserver(this);
         UpdateSliderByHeat(HeatSystem.Instance.CurrentHeat);
+    }
+
+    private void OnDestroy()
+    {
+        HeatSystem.Instance.RemoveHeatIntervalObserver(this);
     }
 
     private void UpdateSliderByHeat(int heat)
