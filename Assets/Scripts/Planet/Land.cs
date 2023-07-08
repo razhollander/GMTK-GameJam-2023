@@ -14,6 +14,8 @@ namespace Planet
         private int _level;
         private BuildingType _buildingType;
         private List<GameObject> _objects = new();
+        private float _timerSeconds;
+        private const float _nextLevelSeconds = 15f;
 
         public int Id { get; set; }
         public List<Land> Neighbors { get; set; }
@@ -135,8 +137,9 @@ namespace Planet
 
         private void Build(int level, BuildingType buildType)
         {
-            if (Vertex == 6)
+            if (Vertex == 6 && _buildingObjects.Find(i => i.Type == buildType).Objects.Count >= level)
             {
+                _timerSeconds = 0f;
                 var index = 0;
                 Level = level;
                 var buildPrefab = _buildingObjects.Find(i => i.Type == buildType).Objects[Level - 1];
@@ -147,10 +150,10 @@ namespace Planet
                 inst.transform.position = Position;
 
                 inst.transform.LookAt(transform);
-                
+
                 _objects.ForEach(j => Destroy(j.gameObject));
                 _objects.Clear();
-                
+
                 _objects.Add(inst);
             }
         }
@@ -183,6 +186,25 @@ namespace Planet
         {
             public BuildingType Type;
             public List<GameObject> Objects;
+        }
+
+        private void Update()
+        {
+            UpdateNextLevel();
+        }
+
+        private void UpdateNextLevel()
+        {
+            _timerSeconds = Time.deltaTime;
+            if (_timerSeconds > _nextLevelSeconds)
+            {
+                _timerSeconds = 0f;
+
+                if (_buildingType == BuildingType.Building)
+                {
+                    Build(_level + 1, BuildingType.Building);
+                }
+            }
         }
     }
 }
