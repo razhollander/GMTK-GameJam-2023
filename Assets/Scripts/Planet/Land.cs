@@ -302,7 +302,7 @@ namespace Planet
             {
                 _timerSeconds = 0f;
 
-                if (_buildingType == BuildingType.Building)
+                if (_buildingType == BuildingType.Building && _level != 4)
                 {
                     Build(_level + 1, BuildingType.Building);
                 }
