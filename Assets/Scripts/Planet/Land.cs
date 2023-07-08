@@ -13,7 +13,7 @@ namespace Planet
         [SerializeField] private List<BuildingObjectsContainer> _buildingObjects;
         [SerializeField] private bool _isSea;
         [SerializeField] private int _forestHeatt =2;
-        [SerializeField] private TextMeshProUGUI _landHeatAddedText; 
+        [SerializeField] private LandHeatAddedText _landHeatAddedText; 
         private int _amountNeighbors;
         private Material _material;
         private int _level;
@@ -79,10 +79,15 @@ namespace Planet
                 UpdateColorView();
             }
         }
-
+        
         private void Start()
         {
             HeatSystem.Instance.AddHeatProvider(this);
+            if (_landHeatAddedText != null)
+            {
+                _landHeatAddedText = Instantiate(_landHeatAddedText, transform);
+                _landHeatAddedText.transform.position = Position;
+            }
         }
         
         private void OnDestroy()
@@ -329,7 +334,8 @@ namespace Planet
 
             if (heatProvided != 0)
             {
-                //_landHeatAddedText.play
+                //_landHeatAddedText.transform.rotation = Quaternion.FromToRotation(_landHeatAddedText.transform.up, _landHeatAddedText.transform.position) * transform.rotation;
+                _landHeatAddedText.Play(heatProvided).Forget();
             }
         }
     }
