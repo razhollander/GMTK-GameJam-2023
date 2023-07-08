@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1484039379920291663}
   - component: {fileID: 397763761986168057}
   - component: {fileID: 2516653764106584609}
+  - component: {fileID: 5832250664022061210}
   m_Layer: 0
   m_Name: DropStar
   m_TagString: Untagged
@@ -28,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 1238711648417641902}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 4, y: 4, z: 4}
+  m_LocalScale: {x: 6, y: 6, z: 6}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2346084750249584507}
@@ -98,7 +99,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3f5dd3309a99bc45b60f18d84a0c95e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeToSelfDestruct: 5
+  timeToSelfDestruct: 10
+--- !u!135 &5832250664022061210
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1238711648417641902}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.02109859
+  m_Center: {x: 0, y: 0.0000000018626451, z: 0}
 --- !u!1 &7600479036945190297
 GameObject:
   m_ObjectHideFlags: 0

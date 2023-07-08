@@ -8,5 +8,9 @@ public class DroppedStar : MonoBehaviour
         Destroy(gameObject, timeToSelfDestruct);
     }
     
+    private void OnMouseUpAsButton()
+    {
+        Debug.Log("Clicked");
+    }
     
 }

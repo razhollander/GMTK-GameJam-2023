@@ -28,8 +28,12 @@ public class ShootingStarsManager : MonoBehaviour
     {
         await UniTask.Delay(TimeSpan.FromSeconds(timeBtwSpawns));
         print("spawn");
-        var position = new Vector3(Random.Range(-radius, radius), 0, Random.Range(-radius, radius));
         var land = _planetManager.Lands[Random.Range(0, _planetManager.Lands.Count)];
+        while (land.Vertex == 5)
+        {
+            land = _planetManager.Lands[Random.Range(0, _planetManager.Lands.Count)];
+        }
+
         var newStar = Instantiate(star, land.Position * radius, Quaternion.identity);
         newStar.SetEffect(Random.Range(0,2));
         newStar.SetLand(land);
