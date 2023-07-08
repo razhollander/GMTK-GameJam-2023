@@ -20,7 +20,7 @@ namespace Planet
         public Vector3 Position { get; set; }
         public int Vertex { get; set; }
         public int Heart { get; set; }
-
+        public Action BuildingTypeChangedEvent;
         public int Level
         {
             get { return _level; }
@@ -38,6 +38,7 @@ namespace Planet
             set
             {
                 _buildingType = value;
+                BuildingTypeChangedEvent?.Invoke();
                 UpdateColorView();
             }
         }
@@ -105,9 +106,13 @@ namespace Planet
                 foreach (var obj in list)
                 {
                     var inst = Instantiate(obj, this.transform);
-                    inst.transform.LookAt(Position);
+                    inst.transform.position = Vector3.zero;
+                    inst.transform.rotation = Quaternion.Euler(Vector3.zero);
                     inst.transform.position = Position;
+                    
+                    inst.transform.LookAt(transform);
                     inst.SetActive(false);
+                    
                     container.Objects.Add(inst);
                 }
             }
