@@ -39,7 +39,6 @@ public class LandClickedManager : MonoBehaviour
         UpdateToCorrectCursorImage();
         DisableForestLongClickEffect();
         _currentLandMouseDown = null;
-        Debug.Log(nameof(LandMouseExit));
     }
 
     private void DisableForestLongClickEffect()

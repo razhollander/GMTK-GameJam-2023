@@ -37,7 +37,20 @@ namespace Planet
         public int Vertex { get => _isSea ? 5 : 6; set => _vertex = value; }
         [SerializeField] private float _maxSecondsBetweenHitsBeforeReset;
 
-        public int Heart { get; set; }
+        private int _heart;
+        public int Heart
+        {
+            get
+            {
+                return _heart;
+            }
+            private set
+            {
+                _heart = value;
+                Debug.Log("Heart:" +_heart.ToString());
+            }
+        }
+
         public Action BuildingTypeChangedEvent;
         private UniTask _resetHeartCountdownTask;
         private CancellationTokenSource _resetHeartCountdownCancellationToken;
@@ -132,7 +145,6 @@ namespace Planet
 
         private void OnMouseUpAsButton()
         {
-            Debug.Log("Clicked");
         }
 
         private void OnMouseDown()
@@ -197,7 +209,7 @@ namespace Planet
         public async UniTask HitBuilding()
         {
             Heart--;
-
+            
             if (_resetHeartCountdownCancellationToken != null)
             {
                 _resetHeartCountdownCancellationToken.Cancel();
