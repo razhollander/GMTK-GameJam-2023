@@ -28,7 +28,7 @@ public class PlayerController : MonoBehaviour
         renderer = myTransform.GetChild(0);
         rayPos = myTransform.GetChild(1);
         var neighbor = target.Neighbors[Random.Range(0, target.Neighbors.Count)];
-        while (neighbor.Vertex == 5)
+        if (neighbor.Vertex == 5)
         {
             neighbor = target.Neighbors[Random.Range(0, target.Neighbors.Count)];
         }
