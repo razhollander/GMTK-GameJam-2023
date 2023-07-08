@@ -1,8 +1,10 @@
+using Audio;
 using UnityEngine;
 
 public class DroppedStar : MonoBehaviour
 {
     [SerializeField] private float timeToSelfDestruct = 5;
+    
     private void Start()
     {
         Destroy(gameObject, timeToSelfDestruct);
@@ -11,7 +13,7 @@ public class DroppedStar : MonoBehaviour
     private void OnMouseUpAsButton()
     {
         Destroy(gameObject);
-        
+        AudioManager.Instance.Play(AudioManager.SoundsType.StartCollect);
         ElementsManager.Instance.SetElement(GetRandomElement());
     }
 

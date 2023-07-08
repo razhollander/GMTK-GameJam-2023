@@ -14,6 +14,8 @@ namespace Planet
         [SerializeField] private bool _isSea;
         [SerializeField] private int _forestHeatt =2;
         [SerializeField] private LandHeatAddedText _landHeatAddedText; 
+        [SerializeField] private float buildTime;
+        [SerializeField] private float curBuildTime;
         private int _amountNeighbors;
         private Material _material;
         private int _level;
@@ -336,6 +338,18 @@ namespace Planet
             {
                 //_landHeatAddedText.transform.rotation = Quaternion.FromToRotation(_landHeatAddedText.transform.up, _landHeatAddedText.transform.position) * transform.rotation;
                 _landHeatAddedText.Play(heatProvided).Forget();
+            }
+        }
+        
+        public void IncreaseBuildTime(float amount)
+        {
+            
+            // play building animation;
+            
+            curBuildTime += amount;
+            if (curBuildTime >= buildTime)
+            {
+                BuildBuilding(1);
             }
         }
     }
