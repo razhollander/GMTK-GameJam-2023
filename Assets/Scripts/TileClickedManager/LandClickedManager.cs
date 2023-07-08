@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Threading;
+using Audio;
 using Cysharp.Threading.Tasks;
 using Planet;
 using UnityEngine;
@@ -107,6 +108,7 @@ public class LandClickedManager : MonoBehaviour
     {
         ShakeCamera.Instance.Shake(true);
         _currentLandMouseDown.HitBuilding().Forget();
+        AudioManager.Instance.Play(AudioManager.SoundsType.HitBuilding);
     }
 
     private void ChangeToCursorImage(Texture2D cursorTexture)

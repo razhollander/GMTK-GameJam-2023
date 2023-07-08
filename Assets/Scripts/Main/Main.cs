@@ -1,4 +1,5 @@
 using System;
+using Audio;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -25,6 +26,8 @@ namespace Main
                     AudioListener.volume = 0f;
                 }
             });
+
+            AudioManager.Instance.Play(AudioManager.SoundsType.BackgroundMusic, true);
         }
     }
 }
