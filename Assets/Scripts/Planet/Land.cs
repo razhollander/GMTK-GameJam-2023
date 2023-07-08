@@ -7,6 +7,8 @@ using Cysharp.Threading.Tasks;
 using UnityEngine;
 using Random = UnityEngine.Random;
 using TMPro;
+using Unity.Mathematics;
+
 namespace Planet
 {
     public class Land : MonoBehaviour, IHeatProvider
@@ -14,9 +16,10 @@ namespace Planet
         [SerializeField] private List<BuildingObjectsContainer> _buildingObjects;
         [SerializeField] private bool _isSea;
         [SerializeField] private int _forestHeatt =2;
-        [SerializeField] private LandHeatAddedText _landHeatAddedText; 
-        private float buildTime = 5;
+        [SerializeField] private LandHeatAddedText _landHeatAddedText;
         [SerializeField] private float curBuildTime;
+        [SerializeField] private ParticleSystem poofDestroy;
+        private float buildTime = 5;
         private int _amountNeighbors;
         private Material _material;
         private int _level;
@@ -221,10 +224,6 @@ namespace Planet
                 {
                     ShakeCamera.Instance.Shake();
                     madeForest?.Invoke();
-                }
-
-                if (buildType == BuildingType.Forest)
-                {
                     AudioManager.Instance.Play(AudioManager.SoundsType.PoofLevelUpBuilding);
                 }
             }
@@ -236,6 +235,7 @@ namespace Planet
             _objects.Clear();
             _buildingType = BuildingType.None;
             AudioManager.Instance.Play(AudioManager.SoundsType.BuildingDestroySuccess);
+            Instantiate(poofDestroy,transform.position, quaternion.identity);
         }
 
         public async UniTask HitBuilding()
@@ -286,11 +286,13 @@ namespace Planet
             _objects.ForEach(j => Destroy(j.gameObject));
             _objects.Clear();
             _buildingType = BuildingType.None;
+            Instantiate(poofDestroy,transform.position, quaternion.identity);
         }
 
         public void HitForest()
         {
             Heart--;
+            if (Heart == 0) DestroyForest();
             // TODO : play hit effect
         }
 
