@@ -53,3 +53,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 349899f61b964f94a6b345b0d1b57bc8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _clips:
+  - Type: 0
+    Clip: {fileID: 8300000, guid: 0d0d1e9a92a119e4e8658bc8c52dea10, type: 3}
+  _audioSourcePrefab: {fileID: 7556497738588048030, guid: 2919c56d9d8d92544945d500fe8f10b4, type: 3}
