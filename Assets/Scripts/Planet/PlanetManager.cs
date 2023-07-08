@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using System.Linq;
+using Cysharp.Threading.Tasks;
 using UnityEngine;
 
 namespace Planet
@@ -38,18 +39,29 @@ namespace Planet
 
             foreach (var land in Lands)
             {
-                land.Neighbors = Lands.OrderBy(i => Vector3.Distance(i.Position, land.Position)).Where(i => i != land).Take(land.AmountNeighbors).ToList();
-                float minimumDistance = 9999f;
+                land.Neighbors = Lands.OrderBy(i => Vector3.Distance(i.Position, land.Position)).Take(land.Vertex).Where(i =>  i.Vertex == 6).ToList();
+
+                Debug.Log($"Neighbors count {land.Neighbors.Count}");
+            }
+
+            // TempShowNeighbors();
+        }
+
+        private async UniTask TempShowNeighbors()
+        {
+            foreach (var land in Lands)
+            {
                 foreach (var neighbor in land.Neighbors)
                 {
-                    var distance = Vector3.Distance(land.Position, neighbor.Position);
-                    if (distance < minimumDistance)
-                    {
-                        minimumDistance = distance;
-                    }
+                    neighbor.transform.localScale = new Vector3(0.1f, 0.1f, 0.1f);
                 }
 
-                land.Neighbors.RemoveAll(i => minimumDistance + 0.2f < Vector3.Distance(land.Position, i.Position));
+                await UniTask.Delay(2000);
+                
+                foreach (var neighbor in land.Neighbors)
+                {
+                    neighbor.transform.localScale = Vector3.one;
+                }
             }
         }
     }
