@@ -13,6 +13,7 @@ namespace Planet
         private Material _material;
         private int _level;
         private BuildingType _buildingType;
+        private List<BuildingObjectsContainer> _buildings = new();
 
         public int Id { get; set; }
         public List<Land> Neighbors { get; set; }
@@ -93,6 +94,25 @@ namespace Planet
             _material = GetComponent<Renderer>().material;
         }
 
+        public void SetupBuilding()
+        {
+            foreach (var list in _buildingObjects.Select(i=>i.Objects))
+            {
+                var container = new BuildingObjectsContainer();
+                _buildings.Add(container);
+                container.Objects = new();
+                
+                foreach (var obj in list)
+                {
+                    var inst = Instantiate(obj, this.transform);
+                    inst.transform.LookAt(Position);
+                    inst.transform.position = Position;
+                    inst.SetActive(false);
+                    container.Objects.Add(inst);
+                }
+            }
+        }
+
         private void OnMouseEnter()
         {
             _material.SetFloat("_OutLineOpacity", 1f);
@@ -135,7 +155,7 @@ namespace Planet
             {
                 var index = 0;
                 Level = level;
-                var builds = _buildingObjects.First(i => i.Type == buildType);
+                var builds = _buildings.First(i => i.Type == buildType);
                 foreach (var buildsObject in builds.Objects)
                 {
                     if (index + 1 == Level)
@@ -152,22 +172,27 @@ namespace Planet
 
         public void DestroyBuilding()
         {
-            _buildingObjects.ForEach(i => i.Objects.ForEach(j => j.gameObject.SetActive(false)));
+            _buildings.ForEach(i => i.Objects.ForEach(j => j.gameObject.SetActive(false)));
+            // TODO : play destroy effect
         }
 
         public void HitBuilding()
         {
             Heart--;
+            // TODO : play hit effect
         }
 
         public void DestroyForest()
         {
-            _buildingObjects.ForEach(i => i.Objects.ForEach(j => j.gameObject.SetActive(false)));
+            _buildings.ForEach(i => i.Objects.ForEach(j => j.gameObject.SetActive(false)));
+            // TODO : play destroy effect
         }
 
         public void HitForest()
         {
             Heart--;
+            // TODO : play hit effect
+
         }
 
         [Serializable] private struct BuildingObjectsContainer
