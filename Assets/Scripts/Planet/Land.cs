@@ -64,5 +64,25 @@ namespace Planet
         {
             LandClickedManager.Instance.LandMouseUp(this);
         }
+
+        public void BuildForest(int level)
+        {
+            
+        }
+        
+        public void BuildBuilding(int level)
+        {
+            
+        }
+        
+        public void DestroyBuilding(int level)
+        {
+            
+        }
+        
+        public void HitBuilding(int level)
+        {
+            
+        }
     }
 }

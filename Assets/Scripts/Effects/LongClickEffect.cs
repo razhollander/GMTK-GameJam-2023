@@ -22,23 +22,19 @@ public class LongClickEffect : MonoBehaviour
         Instance = this;
     }
 
-    [ContextMenu("Test")]
-    public void StartFillBarText()
-    {
-        StartFillBar(5);
-    }   
-
-    public async UniTask StartFillBar(float duration)
+    public async UniTask StartFillBar(float duration, CancellationTokenSource cs)
     {
         _barImage.fillAmount = 0;
 
-        disableCancellationToken?.Cancel();
-        disableCancellationToken = new CancellationTokenSource();
-        
         await DOTween.To(() => _barImage.fillAmount, (x) =>
         {
             _barImage.fillAmount = x;
             transform.position = Input.mousePosition + _offset.ToVector3XY();
-        }, 1, duration).SetEase(_ease).ToUniTask(cancellationToken: disableCancellationToken.Token);
+        }, 1, duration).SetEase(_ease).ToUniTask(cancellationToken: cs.Token);
+    }
+
+    public void SetActive(bool isActive)
+    {
+        gameObject.SetActive(isActive);
     }
 }
