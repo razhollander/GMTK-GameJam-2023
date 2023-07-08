@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -5,8 +6,7 @@ namespace Planet
 {
     public class Land : MonoBehaviour
     {
-        [SerializeField] private GameObject _sea;
-        [SerializeField] private GameObject _land;
+        private Renderer _renderer;
         private int _amountNeighbors;
         
         public int Id { get; set; }
@@ -18,25 +18,22 @@ namespace Planet
             set
             {
                 _amountNeighbors = value;
-                if (_amountNeighbors == 5)
-                {
-                    _sea.SetActive(true);
-                }
-                else
-                {
-                    _land.SetActive(true);
-                }
             }
+        }
+
+        private void Awake()
+        {
+            _renderer = GetComponent<Renderer>();
         }
 
         private void OnMouseEnter()
         {
-            Debug.Log("Mouse enter");
+            _renderer.sharedMaterial.SetFloat("OutLineOpacity", 1f);
         }
 
         private void OnMouseExit()
         {
-            Debug.Log("Mouse exit");
+            _renderer.sharedMaterial.SetFloat("OutLineOpacity", 0f);
         }
 
         private void OnMouseUpAsButton()
