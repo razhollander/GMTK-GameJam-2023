@@ -36,10 +36,19 @@ namespace Planet
 
             foreach (var land in Lands)
             {
-                land.Neighbors = Lands.OrderBy(i => Vector3.Distance(i.Position, land.Position)).Where(i=>i != land).Take(land.AmountNeighbors).ToList();
-            }
+                land.Neighbors = Lands.OrderBy(i => Vector3.Distance(i.Position, land.Position)).Where(i => i != land).Take(land.AmountNeighbors).ToList();
+                float minimumDistance = 9999f;
+                foreach (var neighbor in land.Neighbors)
+                {
+                    var distance = Vector3.Distance(land.Position, neighbor.Position);
+                    if (distance < minimumDistance)
+                    {
+                        minimumDistance = distance;
+                    }
+                }
 
-            Lands.First(i => i.Id == 1).Neighbors.ForEach(i => i.Level = 1);
+                land.Neighbors.RemoveAll(i => minimumDistance + 0.2f < Vector3.Distance(land.Position, i.Position));
+            }
         }
     }
 }
