@@ -8807,6 +8807,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4930385167000530408}
+  - component: {fileID: 1078371856226227379}
   m_Layer: 0
   m_Name: Forest ver3
   m_TagString: Untagged
@@ -8951,8 +8952,28 @@ Transform:
   - {fileID: 1460830074828081852}
   - {fileID: 4849447895211957833}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1078371856226227379
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8184289268387992267}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d10f32af3872d834b84e003f78521c0e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &8207777739698123036
 GameObject:
   m_ObjectHideFlags: 0
