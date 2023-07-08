@@ -12,6 +12,7 @@ public class ElementsManager : MonoBehaviour
     private ElementEffect _currentElement = ElementEffect.None;
 
     public static ElementsManager Instance;
+    [SerializeField] private float _upOffset = 1f;
 
     private void Awake()
     {
@@ -24,10 +25,10 @@ public class ElementsManager : MonoBehaviour
         LandClickedManager.Instance.ReceiveElement(_currentElement);
     }
 
-    public void CreateMeteor()
+    public void CreateMeteor(Land land)
     {
-        //var newMeteor = Instantiate(_meteorElement, land.Position * _meteorSpawnRadius, Quaternion.identity);
-        //newMeteor.SetLand(land);
+        var newMeteor = Instantiate(_meteorElement, land.Position * _meteorSpawnRadius+Vector3.up*_upOffset, Quaternion.identity);
+        newMeteor.SetLand(land);
     }
     
     public async UniTask CreateTornado()

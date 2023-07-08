@@ -8072,6 +8072,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38182d275600acf4a915c825efed3807, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _meteorElement: {fileID: 5403042147988807116, guid: 6c20088aed0beb540b1e00916d091a93, type: 3}
+  _meteorSpawnRadius: 6
 --- !u!4 &1880598641
 Transform:
   m_ObjectHideFlags: 0
