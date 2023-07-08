@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading;
 using Cysharp.Threading.Tasks;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 namespace Planet
 {
@@ -160,7 +161,9 @@ namespace Planet
                 var index = 0;
                 Level = level;
                 BuildingType = buildType;
-                var buildPrefab = _buildingObjects.Find(i => i.Type == buildType).Objects[Level - 1];
+                var listPrefabs = _buildingObjects.Find(i => i.Type == buildType).Objects.Where(i => i.Level == Level).ToList();
+                var randomIndex = Random.Range(0, listPrefabs.Count());
+                var buildPrefab = listPrefabs[randomIndex].Prefab;
                 SetHeartsToMaximum();
                 
                 var inst = Instantiate(buildPrefab, this.transform);
@@ -248,7 +251,14 @@ namespace Planet
         [Serializable] private struct BuildingObjectsContainer
         {
             public BuildingType Type;
-            public List<GameObject> Objects;
+            public List<ObjectByLevel> Objects;
+            
+            [Serializable]
+            public struct ObjectByLevel
+            {
+                public int Level;
+                public GameObject Prefab;
+            }
         }
 
         private void Update()
