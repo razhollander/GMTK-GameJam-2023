@@ -6,10 +6,13 @@ using UnityEngine;
 
 public class Score : MonoBehaviour
 {
+    private const string HIGH_SCORE_KEY = "HighScore";
+    
     [SerializeField] private TextMeshProUGUI _text;
     [SerializeField] private float _scoreSpeed = 10;
     private float _score;
     public int ScoreAmount => (int) _score;
+    public int HighScoreAmount => PlayerPrefs.GetInt(HIGH_SCORE_KEY);
 
     public static Score Instance;
 
@@ -22,5 +25,13 @@ public class Score : MonoBehaviour
     {
         _score += Time.deltaTime * _scoreSpeed;
         _text.text = ScoreAmount.ToString();
+    }
+
+    public void SaveHighScore()
+    {
+        if (HighScoreAmount < ScoreAmount)
+        {
+            PlayerPrefs.SetInt(HIGH_SCORE_KEY, ScoreAmount);
+        }
     }
 }
