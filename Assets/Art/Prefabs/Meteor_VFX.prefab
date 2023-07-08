@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6602713491573727319}
   - component: {fileID: 2197065906617550957}
   - component: {fileID: 6503981664168636667}
+  - component: {fileID: 5403042147988807116}
   m_Layer: 0
   m_Name: Meteor_VFX
   m_TagString: Untagged
@@ -4905,6 +4906,19 @@ ParticleSystemRenderer:
   m_MeshWeighting2: 1
   m_MeshWeighting3: 1
   m_MaskInteraction: 0
+--- !u!114 &5403042147988807116
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1373989028781642299}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7d15c1a671ae1e428ff498882bbc93c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0.5
 --- !u!1 &2457825010608565130
 GameObject:
   m_ObjectHideFlags: 0
