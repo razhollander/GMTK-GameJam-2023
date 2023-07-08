@@ -115,7 +115,7 @@ namespace Planet
             LandClickedManager.Instance.LandMouseUp(this);
         }
 
-        public void BuildForest(int level)
+        public void BuildForest()
         {
             
         }
