@@ -7,7 +7,7 @@ using UnityEngine;
 public class LandClickedManager : MonoBehaviour
 {
     public static LandClickedManager Instance;
-
+    private void Land CurrentLandMouseDown;
     private void Awake()
     {
         Instance = this;
