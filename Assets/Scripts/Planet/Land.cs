@@ -174,6 +174,11 @@ namespace Planet
                 _objects.Clear();
 
                 _objects.Add(inst);
+
+                if (buildType == BuildingType.Forest)
+                {
+                    ShakeCamera.Instance.Shake();
+                }
             }
         }
 
