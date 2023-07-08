@@ -1,6 +1,8 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading;
+using Cysharp.Threading.Tasks;
 using UnityEngine;
 
 namespace Planet
@@ -13,14 +15,20 @@ namespace Planet
         private Material _material;
         private int _level;
         private BuildingType _buildingType;
-        private List<BuildingObjectsContainer> _buildings = new();
+        private List<GameObject> _objects = new();
 
         public int Id { get; set; }
         public List<Land> Neighbors { get; set; }
         public Vector3 Position { get; set; }
         public int Vertex { get; set; }
+        [SerializeField] private int _maxHearts;
+        [SerializeField] private float _maxSecondsBetweenHitsBeforeReset;
+
         public int Heart { get; set; }
         public Action BuildingTypeChangedEvent;
+        private UniTask _resetHeartCountdownTask;
+        private CancellationTokenSource _resetHeartCountdownCancellationToken;
+
         public int Level
         {
             get { return _level; }
@@ -32,6 +40,8 @@ namespace Planet
             }
         }
 
+        
+        
         public BuildingType BuildingType
         {
             get => _buildingType;
@@ -83,7 +93,7 @@ namespace Planet
                 }
             }
         }
-
+        
         public int AmountNeighbors
         {
             get => _amountNeighbors;
@@ -93,29 +103,6 @@ namespace Planet
         private void Awake()
         {
             _material = GetComponent<Renderer>().material;
-        }
-
-        public void SetupBuilding()
-        {
-            foreach (var list in _buildingObjects.Select(i=>i.Objects))
-            {
-                var container = new BuildingObjectsContainer();
-                _buildings.Add(container);
-                container.Objects = new();
-                
-                foreach (var obj in list)
-                {
-                    var inst = Instantiate(obj, this.transform);
-                    inst.transform.position = Vector3.zero;
-                    inst.transform.rotation = Quaternion.Euler(Vector3.zero);
-                    inst.transform.position = Position;
-                    
-                    inst.transform.LookAt(transform);
-                    inst.SetActive(false);
-                    
-                    container.Objects.Add(inst);
-                }
-            }
         }
 
         private void OnMouseEnter()
@@ -161,44 +148,70 @@ namespace Planet
             {
                 var index = 0;
                 Level = level;
-                var builds = _buildings.First(i => i.Type == buildType);
-                foreach (var buildsObject in builds.Objects)
-                {
-                    if (index + 1 == Level)
-                    {
-                        buildsObject.SetActive(true);
-                    }
-                    else
-                    {
-                        buildsObject.SetActive(false);
-                    }
-                }
+                var buildPrefab = _buildingObjects.Find(i => i.Type == buildType).Objects[Level - 1];
+
+                var inst = Instantiate(buildPrefab, this.transform);
+                inst.transform.position = Vector3.zero;
+                inst.transform.rotation = Quaternion.Euler(Vector3.zero);
+                inst.transform.position = Position;
+
+                inst.transform.LookAt(transform);
+                
+                _objects.ForEach(j => Destroy(j.gameObject));
+                _objects.Clear();
+                
+                _objects.Add(inst);
             }
         }
 
         public void DestroyBuilding()
         {
-            _buildings.ForEach(i => i.Objects.ForEach(j => j.gameObject.SetActive(false)));
-            // TODO : play destroy effect
+            _objects.ForEach(j => Destroy(j.gameObject));
+            _objects.Clear();
+            // TODO : change to BuildingType.None
         }
 
-        public void HitBuilding()
+        public async UniTask HitBuilding()
         {
             Heart--;
+
+            if (Heart == 0)
+            {
+                DestroyBuilding();
+            }
+            
+            if (_resetHeartCountdownCancellationToken != null)
+            {
+                _resetHeartCountdownCancellationToken.Cancel();
+            }
+            
+            _resetHeartCountdownCancellationToken = new CancellationTokenSource();
+            ResetHeartsAfterDelay().Forget();
+            
             // TODO : play hit effect
+        }
+
+        private async UniTask ResetHeartsAfterDelay()
+        {
+            await UniTask.Delay(TimeSpan.FromSeconds(_maxSecondsBetweenHitsBeforeReset), cancellationToken: _resetHeartCountdownCancellationToken.Token);
+            
+            if (!_resetHeartCountdownCancellationToken.IsCancellationRequested)
+            {
+                Heart = _maxHearts;
+            }
         }
 
         public void DestroyForest()
         {
-            _buildings.ForEach(i => i.Objects.ForEach(j => j.gameObject.SetActive(false)));
-            // TODO : play destroy effect
+            _objects.ForEach(j => Destroy(j.gameObject));
+            _objects.Clear();
+            // TODO : change to BuildingType.None
         }
 
         public void HitForest()
         {
             Heart--;
             // TODO : play hit effect
-
         }
 
         [Serializable] private struct BuildingObjectsContainer
