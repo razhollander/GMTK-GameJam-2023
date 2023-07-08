@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
  
 public class PlayerController : MonoBehaviour
@@ -8,8 +7,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private Transform rayPos;
     [SerializeField] private float yOffset = .1f;
     [SerializeField] private float radius = 5;
+    [SerializeField] private float speed = 1;
     [SerializeField] private LayerMask world;
-    public float speed = 1;
     private Vector3 center = Vector3.zero;
     private Vector3 _lastPos;
 
@@ -27,7 +26,7 @@ public class PlayerController : MonoBehaviour
 
     private void Update ()
     {
-       MoveTowardsTarget(target);
+       if (target) MoveTowardsTarget(target);
        
        var ray = new Ray(rayPos.position, -transform.up);
        if (!Physics.Raycast(ray, out var hit, 1, world)) return;
@@ -50,9 +49,12 @@ public class PlayerController : MonoBehaviour
         
         myTransform.position = pos; //set position
         if (transform.position == _lastPos) return;
+
+        if (myTransform.position - _lastPos != Vector3.zero)
+        {
+            myTransform.rotation = Quaternion.FromToRotation(transform.up, myTransform.position) * transform.rotation;
+        }
         
-        var transform1 = transform;
-        if (transform1.position - _lastPos != Vector3.zero) transform1.forward = -(transform1.position - _lastPos);
     }
 
     private void OnDrawGizmos()
@@ -60,4 +62,14 @@ public class PlayerController : MonoBehaviour
         Gizmos.color = Color.red;
         Gizmos.DrawRay(rayPos.position, -transform.up);
     }
+
+    #region getters&setters
+
+        public void SetSpeed(float _speed) {speed = _speed;}
+        
+        public float GetSpeed() {return speed;}
+        
+        public void SetTarget(Transform _target) {target = _target;}
+
+    #endregion
 }

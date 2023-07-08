@@ -8,7 +8,8 @@ public class LoseUI : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI _scoreText;
     [SerializeField] private Animator _animator;
-
+    [SerializeField] private TextMeshProUGUI _highScore;
+    
     public static LoseUI Instance;
 
     private void Awake()
@@ -19,6 +20,7 @@ public class LoseUI : MonoBehaviour
     public void Show()
     {
         _scoreText.text = "Your Score: " + Score.Instance.ScoreAmount;
+        _highScore.text = "Your High Score: " + Score.Instance.HighScoreAmount;
         _animator.Play("Show");
     }
 

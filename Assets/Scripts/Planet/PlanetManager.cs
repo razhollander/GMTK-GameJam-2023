@@ -8,7 +8,7 @@ namespace Planet
     {
         [SerializeField] private Land _landPrefab;
 
-        public PlanetManager Instance { get; private set; }
+        public static PlanetManager Instance { get; private set; }
         public List<Land> Lands { get; private set; }
 
         private void Awake()
@@ -28,6 +28,7 @@ namespace Planet
             int idCounter = 0;
             foreach (var part in parts)
             {
+                // var land = Instantiate(_landPrefab, part.Position, Quaternion.LookRotation(part.Position), transform);
                 var land = Instantiate(_landPrefab, part.Position, Quaternion.LookRotation(part.Position), transform);
                 Destroy(part.gameObject);
                 Lands.Add(land);
