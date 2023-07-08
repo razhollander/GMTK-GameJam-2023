@@ -21,6 +21,10 @@ public class LandClickedManager : MonoBehaviour
     
     private CancellationTokenSource _landMouseDownCancellationToken;
     private Texture2D _idleMouseTexture;
+    private bool _isMouseCurrentlyDownHitBuilding;
+    private bool _isMouseCurrentlyDownCreateForest;
+    private bool _isMouseCurrentlyHaveMeteor;
+
     private void Awake()
     {
         Instance = this;
@@ -28,10 +32,12 @@ public class LandClickedManager : MonoBehaviour
 
     public void LandMouseExit(Land land)
     {
+        _currentLandMouseHover.BuildingTypeChangedEvent -= UpdateIdleCursorTexture;
         _currentLandMouseHover = null;
+        UpdateIdleCursorTexture();
+        UpdateToCorrectCursorImage();
         DisableForestLongClickEffect();
         _currentLandMouseDown = null;
-        ChangeCursorImage(null);
         Debug.Log(nameof(LandMouseExit));
     }
 
@@ -40,22 +46,20 @@ public class LandClickedManager : MonoBehaviour
         if (_currentLandMouseDown != null && _currentLandMouseDown.BuildingType == BuildingType.None)
         {
             _landMouseDownCancellationToken?.Cancel();
-            Debug.Log("Cancel!");
             LongClickEffect.Instance.SetActive(false);
-            ChangeCursorImage(null);
         }
     }
     
     public void LandMouseUp(Land land)
     {
         DisableForestLongClickEffect();
-
-        Debug.Log(nameof(LandMouseUp));
+        _isMouseCurrentlyDownHitBuilding = false;
+        _isMouseCurrentlyDownCreateForest = false;
+        UpdateToCorrectCursorImage();
     }
 
     public async UniTask LandMouseDown(Land land)
     {
-        Debug.Log(nameof(LandMouseDown));
         _currentLandMouseDown = land;
         
         switch (land.BuildingType)
@@ -64,18 +68,23 @@ public class LandClickedManager : MonoBehaviour
                 _landMouseDownCancellationToken?.Cancel();
                 _landMouseDownCancellationToken = new CancellationTokenSource();
                 LongClickEffect.Instance.SetActive(true);
-                ChangeCursorImage(_createForestCursorTexture);
-
+                _isMouseCurrentlyDownCreateForest = true;
+                UpdateToCorrectCursorImage();
                 await LongClickEffect.Instance.StartFillBar(_buildForestDuration, _landMouseDownCancellationToken);
-                
-                if(_landMouseDownCancellationToken.IsCancellationRequested)
+                _isMouseCurrentlyDownCreateForest = false;
+                UpdateToCorrectCursorImage();
+                if (_landMouseDownCancellationToken.IsCancellationRequested)
+                {
                     return;
-                ChangeCursorImage(null);
+                }
+                
                 LongClickEffect.Instance.SetActive(false);
                 CreateForestInCurrentLand();
                 _currentLandMouseDown = null;
                 break;
             case BuildingType.Building:
+                _isMouseCurrentlyDownHitBuilding = true;
+                UpdateToCorrectCursorImage();
                 HitBuildingsInCurrentLand();
                 break;
             case BuildingType.Forest: 
@@ -90,39 +99,56 @@ public class LandClickedManager : MonoBehaviour
 
     private void HitBuildingsInCurrentLand()
     {
-        ChangeCursorImage(_hitBuildingCursorTexture);
+        _currentLandMouseDown.HitBuilding();
 
+        if (_currentLandMouseDown.Heart == 0)
+        {
+            _currentLandMouseDown.DestroyBuilding();
+        }
     }
 
-    private void ChangeCursorImage(Texture2D cursorTexture)
+    private void ChangeToCursorImage(Texture2D cursorTexture)
     {
-        //Cursor.SetCursor(cursorTexture, Vector2.zero, CursorMode.Auto);
+        Cursor.SetCursor(cursorTexture, Vector2.zero, CursorMode.Auto);
     }
 
     public void LandMouseEnter(Land land)
     {
         _currentLandMouseHover = land;
- 
-        switch (land.BuildingType)
-        {
-            case BuildingType.Forest:
-                ChangeCursorImage(null);
-                break;
-            case BuildingType.Building:
-                ChangeCursorImage(_hoverBuildingCursorTexture);
-                break;
-            case BuildingType.None: 
-                ChangeCursorImage(_hoverLandCursorTexture);
-                break;
-        }
+        _currentLandMouseHover.BuildingTypeChangedEvent += UpdateIdleCursorTexture;
+        Debug.Log("Enter!");
+        UpdateIdleCursorTexture();
+        UpdateToCorrectCursorImage();
     }
 
-    private void Update()
+    private void UpdateToCorrectCursorImage()
+    {
+        if (_isMouseCurrentlyHaveMeteor)
+        {
+            ChangeToCursorImage(_meteorBuildingCursorTexture);
+            return;
+        }
+        
+        if (_isMouseCurrentlyDownCreateForest)
+        {
+            ChangeToCursorImage(_createForestCursorTexture);
+            return;
+        }
+        
+        if (_isMouseCurrentlyDownHitBuilding)
+        {
+            ChangeToCursorImage(_hitBuildingCursorTexture);
+            return;
+        }
+        
+        ChangeToCursorImage(_idleMouseTexture);
+    }
+    
+    private void UpdateIdleCursorTexture()
     {
         if (_currentLandMouseHover == null)
         {
             _idleMouseTexture = null;
-
             return;
         }
         
