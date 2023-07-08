@@ -55,7 +55,7 @@ public class HeatSystem : MonoBehaviour
     {
         while (true)
         {
-            await UniTask.Delay(_checkHeatIntervalInSeconds * 100);
+            await UniTask.Delay(_checkHeatIntervalInSeconds * 1000);
             
             var heatTotalDelta = 0;
             _heatProviders.ForEach(x =>
@@ -63,8 +63,8 @@ public class HeatSystem : MonoBehaviour
                 heatTotalDelta += x.HeatProvided;
                 x.OnHeatInterval();
             });
-
             CurrentHeat += heatTotalDelta;
+            Debug.Log("@@@@@@@@@@@@@@@@@@ Delta: "+heatTotalDelta+", CurrentHeat: "+CurrentHeat);
             _heatIntervalObservers.ForEach(x => x.OnHeatInterval(CurrentHeat, heatTotalDelta));
         }
     }

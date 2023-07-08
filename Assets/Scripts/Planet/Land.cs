@@ -8,11 +8,12 @@ using Random = UnityEngine.Random;
 
 namespace Planet
 {
-    public class Land : MonoBehaviour
+    public class Land : MonoBehaviour, IHeatProvider
     {
         [SerializeField] private List<BuildingObjectsContainer> _buildingObjects;
         [SerializeField] private bool _isSea;
-
+        [SerializeField] private int _forestHeatt =2;
+        
         private int _amountNeighbors;
         private Material _material;
         private int _level;
@@ -77,6 +78,16 @@ namespace Planet
                 BuildingTypeChangedEvent?.Invoke();
                 UpdateColorView();
             }
+        }
+
+        private void Start()
+        {
+            HeatSystem.Instance.AddHeatProvider(this);
+        }
+        
+        private void OnDestroy()
+        {
+            HeatSystem.Instance.RemoveHeatProvider(this);
         }
 
         private void UpdateColorView()
@@ -296,6 +307,25 @@ namespace Planet
                     Build(_level + 1, BuildingType.Building);
                 }
             }
+        }
+
+        public int HeatProvided
+        {
+            get
+            {
+                switch (_buildingType)
+                {
+                    case BuildingType.Forest: return -_forestHeatt ; break;
+                    case BuildingType.Building: return _level; break;
+                    default:
+                        return 0; 
+                }
+            }
+        }
+
+        public void OnHeatInterval()
+        {
+            
         }
     }
 }

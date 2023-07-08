@@ -16,6 +16,7 @@ public class HeatMeter : MonoBehaviour, IHeatIntervalObserver
     private void UpdateSliderByHeat(int heat)
     {
         _slider.value = heat / 100f;
+        Debug.Log("@@@@@@@@@@ Slider Value: "+_slider.value);
     }
     public void OnHeatInterval(int newHeat, int deltaHeat)
     {
