@@ -139,7 +139,7 @@ public class PlayerController : MonoBehaviour
 
         public void SetTarget(Land _target)
         {
-            if (_target == target || _target.Vertex == 5)
+            if (_target == target || _target.Vertex == 5 || _target.Position == transform.position)
             {
                 var neighbor = _target.Neighbors[Random.Range(0, _target.Neighbors.Count)];
                 var i = 0;
@@ -154,6 +154,24 @@ public class PlayerController : MonoBehaviour
             }
 
             target = _target;
+        }
+        
+        public void FirstSetTarget(Land _target)
+        {
+            var neighbor = _target.Neighbors[Random.Range(0, _target.Neighbors.Count)];
+            var i = 0;
+            while (neighbor.Vertex == 5 || neighbor == _target)
+            {
+                neighbor = _target.Neighbors[Random.Range(0, _target.Neighbors.Count)];
+                i++;
+                if (i == 20) break;
+            }
+            while (neighbor.Vertex == 5 || neighbor == _target)
+            {
+                neighbor = PlanetManager.Instance.Lands[Random.Range(0, PlanetManager.Instance.Lands.Count)];
+            }
+            
+            target = neighbor;
         }
 
         public void SetLook(Material material)

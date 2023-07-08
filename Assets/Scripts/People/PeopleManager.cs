@@ -38,7 +38,7 @@ public class PeopleManager : MonoBehaviour
         {
             groundRnd = Random.Range(0, groundLands.Count);
         }
-        newPerson.SetTarget(groundLands[groundRnd]);
+        newPerson.FirstSetTarget(groundLands[groundRnd]);
         
         var materialRnd = Random.Range(0, 10);
         newPerson.SetLook(humanSkins[materialRnd]);
