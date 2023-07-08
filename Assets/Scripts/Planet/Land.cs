@@ -15,7 +15,7 @@ namespace Planet
         [SerializeField] private bool _isSea;
         [SerializeField] private int _forestHeatt =2;
         [SerializeField] private LandHeatAddedText _landHeatAddedText; 
-        [SerializeField] private float buildTime;
+        private float buildTime = 5;
         [SerializeField] private float curBuildTime;
         private int _amountNeighbors;
         private Material _material;
@@ -27,6 +27,7 @@ namespace Planet
         private int _vertex = 0;
 
         public Action madeForest;
+        public Action madeBuilding;
 
         private Dictionary<int, int> _levelToBuildingsMaxHeartDits = new Dictionary<int, int>()
         {
@@ -356,9 +357,12 @@ namespace Planet
             // play building animation;
             
             curBuildTime += amount;
+            print(name + " time: " + curBuildTime);
             if (curBuildTime >= buildTime && BuildingType == BuildingType.None)
             {
-                BuildBuilding(1);
+                madeBuilding?.Invoke();
+                curBuildTime = 0;
+                Build(_level + 1, BuildingType.Building);
             }
         }
     }

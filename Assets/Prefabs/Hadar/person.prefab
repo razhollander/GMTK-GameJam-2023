@@ -82,7 +82,7 @@ MonoBehaviour:
   rayPos: {fileID: 7411339286121191538}
   yOffset: 0.1
   radius: 3.5
-  speed: 0.5
+  speed: 1
   probability: 3
   world:
     serializedVersion: 2
