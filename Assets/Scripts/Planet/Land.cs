@@ -129,6 +129,10 @@ namespace Planet
         private void Awake()
         {
             _material = GetComponent<Renderer>().material;
+            if (_isSea)
+            {
+                _material.SetVector("_Center", Position);
+            }
         }
 
         private void OnMouseEnter()
