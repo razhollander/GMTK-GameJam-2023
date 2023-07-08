@@ -1,12 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using Cysharp.Threading.Tasks;
+using Elements;
 using Planet;
 using UnityEngine;
 
 public class ElementsManager : MonoBehaviour
 {
     [SerializeField] private MeteorElement _meteorElement;
+    [SerializeField] private TornadoElement _tornadoElement;
     [SerializeField] private float _meteorSpawnRadius = 6;
 
     private ElementEffect _currentElement = ElementEffect.None;
@@ -31,13 +33,9 @@ public class ElementsManager : MonoBehaviour
         newMeteor.SetLand(land);
     }
     
-    public async UniTask CreateTornado()
+    public async UniTask CreateTornado(Land land)
     {
-        CreateReleaseTornado();
-    }
-    
-    private void CreateReleaseTornado()
-    {
-        
+        var tornado = Instantiate(_tornadoElement, land.Position, Quaternion.identity);
+        tornado.SetFirstLand(land);
     }
 }
