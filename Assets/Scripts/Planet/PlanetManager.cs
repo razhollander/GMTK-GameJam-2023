@@ -39,9 +39,14 @@ namespace Planet
 
             foreach (var land in Lands)
             {
-                land.Neighbors = Lands.OrderBy(i => Vector3.Distance(i.Position, land.Position)).Take(land.Vertex).Where(i =>  i.Vertex == 6).ToList();
+                if (land.Vertex > 5)
+                {
+                    land.Neighbors = Lands.OrderBy(i => Vector3.Distance(i.Position, land.Position)).ToList();
+                    land.Neighbors = land.Neighbors.Take(land.Vertex).ToList();
+                    land.Neighbors = land.Neighbors.Where(i => i.Vertex == 6).ToList();
+                    Debug.Log($"Neighbors count {land.Neighbors.Count}");
+                }
 
-                Debug.Log($"Neighbors count {land.Neighbors.Count}");
             }
 
             // TempShowNeighbors();
@@ -57,7 +62,7 @@ namespace Planet
                 }
 
                 await UniTask.Delay(2000);
-                
+
                 foreach (var neighbor in land.Neighbors)
                 {
                     neighbor.transform.localScale = Vector3.one;
