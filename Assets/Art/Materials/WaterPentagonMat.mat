@@ -61,8 +61,8 @@ Material:
     m_Colors:
     - _Center: {r: 0, g: 0, b: 0, a: 0}
     - _Color: {r: 0, g: 0.5137255, b: 1, a: 1}
-    - _ColorDeep: {r: 1.6792452, g: 3.8609486, b: 4, a: 1}
-    - _Tilling: {r: 0.67, g: 1.77, b: 0, a: 0}
+    - _ColorDeep: {r: 0.6819855, g: 1.5680324, b: 1.6245048, a: 1}
+    - _Tilling: {r: 7.21, g: 8.2, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &2989180989436205183
 MonoBehaviour:
