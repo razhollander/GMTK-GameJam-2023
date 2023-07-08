@@ -31,7 +31,7 @@ RectTransform:
   m_Children:
   - {fileID: 4569789994655520056}
   m_Father: {fileID: 0}
-  m_RootOrder: -1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -52,10 +52,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _text: {fileID: 7479805436417997054}
   _animationTime: 1
-  _addedYOffset: 200
+  _addedYOffset: 0.5
   _startingYOffset: 1
   _colorPositive: {r: 0.12941177, g: 0.43137258, b: 0.9294118, a: 1}
   _colorNegative: {r: 0.7686275, g: 0.29803923, b: 0.3803922, a: 1}
+  _renderer: {fileID: 1878270882401399267}
+  _minimumScale: 0.5
+  _scaleStep: 0.5
+  _notFullOpacity: 0.25
 --- !u!1 &4241866184504535785
 GameObject:
   m_ObjectHideFlags: 0

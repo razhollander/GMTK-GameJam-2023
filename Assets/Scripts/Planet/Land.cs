@@ -54,7 +54,6 @@ namespace Planet
             private set
             {
                 _heart = value;
-                Debug.Log("Heart:" +_heart.ToString());
             }
         }
 
@@ -347,8 +346,14 @@ namespace Planet
             if (heatProvided != 0)
             {
                 //_landHeatAddedText.transform.rotation = Quaternion.FromToRotation(_landHeatAddedText.transform.up, _landHeatAddedText.transform.position) * transform.rotation;
-                _landHeatAddedText.Play(heatProvided).Forget();
+                _landHeatAddedText.Play(heatProvided, HasDirectEyeContactToCamera()).Forget();
             }
+        }
+
+        private bool HasDirectEyeContactToCamera()
+        {
+            var dirToCamera = Camera.main.transform.position - Position;
+            return Vector3.Dot(dirToCamera, Position)>0;
         }
         
         public void IncreaseBuildTime(float amount)
@@ -357,7 +362,6 @@ namespace Planet
             // play building animation;
             
             curBuildTime += amount;
-            print(name + " time: " + curBuildTime);
             if (curBuildTime >= buildTime && BuildingType == BuildingType.None)
             {
                 madeBuilding?.Invoke();

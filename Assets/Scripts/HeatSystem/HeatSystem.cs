@@ -48,7 +48,17 @@ public class HeatSystem : MonoBehaviour
     public void Awake()
     {
         Instance = this;
-        CheckHeatInterval();
+
+        try
+        {
+            CheckHeatInterval().Forget();
+        }
+        catch (Exception e)
+        {
+            Debug.Log(e.Message);
+
+            throw;
+        }
     }
 
     private async UniTask CheckHeatInterval()
