@@ -50,8 +50,6 @@ namespace Planet
                 }
 
                 land.Neighbors.RemoveAll(i => minimumDistance + 0.2f < Vector3.Distance(land.Position, i.Position));
-                
-                land.SetupBuilding();
             }
         }
     }
