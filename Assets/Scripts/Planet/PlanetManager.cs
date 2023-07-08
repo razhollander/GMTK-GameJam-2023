@@ -30,6 +30,7 @@ namespace Planet
                 Lands.Add(land);
                 land.Id = idCounter;
                 land.AmountNeighbors = part.Vertex;
+                land.Position = part.Position;
                 idCounter++;
             }
 
