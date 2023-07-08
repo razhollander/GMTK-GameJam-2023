@@ -31,12 +31,25 @@ namespace Planet
                 land.Id = idCounter;
                 land.AmountNeighbors = part.Vertex;
                 land.Position = part.Position;
+                land.Vertex = part.Vertex;
+                land.BuildingType = BuildingType.None;
                 idCounter++;
             }
 
             foreach (var land in Lands)
             {
-                land.Neighbors = Lands.OrderBy(i => Vector3.Distance(i.transform.position, land.transform.position)).Take(land.AmountNeighbors + 1).TakeLast(land.AmountNeighbors).ToList();
+                land.Neighbors = Lands.OrderBy(i => Vector3.Distance(i.Position, land.Position)).Where(i => i != land).Take(land.AmountNeighbors).ToList();
+                float minimumDistance = 9999f;
+                foreach (var neighbor in land.Neighbors)
+                {
+                    var distance = Vector3.Distance(land.Position, neighbor.Position);
+                    if (distance < minimumDistance)
+                    {
+                        minimumDistance = distance;
+                    }
+                }
+
+                land.Neighbors.RemoveAll(i => minimumDistance + 0.2f < Vector3.Distance(land.Position, i.Position));
             }
         }
     }
