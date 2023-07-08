@@ -96,7 +96,7 @@ public class LandClickedManager : MonoBehaviour
 
     private void ChangeCursorImage(Texture2D cursorTexture)
     {
-        Cursor.SetCursor(cursorTexture, Vector2.zero, CursorMode.Auto);
+        //Cursor.SetCursor(cursorTexture, Vector2.zero, CursorMode.Auto);
     }
 
     public void LandMouseEnter(Land land)
