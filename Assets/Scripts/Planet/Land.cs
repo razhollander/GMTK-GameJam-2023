@@ -4,12 +4,14 @@ using System.Linq;
 using System.Threading;
 using Cysharp.Threading.Tasks;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 namespace Planet
 {
     public class Land : MonoBehaviour
     {
         [SerializeField] private List<BuildingObjectsContainer> _buildingObjects;
+        [SerializeField] private bool _isSea;
 
         private int _amountNeighbors;
         private Material _material;
@@ -18,6 +20,7 @@ namespace Planet
         private List<GameObject> _objects = new();
         private float _timerSeconds;
         private const float _nextLevelSeconds = 15f;
+        private int _vertex = 0;
 
         private Dictionary<int, int> _levelToBuildingsMaxHeartDits = new Dictionary<int, int>()
         {
@@ -31,7 +34,7 @@ namespace Planet
         public int Id { get; set; }
         public List<Land> Neighbors { get; set; }
         public Vector3 Position { get; set; }
-        public int Vertex { get; set; }
+        public int Vertex { get => _isSea ? 5 : 6; set => _vertex = value; }
         [SerializeField] private float _maxSecondsBetweenHitsBeforeReset;
 
         public int Heart { get; set; }
@@ -160,7 +163,9 @@ namespace Planet
                 var index = 0;
                 Level = level;
                 BuildingType = buildType;
-                var buildPrefab = _buildingObjects.Find(i => i.Type == buildType).Objects[Level - 1];
+                var listPrefabs = _buildingObjects.Find(i => i.Type == buildType).Objects.Where(i => i.Level == Level).ToList();
+                var randomIndex = Random.Range(0, listPrefabs.Count());
+                var buildPrefab = listPrefabs[randomIndex].Prefab;
                 SetHeartsToMaximum();
                 
                 var inst = Instantiate(buildPrefab, this.transform);
@@ -248,7 +253,14 @@ namespace Planet
         [Serializable] private struct BuildingObjectsContainer
         {
             public BuildingType Type;
-            public List<GameObject> Objects;
+            public List<ObjectByLevel> Objects;
+            
+            [Serializable]
+            public struct ObjectByLevel
+            {
+                public int Level;
+                public GameObject Prefab;
+            }
         }
 
         private void Update()
