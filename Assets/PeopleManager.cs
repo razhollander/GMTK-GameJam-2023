@@ -18,6 +18,10 @@ public class PeopleManager : MonoBehaviour
     {
         _planetManager = PlanetManager.Instance;
         groundLands = _planetManager.Lands;
+        foreach (var t in groundLands)
+        {
+            print(t.Position);
+        }
         Spawn();
     }
 
@@ -26,8 +30,9 @@ public class PeopleManager : MonoBehaviour
         await UniTask.Delay(TimeSpan.FromSeconds(timeBtwSpawns));
 
         var rnd = Random.Range(0, groundLands.Count);
+        print("groundLands.Count: " + groundLands.Count + "\n");
         var newPos = groundLands[rnd].transform.position;
-        print(groundLands[rnd].transform.position);
+        print(newPos);
         var newPerson = Instantiate(person, newPos, quaternion.Euler(-newPos.x, -newPos.y, -newPos.z));
         newPerson.SetTarget(groundLands[rnd]);
         Spawn();
