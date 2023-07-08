@@ -10,15 +10,24 @@ namespace Planet
         private int _amountNeighbors;
         private Material _material;
          
+        private int _level;
+
         public int Id { get; set; }
         public List<Land> Neighbors { get; set; }
         public Vector3 Position { get; set; }
 
-        public float LandView
+        public int Level
         {
-            set { _material.SetFloat("_Color", value); }
+            get { return _level;}
+            set
+            {
+                _level = value;
+                _material.SetFloat("_Color", value);
+            }
         }
-
+        
+        public BuildingType BuildingType { get; set; }
+        
         public int AmountNeighbors
         {
             get => _amountNeighbors;
