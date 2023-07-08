@@ -270,7 +270,7 @@ namespace Planet
 
         private void UpdateNextLevel()
         {
-            _timerSeconds = Time.deltaTime;
+            _timerSeconds += Time.deltaTime;
             if (_timerSeconds > _nextLevelSeconds)
             {
                 _timerSeconds = 0f;
