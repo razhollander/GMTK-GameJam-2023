@@ -105,6 +105,7 @@ public class LandClickedManager : MonoBehaviour
 
     private void HitBuildingsInCurrentLand()
     {
+        ShakeCamera.Instance.Shake(true);
         _currentLandMouseDown.HitBuilding().Forget();
     }
 
