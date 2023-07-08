@@ -14,6 +14,12 @@ public class PeopleManager : MonoBehaviour
     private PlanetManager _planetManager;
     private List<Land> groundLands;
 
+    #region DUBUG
+
+    [SerializeField] private bool isDebug;
+    [SerializeField] private int maxNum = 1;
+
+    #endregion
     private void Start()
     {
         _planetManager = PlanetManager.Instance;
@@ -36,7 +42,7 @@ public class PeopleManager : MonoBehaviour
         
         var materialRnd = Random.Range(0, 10);
         newPerson.SetLook(humanSkins[materialRnd]);
-        Spawn();
+        if (!isDebug) Spawn();
     }
 
     
