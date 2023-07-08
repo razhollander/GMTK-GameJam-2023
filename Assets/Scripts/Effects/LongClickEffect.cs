@@ -20,6 +20,7 @@ public class LongClickEffect : MonoBehaviour
     private void Awake()
     {
         Instance = this;
+        SetActive(false);
     }
 
     public async UniTask StartFillBar(float duration, CancellationTokenSource cs)

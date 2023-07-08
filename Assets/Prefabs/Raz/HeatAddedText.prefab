@@ -59,7 +59,7 @@ MonoBehaviour:
   _renderer: {fileID: 1878270882401399267}
   _minimumScale: 0.5
   _scaleStep: 0.5
-  _notFullOpacity: 0.25
+  _notFullOpacity: 0.15
 --- !u!1 &4241866184504535785
 GameObject:
   m_ObjectHideFlags: 0

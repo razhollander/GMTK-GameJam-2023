@@ -15,6 +15,7 @@ public class LoseUI : MonoBehaviour
     private void Awake()
     {
         Instance = this;
+        gameObject.SetActive(false);
     }
 
     public void Show()

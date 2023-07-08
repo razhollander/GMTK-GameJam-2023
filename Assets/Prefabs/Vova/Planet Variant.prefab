@@ -1637,8 +1637,8 @@ MonoBehaviour:
   _isSea: 0
   _forestHeatt: 2
   _landHeatAddedText: {fileID: 5579729587355864352, guid: ccb175a748a574542b532a0ffa281c50, type: 3}
-  buildTime: 0
   curBuildTime: 0
+  poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &1331281871154932310
@@ -1720,8 +1720,8 @@ MonoBehaviour:
   _isSea: 0
   _forestHeatt: 2
   _landHeatAddedText: {fileID: 5579729587355864352, guid: ccb175a748a574542b532a0ffa281c50, type: 3}
-  buildTime: 0
   curBuildTime: 0
+  poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &7915260279986453672
@@ -1803,8 +1803,8 @@ MonoBehaviour:
   _isSea: 0
   _forestHeatt: 2
   _landHeatAddedText: {fileID: 5579729587355864352, guid: ccb175a748a574542b532a0ffa281c50, type: 3}
-  buildTime: 0
   curBuildTime: 0
+  poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &373810146306408405
@@ -1874,8 +1874,8 @@ MonoBehaviour:
   _isSea: 1
   _forestHeatt: 2
   _landHeatAddedText: {fileID: 0}
-  buildTime: 0
   curBuildTime: 0
+  poofDestroy: {fileID: 0}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 0
 --- !u!1 &396595255188567234 stripped
@@ -1923,8 +1923,8 @@ MonoBehaviour:
   _isSea: 0
   _forestHeatt: 2
   _landHeatAddedText: {fileID: 5579729587355864352, guid: ccb175a748a574542b532a0ffa281c50, type: 3}
-  buildTime: 0
   curBuildTime: 0
+  poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &1093484058815200382
@@ -1994,8 +1994,8 @@ MonoBehaviour:
   _isSea: 1
   _forestHeatt: 2
   _landHeatAddedText: {fileID: 0}
-  buildTime: 0
   curBuildTime: 0
+  poofDestroy: {fileID: 0}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 0
 --- !u!1 &552306177924156402 stripped
@@ -2043,8 +2043,8 @@ MonoBehaviour:
   _isSea: 0
   _forestHeatt: 2
   _landHeatAddedText: {fileID: 5579729587355864352, guid: ccb175a748a574542b532a0ffa281c50, type: 3}
-  buildTime: 0
   curBuildTime: 0
+  poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &7438698935374601152
@@ -2126,8 +2126,8 @@ MonoBehaviour:
   _isSea: 0
   _forestHeatt: 2
   _landHeatAddedText: {fileID: 5579729587355864352, guid: ccb175a748a574542b532a0ffa281c50, type: 3}
-  buildTime: 0
   curBuildTime: 0
+  poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &2508100412402386959
@@ -2209,8 +2209,8 @@ MonoBehaviour:
   _isSea: 0
   _forestHeatt: 2
   _landHeatAddedText: {fileID: 5579729587355864352, guid: ccb175a748a574542b532a0ffa281c50, type: 3}
-  buildTime: 0
   curBuildTime: 0
+  poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &7570091726619738077
@@ -2292,8 +2292,8 @@ MonoBehaviour:
   _isSea: 0
   _forestHeatt: 2
   _landHeatAddedText: {fileID: 5579729587355864352, guid: ccb175a748a574542b532a0ffa281c50, type: 3}
-  buildTime: 0
   curBuildTime: 0
+  poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &299380828398267625
@@ -2375,8 +2375,8 @@ MonoBehaviour:
   _isSea: 0
   _forestHeatt: 2
   _landHeatAddedText: {fileID: 5579729587355864352, guid: ccb175a748a574542b532a0ffa281c50, type: 3}
-  buildTime: 0
   curBuildTime: 0
+  poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &4686708604143393745
@@ -2458,8 +2458,8 @@ MonoBehaviour:
   _isSea: 0
   _forestHeatt: 2
   _landHeatAddedText: {fileID: 5579729587355864352, guid: ccb175a748a574542b532a0ffa281c50, type: 3}
-  buildTime: 0
   curBuildTime: 0
+  poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &6514420144953991138
@@ -2541,8 +2541,8 @@ MonoBehaviour:
   _isSea: 0
   _forestHeatt: 2
   _landHeatAddedText: {fileID: 5579729587355864352, guid: ccb175a748a574542b532a0ffa281c50, type: 3}
-  buildTime: 0
   curBuildTime: 0
+  poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &809782172503298043
@@ -2624,8 +2624,8 @@ MonoBehaviour:
   _isSea: 0
   _forestHeatt: 2
   _landHeatAddedText: {fileID: 5579729587355864352, guid: ccb175a748a574542b532a0ffa281c50, type: 3}
-  buildTime: 0
   curBuildTime: 0
+  poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &7641888945773535276
@@ -2707,8 +2707,8 @@ MonoBehaviour:
   _isSea: 0
   _forestHeatt: 2
   _landHeatAddedText: {fileID: 5579729587355864352, guid: ccb175a748a574542b532a0ffa281c50, type: 3}
-  buildTime: 0
   curBuildTime: 0
+  poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &5747918532990189610
@@ -2790,8 +2790,8 @@ MonoBehaviour:
   _isSea: 0
   _forestHeatt: 2
   _landHeatAddedText: {fileID: 5579729587355864352, guid: ccb175a748a574542b532a0ffa281c50, type: 3}
-  buildTime: 0
   curBuildTime: 0
+  poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &2105162779297016240
@@ -2861,8 +2861,8 @@ MonoBehaviour:
   _isSea: 1
   _forestHeatt: 2
   _landHeatAddedText: {fileID: 0}
-  buildTime: 0
   curBuildTime: 0
+  poofDestroy: {fileID: 0}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 0
 --- !u!1 &2144154630964170060 stripped
@@ -2910,8 +2910,8 @@ MonoBehaviour:
   _isSea: 0
   _forestHeatt: 2
   _landHeatAddedText: {fileID: 5579729587355864352, guid: ccb175a748a574542b532a0ffa281c50, type: 3}
-  buildTime: 0
   curBuildTime: 0
+  poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &7217517572608452455
@@ -2993,8 +2993,8 @@ MonoBehaviour:
   _isSea: 0
   _forestHeatt: 2
   _landHeatAddedText: {fileID: 5579729587355864352, guid: ccb175a748a574542b532a0ffa281c50, type: 3}
-  buildTime: 0
   curBuildTime: 0
+  poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &5692797289571399416
@@ -3076,8 +3076,8 @@ MonoBehaviour:
   _isSea: 0
   _forestHeatt: 2
   _landHeatAddedText: {fileID: 5579729587355864352, guid: ccb175a748a574542b532a0ffa281c50, type: 3}
-  buildTime: 0
   curBuildTime: 0
+  poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &4783741964047189308
@@ -3159,8 +3159,8 @@ MonoBehaviour:
   _isSea: 0
   _forestHeatt: 2
   _landHeatAddedText: {fileID: 5579729587355864352, guid: ccb175a748a574542b532a0ffa281c50, type: 3}
-  buildTime: 0
   curBuildTime: 0
+  poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &526348019606554739
@@ -3242,8 +3242,8 @@ MonoBehaviour:
   _isSea: 0
   _forestHeatt: 2
   _landHeatAddedText: {fileID: 5579729587355864352, guid: ccb175a748a574542b532a0ffa281c50, type: 3}
-  buildTime: 0
   curBuildTime: 0
+  poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &3263307987302257824
@@ -3325,8 +3325,8 @@ MonoBehaviour:
   _isSea: 0
   _forestHeatt: 2
   _landHeatAddedText: {fileID: 5579729587355864352, guid: ccb175a748a574542b532a0ffa281c50, type: 3}
-  buildTime: 0
   curBuildTime: 0
+  poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &8201753513348178004
@@ -3408,8 +3408,8 @@ MonoBehaviour:
   _isSea: 0
   _forestHeatt: 2
   _landHeatAddedText: {fileID: 5579729587355864352, guid: ccb175a748a574542b532a0ffa281c50, type: 3}
-  buildTime: 0
   curBuildTime: 0
+  poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &2971891168489105069
@@ -3491,8 +3491,8 @@ MonoBehaviour:
   _isSea: 0
   _forestHeatt: 2
   _landHeatAddedText: {fileID: 5579729587355864352, guid: ccb175a748a574542b532a0ffa281c50, type: 3}
-  buildTime: 0
   curBuildTime: 0
+  poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &587864675183798978
@@ -3574,8 +3574,8 @@ MonoBehaviour:
   _isSea: 0
   _forestHeatt: 2
   _landHeatAddedText: {fileID: 5579729587355864352, guid: ccb175a748a574542b532a0ffa281c50, type: 3}
-  buildTime: 0
   curBuildTime: 0
+  poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &2106921296679003737
@@ -3645,8 +3645,8 @@ MonoBehaviour:
   _isSea: 1
   _forestHeatt: 2
   _landHeatAddedText: {fileID: 0}
-  buildTime: 0
   curBuildTime: 0
+  poofDestroy: {fileID: 0}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 0
 --- !u!1 &3611923936715844748 stripped
@@ -3694,8 +3694,8 @@ MonoBehaviour:
   _isSea: 0
   _forestHeatt: 2
   _landHeatAddedText: {fileID: 5579729587355864352, guid: ccb175a748a574542b532a0ffa281c50, type: 3}
-  buildTime: 0
   curBuildTime: 0
+  poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &6955494826652140147
@@ -3777,8 +3777,8 @@ MonoBehaviour:
   _isSea: 0
   _forestHeatt: 2
   _landHeatAddedText: {fileID: 5579729587355864352, guid: ccb175a748a574542b532a0ffa281c50, type: 3}
-  buildTime: 0
   curBuildTime: 0
+  poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &2194633386481771889
@@ -3860,8 +3860,8 @@ MonoBehaviour:
   _isSea: 0
   _forestHeatt: 2
   _landHeatAddedText: {fileID: 5579729587355864352, guid: ccb175a748a574542b532a0ffa281c50, type: 3}
-  buildTime: 0
   curBuildTime: 0
+  poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &5850464323930285237
@@ -3943,8 +3943,8 @@ MonoBehaviour:
   _isSea: 0
   _forestHeatt: 2
   _landHeatAddedText: {fileID: 5579729587355864352, guid: ccb175a748a574542b532a0ffa281c50, type: 3}
-  buildTime: 0
   curBuildTime: 0
+  poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &1135400846304124751
@@ -4026,8 +4026,8 @@ MonoBehaviour:
   _isSea: 0
   _forestHeatt: 2
   _landHeatAddedText: {fileID: 5579729587355864352, guid: ccb175a748a574542b532a0ffa281c50, type: 3}
-  buildTime: 0
   curBuildTime: 0
+  poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &67940740975134834
@@ -4109,8 +4109,8 @@ MonoBehaviour:
   _isSea: 0
   _forestHeatt: 2
   _landHeatAddedText: {fileID: 5579729587355864352, guid: ccb175a748a574542b532a0ffa281c50, type: 3}
-  buildTime: 0
   curBuildTime: 0
+  poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &7127701656474903781
@@ -4192,8 +4192,8 @@ MonoBehaviour:
   _isSea: 0
   _forestHeatt: 2
   _landHeatAddedText: {fileID: 5579729587355864352, guid: ccb175a748a574542b532a0ffa281c50, type: 3}
-  buildTime: 0
   curBuildTime: 0
+  poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &456955890313801792
@@ -4275,8 +4275,8 @@ MonoBehaviour:
   _isSea: 0
   _forestHeatt: 2
   _landHeatAddedText: {fileID: 5579729587355864352, guid: ccb175a748a574542b532a0ffa281c50, type: 3}
-  buildTime: 0
   curBuildTime: 0
+  poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &3369028525088687119
@@ -4358,8 +4358,8 @@ MonoBehaviour:
   _isSea: 0
   _forestHeatt: 2
   _landHeatAddedText: {fileID: 5579729587355864352, guid: ccb175a748a574542b532a0ffa281c50, type: 3}
-  buildTime: 0
   curBuildTime: 0
+  poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &3034236759513645438
@@ -4441,8 +4441,8 @@ MonoBehaviour:
   _isSea: 0
   _forestHeatt: 2
   _landHeatAddedText: {fileID: 5579729587355864352, guid: ccb175a748a574542b532a0ffa281c50, type: 3}
-  buildTime: 0
   curBuildTime: 0
+  poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &6934988504574624870
@@ -4524,8 +4524,8 @@ MonoBehaviour:
   _isSea: 0
   _forestHeatt: 2
   _landHeatAddedText: {fileID: 5579729587355864352, guid: ccb175a748a574542b532a0ffa281c50, type: 3}
-  buildTime: 0
   curBuildTime: 0
+  poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &6207780425786507872
@@ -4607,8 +4607,8 @@ MonoBehaviour:
   _isSea: 0
   _forestHeatt: 2
   _landHeatAddedText: {fileID: 5579729587355864352, guid: ccb175a748a574542b532a0ffa281c50, type: 3}
-  buildTime: 0
   curBuildTime: 0
+  poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &7599026670009093414
@@ -4690,8 +4690,8 @@ MonoBehaviour:
   _isSea: 0
   _forestHeatt: 2
   _landHeatAddedText: {fileID: 5579729587355864352, guid: ccb175a748a574542b532a0ffa281c50, type: 3}
-  buildTime: 0
   curBuildTime: 0
+  poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &9048019939841779965
@@ -4773,8 +4773,8 @@ MonoBehaviour:
   _isSea: 0
   _forestHeatt: 2
   _landHeatAddedText: {fileID: 5579729587355864352, guid: ccb175a748a574542b532a0ffa281c50, type: 3}
-  buildTime: 0
   curBuildTime: 0
+  poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &4425996379530620998
@@ -4856,8 +4856,8 @@ MonoBehaviour:
   _isSea: 0
   _forestHeatt: 2
   _landHeatAddedText: {fileID: 5579729587355864352, guid: ccb175a748a574542b532a0ffa281c50, type: 3}
-  buildTime: 0
   curBuildTime: 0
+  poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &1206153598429357439
@@ -4939,8 +4939,8 @@ MonoBehaviour:
   _isSea: 0
   _forestHeatt: 2
   _landHeatAddedText: {fileID: 5579729587355864352, guid: ccb175a748a574542b532a0ffa281c50, type: 3}
-  buildTime: 0
   curBuildTime: 0
+  poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &7362953743359550030
@@ -5022,8 +5022,8 @@ MonoBehaviour:
   _isSea: 0
   _forestHeatt: 2
   _landHeatAddedText: {fileID: 5579729587355864352, guid: ccb175a748a574542b532a0ffa281c50, type: 3}
-  buildTime: 0
   curBuildTime: 0
+  poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &7415698653428535263
@@ -5105,8 +5105,8 @@ MonoBehaviour:
   _isSea: 0
   _forestHeatt: 2
   _landHeatAddedText: {fileID: 5579729587355864352, guid: ccb175a748a574542b532a0ffa281c50, type: 3}
-  buildTime: 0
   curBuildTime: 0
+  poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &1352679666057778210
@@ -5188,8 +5188,8 @@ MonoBehaviour:
   _isSea: 0
   _forestHeatt: 2
   _landHeatAddedText: {fileID: 5579729587355864352, guid: ccb175a748a574542b532a0ffa281c50, type: 3}
-  buildTime: 0
   curBuildTime: 0
+  poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &3009603572233127691
@@ -5271,8 +5271,8 @@ MonoBehaviour:
   _isSea: 0
   _forestHeatt: 2
   _landHeatAddedText: {fileID: 5579729587355864352, guid: ccb175a748a574542b532a0ffa281c50, type: 3}
-  buildTime: 0
   curBuildTime: 0
+  poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &2151451956822671584
@@ -5371,8 +5371,8 @@ MonoBehaviour:
   _isSea: 0
   _forestHeatt: 2
   _landHeatAddedText: {fileID: 5579729587355864352, guid: ccb175a748a574542b532a0ffa281c50, type: 3}
-  buildTime: 0
   curBuildTime: 0
+  poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &2724046226766826253
@@ -5454,8 +5454,8 @@ MonoBehaviour:
   _isSea: 0
   _forestHeatt: 2
   _landHeatAddedText: {fileID: 5579729587355864352, guid: ccb175a748a574542b532a0ffa281c50, type: 3}
-  buildTime: 0
   curBuildTime: 0
+  poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &4020293618022936541
@@ -5537,8 +5537,8 @@ MonoBehaviour:
   _isSea: 0
   _forestHeatt: 2
   _landHeatAddedText: {fileID: 5579729587355864352, guid: ccb175a748a574542b532a0ffa281c50, type: 3}
-  buildTime: 0
   curBuildTime: 0
+  poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &4969277878259410022
@@ -5620,8 +5620,8 @@ MonoBehaviour:
   _isSea: 0
   _forestHeatt: 2
   _landHeatAddedText: {fileID: 5579729587355864352, guid: ccb175a748a574542b532a0ffa281c50, type: 3}
-  buildTime: 0
   curBuildTime: 0
+  poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &7116309499095377959
@@ -5691,8 +5691,8 @@ MonoBehaviour:
   _isSea: 1
   _forestHeatt: 2
   _landHeatAddedText: {fileID: 0}
-  buildTime: 0
   curBuildTime: 0
+  poofDestroy: {fileID: 0}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 0
 --- !u!1 &5960009851260692834 stripped
@@ -5740,8 +5740,8 @@ MonoBehaviour:
   _isSea: 0
   _forestHeatt: 2
   _landHeatAddedText: {fileID: 5579729587355864352, guid: ccb175a748a574542b532a0ffa281c50, type: 3}
-  buildTime: 0
   curBuildTime: 0
+  poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &5114887495375371977
@@ -5823,8 +5823,8 @@ MonoBehaviour:
   _isSea: 0
   _forestHeatt: 2
   _landHeatAddedText: {fileID: 5579729587355864352, guid: ccb175a748a574542b532a0ffa281c50, type: 3}
-  buildTime: 0
   curBuildTime: 0
+  poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &4743661602190872679
@@ -5894,8 +5894,8 @@ MonoBehaviour:
   _isSea: 1
   _forestHeatt: 2
   _landHeatAddedText: {fileID: 0}
-  buildTime: 0
   curBuildTime: 0
+  poofDestroy: {fileID: 0}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 0
 --- !u!1 &6392209771809808888 stripped
@@ -5943,8 +5943,8 @@ MonoBehaviour:
   _isSea: 0
   _forestHeatt: 2
   _landHeatAddedText: {fileID: 5579729587355864352, guid: ccb175a748a574542b532a0ffa281c50, type: 3}
-  buildTime: 0
   curBuildTime: 0
+  poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &5147758599375923123
@@ -6026,8 +6026,8 @@ MonoBehaviour:
   _isSea: 0
   _forestHeatt: 2
   _landHeatAddedText: {fileID: 5579729587355864352, guid: ccb175a748a574542b532a0ffa281c50, type: 3}
-  buildTime: 0
   curBuildTime: 0
+  poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &7717082732294125696
@@ -6109,8 +6109,8 @@ MonoBehaviour:
   _isSea: 0
   _forestHeatt: 2
   _landHeatAddedText: {fileID: 5579729587355864352, guid: ccb175a748a574542b532a0ffa281c50, type: 3}
-  buildTime: 0
   curBuildTime: 0
+  poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &4795637597396849687
@@ -6192,8 +6192,8 @@ MonoBehaviour:
   _isSea: 0
   _forestHeatt: 2
   _landHeatAddedText: {fileID: 5579729587355864352, guid: ccb175a748a574542b532a0ffa281c50, type: 3}
-  buildTime: 0
   curBuildTime: 0
+  poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &7634034024070733814
@@ -6275,8 +6275,8 @@ MonoBehaviour:
   _isSea: 0
   _forestHeatt: 2
   _landHeatAddedText: {fileID: 5579729587355864352, guid: ccb175a748a574542b532a0ffa281c50, type: 3}
-  buildTime: 0
   curBuildTime: 0
+  poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &8900723058529730036
@@ -6358,8 +6358,8 @@ MonoBehaviour:
   _isSea: 0
   _forestHeatt: 2
   _landHeatAddedText: {fileID: 5579729587355864352, guid: ccb175a748a574542b532a0ffa281c50, type: 3}
-  buildTime: 0
   curBuildTime: 0
+  poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &697485118748990164
@@ -6441,8 +6441,8 @@ MonoBehaviour:
   _isSea: 0
   _forestHeatt: 2
   _landHeatAddedText: {fileID: 5579729587355864352, guid: ccb175a748a574542b532a0ffa281c50, type: 3}
-  buildTime: 0
   curBuildTime: 0
+  poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &5425032388224496484
@@ -6524,8 +6524,8 @@ MonoBehaviour:
   _isSea: 0
   _forestHeatt: 2
   _landHeatAddedText: {fileID: 5579729587355864352, guid: ccb175a748a574542b532a0ffa281c50, type: 3}
-  buildTime: 0
   curBuildTime: 0
+  poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &7566246777467218899
@@ -6607,8 +6607,8 @@ MonoBehaviour:
   _isSea: 0
   _forestHeatt: 2
   _landHeatAddedText: {fileID: 5579729587355864352, guid: ccb175a748a574542b532a0ffa281c50, type: 3}
-  buildTime: 0
   curBuildTime: 0
+  poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &1354507078356840114
@@ -6690,8 +6690,8 @@ MonoBehaviour:
   _isSea: 0
   _forestHeatt: 2
   _landHeatAddedText: {fileID: 5579729587355864352, guid: ccb175a748a574542b532a0ffa281c50, type: 3}
-  buildTime: 0
   curBuildTime: 0
+  poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &7132271067993823271
@@ -6773,8 +6773,8 @@ MonoBehaviour:
   _isSea: 0
   _forestHeatt: 2
   _landHeatAddedText: {fileID: 5579729587355864352, guid: ccb175a748a574542b532a0ffa281c50, type: 3}
-  buildTime: 0
   curBuildTime: 0
+  poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &5330879334983945534
@@ -6856,8 +6856,8 @@ MonoBehaviour:
   _isSea: 0
   _forestHeatt: 2
   _landHeatAddedText: {fileID: 5579729587355864352, guid: ccb175a748a574542b532a0ffa281c50, type: 3}
-  buildTime: 0
   curBuildTime: 0
+  poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &8728769086317384109
@@ -6927,8 +6927,8 @@ MonoBehaviour:
   _isSea: 1
   _forestHeatt: 2
   _landHeatAddedText: {fileID: 0}
-  buildTime: 0
   curBuildTime: 0
+  poofDestroy: {fileID: 0}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 0
 --- !u!1 &7377643173738230788 stripped
@@ -6976,8 +6976,8 @@ MonoBehaviour:
   _isSea: 0
   _forestHeatt: 2
   _landHeatAddedText: {fileID: 5579729587355864352, guid: ccb175a748a574542b532a0ffa281c50, type: 3}
-  buildTime: 0
   curBuildTime: 0
+  poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &2193854616446204951
@@ -7059,8 +7059,8 @@ MonoBehaviour:
   _isSea: 0
   _forestHeatt: 2
   _landHeatAddedText: {fileID: 5579729587355864352, guid: ccb175a748a574542b532a0ffa281c50, type: 3}
-  buildTime: 0
   curBuildTime: 0
+  poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &4762162623283328576
@@ -7142,8 +7142,8 @@ MonoBehaviour:
   _isSea: 0
   _forestHeatt: 2
   _landHeatAddedText: {fileID: 5579729587355864352, guid: ccb175a748a574542b532a0ffa281c50, type: 3}
-  buildTime: 0
   curBuildTime: 0
+  poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &3116352441258717749
@@ -7225,8 +7225,8 @@ MonoBehaviour:
   _isSea: 0
   _forestHeatt: 2
   _landHeatAddedText: {fileID: 5579729587355864352, guid: ccb175a748a574542b532a0ffa281c50, type: 3}
-  buildTime: 0
   curBuildTime: 0
+  poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &6985916437551067804
@@ -7308,8 +7308,8 @@ MonoBehaviour:
   _isSea: 0
   _forestHeatt: 2
   _landHeatAddedText: {fileID: 5579729587355864352, guid: ccb175a748a574542b532a0ffa281c50, type: 3}
-  buildTime: 0
   curBuildTime: 0
+  poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &7752887109871856441
@@ -7391,8 +7391,8 @@ MonoBehaviour:
   _isSea: 0
   _forestHeatt: 2
   _landHeatAddedText: {fileID: 5579729587355864352, guid: ccb175a748a574542b532a0ffa281c50, type: 3}
-  buildTime: 0
   curBuildTime: 0
+  poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &3600414326958448976
@@ -7474,8 +7474,8 @@ MonoBehaviour:
   _isSea: 0
   _forestHeatt: 2
   _landHeatAddedText: {fileID: 5579729587355864352, guid: ccb175a748a574542b532a0ffa281c50, type: 3}
-  buildTime: 0
   curBuildTime: 0
+  poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &8515531458499887219
@@ -7557,8 +7557,8 @@ MonoBehaviour:
   _isSea: 0
   _forestHeatt: 2
   _landHeatAddedText: {fileID: 5579729587355864352, guid: ccb175a748a574542b532a0ffa281c50, type: 3}
-  buildTime: 0
   curBuildTime: 0
+  poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &8417135376199392598
@@ -7640,8 +7640,8 @@ MonoBehaviour:
   _isSea: 0
   _forestHeatt: 2
   _landHeatAddedText: {fileID: 5579729587355864352, guid: ccb175a748a574542b532a0ffa281c50, type: 3}
-  buildTime: 0
   curBuildTime: 0
+  poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &8203476675186282743
@@ -7723,8 +7723,8 @@ MonoBehaviour:
   _isSea: 0
   _forestHeatt: 2
   _landHeatAddedText: {fileID: 5579729587355864352, guid: ccb175a748a574542b532a0ffa281c50, type: 3}
-  buildTime: 0
   curBuildTime: 0
+  poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &4039600243539786101
@@ -7806,8 +7806,8 @@ MonoBehaviour:
   _isSea: 0
   _forestHeatt: 2
   _landHeatAddedText: {fileID: 5579729587355864352, guid: ccb175a748a574542b532a0ffa281c50, type: 3}
-  buildTime: 0
   curBuildTime: 0
+  poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &8587193414910862661
@@ -7889,8 +7889,8 @@ MonoBehaviour:
   _isSea: 0
   _forestHeatt: 2
   _landHeatAddedText: {fileID: 5579729587355864352, guid: ccb175a748a574542b532a0ffa281c50, type: 3}
-  buildTime: 0
   curBuildTime: 0
+  poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &7823344575213360581
@@ -7972,8 +7972,8 @@ MonoBehaviour:
   _isSea: 0
   _forestHeatt: 2
   _landHeatAddedText: {fileID: 5579729587355864352, guid: ccb175a748a574542b532a0ffa281c50, type: 3}
-  buildTime: 0
   curBuildTime: 0
+  poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &901752234542064166
@@ -8043,8 +8043,8 @@ MonoBehaviour:
   _isSea: 1
   _forestHeatt: 2
   _landHeatAddedText: {fileID: 0}
-  buildTime: 0
   curBuildTime: 0
+  poofDestroy: {fileID: 0}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 0
 --- !u!1 &8459652723190609326 stripped
@@ -8080,8 +8080,8 @@ MonoBehaviour:
   _isSea: 1
   _forestHeatt: 2
   _landHeatAddedText: {fileID: 0}
-  buildTime: 0
   curBuildTime: 0
+  poofDestroy: {fileID: 0}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 0
 --- !u!1 &8519661675394763281 stripped
@@ -8117,8 +8117,8 @@ MonoBehaviour:
   _isSea: 1
   _forestHeatt: 2
   _landHeatAddedText: {fileID: 0}
-  buildTime: 0
   curBuildTime: 0
+  poofDestroy: {fileID: 0}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 0
 --- !u!1 &8550092926797396459 stripped
@@ -8166,8 +8166,8 @@ MonoBehaviour:
   _isSea: 0
   _forestHeatt: 2
   _landHeatAddedText: {fileID: 5579729587355864352, guid: ccb175a748a574542b532a0ffa281c50, type: 3}
-  buildTime: 0
   curBuildTime: 0
+  poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &7350560305175077955
@@ -8249,8 +8249,8 @@ MonoBehaviour:
   _isSea: 0
   _forestHeatt: 2
   _landHeatAddedText: {fileID: 5579729587355864352, guid: ccb175a748a574542b532a0ffa281c50, type: 3}
-  buildTime: 0
   curBuildTime: 0
+  poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &5721065386258747158
@@ -8332,8 +8332,8 @@ MonoBehaviour:
   _isSea: 0
   _forestHeatt: 2
   _landHeatAddedText: {fileID: 5579729587355864352, guid: ccb175a748a574542b532a0ffa281c50, type: 3}
-  buildTime: 0
   curBuildTime: 0
+  poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &1312301860961774265
@@ -8415,8 +8415,8 @@ MonoBehaviour:
   _isSea: 0
   _forestHeatt: 2
   _landHeatAddedText: {fileID: 5579729587355864352, guid: ccb175a748a574542b532a0ffa281c50, type: 3}
-  buildTime: 0
   curBuildTime: 0
+  poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &3828905679332618858
@@ -8498,8 +8498,8 @@ MonoBehaviour:
   _isSea: 0
   _forestHeatt: 2
   _landHeatAddedText: {fileID: 5579729587355864352, guid: ccb175a748a574542b532a0ffa281c50, type: 3}
-  buildTime: 0
   curBuildTime: 0
+  poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &8018054467382770915
@@ -8569,8 +8569,8 @@ MonoBehaviour:
   _isSea: 1
   _forestHeatt: 2
   _landHeatAddedText: {fileID: 0}
-  buildTime: 0
   curBuildTime: 0
+  poofDestroy: {fileID: 0}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 0
 --- !u!1 &9175778543736717293 stripped
@@ -8606,8 +8606,8 @@ MonoBehaviour:
   _isSea: 1
   _forestHeatt: 2
   _landHeatAddedText: {fileID: 0}
-  buildTime: 0
   curBuildTime: 0
+  poofDestroy: {fileID: 0}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 0
 --- !u!1 &9191217467338586280 stripped
@@ -8655,8 +8655,8 @@ MonoBehaviour:
   _isSea: 0
   _forestHeatt: 2
   _landHeatAddedText: {fileID: 5579729587355864352, guid: ccb175a748a574542b532a0ffa281c50, type: 3}
-  buildTime: 0
   curBuildTime: 0
+  poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &3862742228800067649
