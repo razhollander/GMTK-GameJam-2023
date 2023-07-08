@@ -121,7 +121,7 @@ namespace Planet
 
         public void BuildForest()
         {
-            Build(level, BuildingType.Forest);
+            Build(1, BuildingType.Forest);
         }
 
         public void BuildBuilding(int level)
