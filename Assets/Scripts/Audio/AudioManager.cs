@@ -17,11 +17,11 @@ namespace Audio
             if (Instance == null)
             {
                 Instance = this;
-                DontDestroyOnLoad(this);
+                DontDestroyOnLoad(this.gameObject);
             }
             else
             {
-                Destroy(this);
+                Destroy(this.gameObject);
             }
         }
 
