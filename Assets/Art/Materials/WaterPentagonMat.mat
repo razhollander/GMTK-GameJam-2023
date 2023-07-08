@@ -39,12 +39,12 @@ Material:
     m_Floats:
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Speed: 0.2
-    - _Strength: 1.2
+    - _Speed: 0
+    - _Strength: 0
     - _Tilling: 2.38
     m_Colors:
     - _Color: {r: 0, g: 0.51324224, b: 1, a: 1}
-    - _Tilling: {r: 1.07, g: 1.87, b: 0, a: 0}
+    - _Tilling: {r: 1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &2989180989436205183
 MonoBehaviour:
