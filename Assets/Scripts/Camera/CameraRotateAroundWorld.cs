@@ -19,16 +19,16 @@ namespace CameraGameJam
                 _lastDeltaTouch = deltaTouch;
                 _lastTouch = Input.mousePosition;
 
-                float angelX = deltaTouch.x * Time.deltaTime * _speed;
-                float angelY = deltaTouch.y * Time.deltaTime * _speed * -1;
+                float angelX = deltaTouch.x * Time.fixedDeltaTime * _speed;
+                float angelY = deltaTouch.y * Time.fixedDeltaTime * _speed * -1;
 
                 RotateAround(_target.position, new Vector3(0, 1, 0), angelX);
                 RotateAround(_target.position, new Vector3(1, 0, 0), angelY);
             }
             else
             {
-                float angelX = _lastDeltaTouch.x * Time.deltaTime * _speed;
-                float angelY = _lastDeltaTouch.y * Time.deltaTime * _speed * -1;
+                float angelX = _lastDeltaTouch.x * Time.fixedDeltaTime * _speed;
+                float angelY = _lastDeltaTouch.y * Time.fixedDeltaTime * _speed * -1;
 
                 RotateAround(_target.position, new Vector3(0, 1, 0), angelX);
                 RotateAround(_target.position, new Vector3(1, 0, 0), angelY);
