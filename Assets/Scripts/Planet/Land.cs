@@ -9,17 +9,29 @@ namespace Planet
         private Renderer _renderer;
         private int _amountNeighbors;
         private Material _material;
+         
+        private int _level;
 
         public int Id { get; set; }
         public List<Land> Neighbors { get; set; }
+        public Vector3 Position { get; set; }
 
+        public int Level
+        {
+            get { return _level;}
+            set
+            {
+                _level = value;
+                _material.SetFloat("_Color", value);
+            }
+        }
+        
+        public BuildingType BuildingType { get; set; }
+        
         public int AmountNeighbors
         {
             get => _amountNeighbors;
-            set
-            {
-                _amountNeighbors = value;
-            }
+            set { _amountNeighbors = value; }
         }
 
         private void Awake()
@@ -34,12 +46,23 @@ namespace Planet
 
         private void OnMouseExit()
         {
+            LandClickedManager.Instance.LandMouseExit(this);
             _material.SetFloat("_OutLineOpacity", 0f);
         }
 
         private void OnMouseUpAsButton()
         {
             Debug.Log("Clicked");
+        }
+
+        private void OnMouseDown()
+        {
+            LandClickedManager.Instance.LandMouseDown(this);
+        }
+
+        private void OnMouseUp()
+        {
+            LandClickedManager.Instance.LandMouseUp(this);
         }
     }
 }

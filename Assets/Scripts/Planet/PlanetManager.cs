@@ -9,7 +9,7 @@ namespace Planet
         public static PlanetManager Instance { get; private set; }
         public List<Land> Lands { get; private set; }
 
-        private void Awake()
+        private void Start()
         {
             if (Instance == null)
             {
@@ -30,6 +30,7 @@ namespace Planet
                 Lands.Add(land);
                 land.Id = idCounter;
                 land.AmountNeighbors = part.Vertex;
+                land.Position = part.Position;
                 idCounter++;
             }
 

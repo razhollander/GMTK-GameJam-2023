@@ -20,6 +20,10 @@ public static class MathHandler
     {
         return new Vector3(vec.x, 0, vec.y);
     }
+    public static Vector3 ToVector3XY(this Vector2 vec)
+    {
+        return new Vector3(vec.x, vec.y, 0);
+    }
     public static Vector2 ToVector2(this Vector3 vec)
     {
         return new Vector2(vec.x, vec.z);
