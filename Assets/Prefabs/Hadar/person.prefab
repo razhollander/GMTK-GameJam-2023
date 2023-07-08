@@ -88,6 +88,8 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 128
   humanMeshRenderer: {fileID: 226691784155444593}
+  animator: {fileID: 9127316492856351893}
+  axe: {fileID: 766630892238439151}
 --- !u!1001 &73349830277588981
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -100,6 +102,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e677e15c14d84d844a6b7ff6450fe2f7, type: 2}
+    - target: {fileID: 839650799770494234, guid: 39802b9e903b63a469bc2b520e3debe8, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2494645514503340257, guid: 39802b9e903b63a469bc2b520e3debe8, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -170,8 +176,18 @@ MeshRenderer:
   m_CorrespondingSourceObject: {fileID: 153625629555839620, guid: 39802b9e903b63a469bc2b520e3debe8, type: 3}
   m_PrefabInstance: {fileID: 73349830277588981}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &766630892238439151 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 839650799770494234, guid: 39802b9e903b63a469bc2b520e3debe8, type: 3}
+  m_PrefabInstance: {fileID: 73349830277588981}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &2565457121650517780 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2494645514503340257, guid: 39802b9e903b63a469bc2b520e3debe8, type: 3}
+  m_PrefabInstance: {fileID: 73349830277588981}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &9127316492856351893 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 9200338049656142688, guid: 39802b9e903b63a469bc2b520e3debe8, type: 3}
   m_PrefabInstance: {fileID: 73349830277588981}
   m_PrefabAsset: {fileID: 0}

@@ -17,18 +17,22 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private int probability = 3;
     [SerializeField] private LayerMask world;
     [SerializeField] private MeshRenderer humanMeshRenderer;
+    [SerializeField] private Animator animator;
+    [SerializeField] private GameObject axe;
     private Vector3 wayUp;
     private Vector3 center = Vector3.zero;
     private Vector3 _lastPos;
     private bool _arrived;
     private bool isBuild;
-    
+    private static readonly int Chop = Animator.StringToHash("Chop");
+
     private void Start()
     {
         var myTransform = transform;
         renderer = myTransform.GetChild(0);
         rayPos = myTransform.GetChild(1);
         SetTarget(target.Neighbors[Random.Range(0, target.Neighbors.Count)]);
+        print(target.name);
     }
 
     private void LateUpdate()
@@ -83,7 +87,13 @@ public class PlayerController : MonoBehaviour
         switch (target.BuildingType)
         {
             case BuildingType.Forest:
-                target.HitForest();
+                if (target.HitForest())
+                {
+                    FindNextTarget();
+                    break;
+                }
+                animator.SetBool(Chop, true);
+                axe.SetActive(true);
                 WaitAndContinue(false, 2);
                 break;
             
@@ -124,7 +134,14 @@ public class PlayerController : MonoBehaviour
 
     public void FindNextTarget()
     {
+        foreach (var _target in target.Neighbors)
+        {
+            print(_target.name);
+        }
+        animator.SetBool(Chop, false);
+        axe.SetActive(false);
         var next = target.Neighbors[Random.Range(0, target.Neighbors.Count)];
+        print(next.name);
         SetTarget(next);
         _arrived = false;
     }
@@ -170,7 +187,7 @@ public class PlayerController : MonoBehaviour
             {
                 neighbor = PlanetManager.Instance.Lands[Random.Range(0, PlanetManager.Instance.Lands.Count)];
             }
-            
+            print(_target.name + neighbor.name);
             target = neighbor;
         }
 
@@ -181,6 +198,9 @@ public class PlayerController : MonoBehaviour
 
         private void SetBuild(bool _build)
         {
+            print("build");
+            animator.SetBool(Chop, true);
+            axe.SetActive(true);
             isBuild = _build;
             target.madeForest += StopBuilding;
             target.madeBuilding += StopBuilding;
@@ -189,9 +209,10 @@ public class PlayerController : MonoBehaviour
         private void StopBuilding()
         {
             isBuild = false;
+            animator.SetBool(Chop, false);
             target.madeForest -= StopBuilding;
             target.madeBuilding -= StopBuilding;
-
+            axe.SetActive(false);
             FindNextTarget();
         }
 

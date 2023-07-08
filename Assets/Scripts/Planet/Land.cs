@@ -234,7 +234,8 @@ namespace Planet
             _objects.Clear();
             _buildingType = BuildingType.None;
             AudioManager.Instance.Play(AudioManager.SoundsType.BuildingDestroySuccess);
-            Instantiate(poofDestroy,transform.position, quaternion.identity);
+            Instantiate(poofDestroy,Position, quaternion.identity);
+            _level = 0;
         }
 
         public async UniTask HitBuilding()
@@ -285,14 +286,19 @@ namespace Planet
             _objects.ForEach(j => Destroy(j.gameObject));
             _objects.Clear();
             _buildingType = BuildingType.None;
-            Instantiate(poofDestroy,transform.position, quaternion.identity);
+            Instantiate(poofDestroy,Position, quaternion.identity);
         }
 
-        public void HitForest()
+        public bool HitForest()
         {
             Heart--;
-            if (Heart == 0) DestroyForest();
-            // TODO : play hit effect
+            if (Heart == 0)
+            {
+                DestroyForest();
+                return true;
+            }
+
+            return false;
         }
 
         [Serializable] private struct BuildingObjectsContainer
