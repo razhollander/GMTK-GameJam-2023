@@ -44,7 +44,6 @@ namespace Planet
                     land.Neighbors = Lands.OrderBy(i => Vector3.Distance(i.Position, land.Position)).ToList();
                     land.Neighbors = land.Neighbors.Take(land.Vertex).ToList();
                     land.Neighbors = land.Neighbors.Where(i => i.Vertex == 6).ToList();
-                    Debug.Log($"Neighbors count {land.Neighbors.Count}");
                 }
 
             }

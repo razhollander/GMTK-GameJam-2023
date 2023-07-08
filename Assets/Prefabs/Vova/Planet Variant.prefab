@@ -638,6 +638,10 @@ MonoBehaviour:
     Objects:
     - Level: 1
       Prefab: {fileID: 6608581757617870961, guid: ee1042a81fc0d79469b4d87dbfe2630e, type: 3}
+    - Level: 1
+      Prefab: {fileID: 5779875062523082673, guid: 4332e2f4a699f0546a0af0a0fc458dd1, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8184289268387992267, guid: 15e0c7d6441cb054dad1627bb622c69b, type: 3}
   - Type: 2
     Objects:
     - Level: 1
@@ -648,9 +652,13 @@ MonoBehaviour:
       Prefab: {fileID: 1415793716209962778, guid: 78a7eccd0bcd7f246bd0dc4f404a9e86, type: 3}
     - Level: 4
       Prefab: {fileID: 1555560859900711931, guid: 13e587024f422914fb777e605a57866b, type: 3}
+    - Level: 1
+      Prefab: {fileID: 7801646193176429207, guid: eab38b831bb5b4746a48a8513d02afc4, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8931141900926556729, guid: b9d75d471586edc48bd152dabd8a83c9, type: 3}
   _isSea: 0
   _forestMaxHearts: 3
-  _maxSecondsBetweenHitsBeforeReset: 0
+  _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &5707102611254316114
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -685,6 +693,10 @@ MonoBehaviour:
     Objects:
     - Level: 1
       Prefab: {fileID: 6608581757617870961, guid: ee1042a81fc0d79469b4d87dbfe2630e, type: 3}
+    - Level: 1
+      Prefab: {fileID: 5779875062523082673, guid: 4332e2f4a699f0546a0af0a0fc458dd1, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8184289268387992267, guid: 15e0c7d6441cb054dad1627bb622c69b, type: 3}
   - Type: 2
     Objects:
     - Level: 1
@@ -695,9 +707,13 @@ MonoBehaviour:
       Prefab: {fileID: 1415793716209962778, guid: 78a7eccd0bcd7f246bd0dc4f404a9e86, type: 3}
     - Level: 4
       Prefab: {fileID: 1555560859900711931, guid: 13e587024f422914fb777e605a57866b, type: 3}
+    - Level: 1
+      Prefab: {fileID: 7801646193176429207, guid: eab38b831bb5b4746a48a8513d02afc4, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8931141900926556729, guid: b9d75d471586edc48bd152dabd8a83c9, type: 3}
   _isSea: 0
   _forestMaxHearts: 3
-  _maxSecondsBetweenHitsBeforeReset: 0
+  _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &3263837392656241975
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -732,6 +748,10 @@ MonoBehaviour:
     Objects:
     - Level: 1
       Prefab: {fileID: 6608581757617870961, guid: ee1042a81fc0d79469b4d87dbfe2630e, type: 3}
+    - Level: 1
+      Prefab: {fileID: 5779875062523082673, guid: 4332e2f4a699f0546a0af0a0fc458dd1, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8184289268387992267, guid: 15e0c7d6441cb054dad1627bb622c69b, type: 3}
   - Type: 2
     Objects:
     - Level: 1
@@ -742,9 +762,13 @@ MonoBehaviour:
       Prefab: {fileID: 1415793716209962778, guid: 78a7eccd0bcd7f246bd0dc4f404a9e86, type: 3}
     - Level: 4
       Prefab: {fileID: 1555560859900711931, guid: 13e587024f422914fb777e605a57866b, type: 3}
+    - Level: 1
+      Prefab: {fileID: 7801646193176429207, guid: eab38b831bb5b4746a48a8513d02afc4, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8931141900926556729, guid: b9d75d471586edc48bd152dabd8a83c9, type: 3}
   _isSea: 0
   _forestMaxHearts: 3
-  _maxSecondsBetweenHitsBeforeReset: 0
+  _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &247897422837453029
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -779,6 +803,10 @@ MonoBehaviour:
     Objects:
     - Level: 1
       Prefab: {fileID: 6608581757617870961, guid: ee1042a81fc0d79469b4d87dbfe2630e, type: 3}
+    - Level: 1
+      Prefab: {fileID: 5779875062523082673, guid: 4332e2f4a699f0546a0af0a0fc458dd1, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8184289268387992267, guid: 15e0c7d6441cb054dad1627bb622c69b, type: 3}
   - Type: 2
     Objects:
     - Level: 1
@@ -789,9 +817,13 @@ MonoBehaviour:
       Prefab: {fileID: 1415793716209962778, guid: 78a7eccd0bcd7f246bd0dc4f404a9e86, type: 3}
     - Level: 4
       Prefab: {fileID: 1555560859900711931, guid: 13e587024f422914fb777e605a57866b, type: 3}
+    - Level: 1
+      Prefab: {fileID: 7801646193176429207, guid: eab38b831bb5b4746a48a8513d02afc4, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8931141900926556729, guid: b9d75d471586edc48bd152dabd8a83c9, type: 3}
   _isSea: 0
   _forestMaxHearts: 3
-  _maxSecondsBetweenHitsBeforeReset: 0
+  _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &7016988379731689080
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -826,6 +858,10 @@ MonoBehaviour:
     Objects:
     - Level: 1
       Prefab: {fileID: 6608581757617870961, guid: ee1042a81fc0d79469b4d87dbfe2630e, type: 3}
+    - Level: 1
+      Prefab: {fileID: 5779875062523082673, guid: 4332e2f4a699f0546a0af0a0fc458dd1, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8184289268387992267, guid: 15e0c7d6441cb054dad1627bb622c69b, type: 3}
   - Type: 2
     Objects:
     - Level: 1
@@ -836,9 +872,13 @@ MonoBehaviour:
       Prefab: {fileID: 1415793716209962778, guid: 78a7eccd0bcd7f246bd0dc4f404a9e86, type: 3}
     - Level: 4
       Prefab: {fileID: 1555560859900711931, guid: 13e587024f422914fb777e605a57866b, type: 3}
+    - Level: 1
+      Prefab: {fileID: 7801646193176429207, guid: eab38b831bb5b4746a48a8513d02afc4, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8931141900926556729, guid: b9d75d471586edc48bd152dabd8a83c9, type: 3}
   _isSea: 0
   _forestMaxHearts: 3
-  _maxSecondsBetweenHitsBeforeReset: 0
+  _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &2491501097152162061
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -873,6 +913,10 @@ MonoBehaviour:
     Objects:
     - Level: 1
       Prefab: {fileID: 6608581757617870961, guid: ee1042a81fc0d79469b4d87dbfe2630e, type: 3}
+    - Level: 1
+      Prefab: {fileID: 5779875062523082673, guid: 4332e2f4a699f0546a0af0a0fc458dd1, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8184289268387992267, guid: 15e0c7d6441cb054dad1627bb622c69b, type: 3}
   - Type: 2
     Objects:
     - Level: 1
@@ -883,9 +927,13 @@ MonoBehaviour:
       Prefab: {fileID: 1415793716209962778, guid: 78a7eccd0bcd7f246bd0dc4f404a9e86, type: 3}
     - Level: 4
       Prefab: {fileID: 1555560859900711931, guid: 13e587024f422914fb777e605a57866b, type: 3}
+    - Level: 1
+      Prefab: {fileID: 7801646193176429207, guid: eab38b831bb5b4746a48a8513d02afc4, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8931141900926556729, guid: b9d75d471586edc48bd152dabd8a83c9, type: 3}
   _isSea: 0
   _forestMaxHearts: 3
-  _maxSecondsBetweenHitsBeforeReset: 0
+  _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &1619583370341751614
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -920,6 +968,10 @@ MonoBehaviour:
     Objects:
     - Level: 1
       Prefab: {fileID: 6608581757617870961, guid: ee1042a81fc0d79469b4d87dbfe2630e, type: 3}
+    - Level: 1
+      Prefab: {fileID: 5779875062523082673, guid: 4332e2f4a699f0546a0af0a0fc458dd1, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8184289268387992267, guid: 15e0c7d6441cb054dad1627bb622c69b, type: 3}
   - Type: 2
     Objects:
     - Level: 1
@@ -930,9 +982,13 @@ MonoBehaviour:
       Prefab: {fileID: 1415793716209962778, guid: 78a7eccd0bcd7f246bd0dc4f404a9e86, type: 3}
     - Level: 4
       Prefab: {fileID: 1555560859900711931, guid: 13e587024f422914fb777e605a57866b, type: 3}
+    - Level: 1
+      Prefab: {fileID: 7801646193176429207, guid: eab38b831bb5b4746a48a8513d02afc4, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8931141900926556729, guid: b9d75d471586edc48bd152dabd8a83c9, type: 3}
   _isSea: 0
   _forestMaxHearts: 3
-  _maxSecondsBetweenHitsBeforeReset: 0
+  _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &8504467360247678202
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -967,6 +1023,10 @@ MonoBehaviour:
     Objects:
     - Level: 1
       Prefab: {fileID: 6608581757617870961, guid: ee1042a81fc0d79469b4d87dbfe2630e, type: 3}
+    - Level: 1
+      Prefab: {fileID: 5779875062523082673, guid: 4332e2f4a699f0546a0af0a0fc458dd1, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8184289268387992267, guid: 15e0c7d6441cb054dad1627bb622c69b, type: 3}
   - Type: 2
     Objects:
     - Level: 1
@@ -977,9 +1037,13 @@ MonoBehaviour:
       Prefab: {fileID: 1415793716209962778, guid: 78a7eccd0bcd7f246bd0dc4f404a9e86, type: 3}
     - Level: 4
       Prefab: {fileID: 1555560859900711931, guid: 13e587024f422914fb777e605a57866b, type: 3}
+    - Level: 1
+      Prefab: {fileID: 7801646193176429207, guid: eab38b831bb5b4746a48a8513d02afc4, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8931141900926556729, guid: b9d75d471586edc48bd152dabd8a83c9, type: 3}
   _isSea: 0
   _forestMaxHearts: 3
-  _maxSecondsBetweenHitsBeforeReset: 0
+  _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &6413990291517498570
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1014,6 +1078,10 @@ MonoBehaviour:
     Objects:
     - Level: 1
       Prefab: {fileID: 6608581757617870961, guid: ee1042a81fc0d79469b4d87dbfe2630e, type: 3}
+    - Level: 1
+      Prefab: {fileID: 5779875062523082673, guid: 4332e2f4a699f0546a0af0a0fc458dd1, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8184289268387992267, guid: 15e0c7d6441cb054dad1627bb622c69b, type: 3}
   - Type: 2
     Objects:
     - Level: 1
@@ -1024,9 +1092,13 @@ MonoBehaviour:
       Prefab: {fileID: 1415793716209962778, guid: 78a7eccd0bcd7f246bd0dc4f404a9e86, type: 3}
     - Level: 4
       Prefab: {fileID: 1555560859900711931, guid: 13e587024f422914fb777e605a57866b, type: 3}
+    - Level: 1
+      Prefab: {fileID: 7801646193176429207, guid: eab38b831bb5b4746a48a8513d02afc4, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8931141900926556729, guid: b9d75d471586edc48bd152dabd8a83c9, type: 3}
   _isSea: 0
   _forestMaxHearts: 3
-  _maxSecondsBetweenHitsBeforeReset: 0
+  _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &6199497479638922787
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1061,6 +1133,10 @@ MonoBehaviour:
     Objects:
     - Level: 1
       Prefab: {fileID: 6608581757617870961, guid: ee1042a81fc0d79469b4d87dbfe2630e, type: 3}
+    - Level: 1
+      Prefab: {fileID: 5779875062523082673, guid: 4332e2f4a699f0546a0af0a0fc458dd1, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8184289268387992267, guid: 15e0c7d6441cb054dad1627bb622c69b, type: 3}
   - Type: 2
     Objects:
     - Level: 1
@@ -1071,9 +1147,13 @@ MonoBehaviour:
       Prefab: {fileID: 1415793716209962778, guid: 78a7eccd0bcd7f246bd0dc4f404a9e86, type: 3}
     - Level: 4
       Prefab: {fileID: 1555560859900711931, guid: 13e587024f422914fb777e605a57866b, type: 3}
+    - Level: 1
+      Prefab: {fileID: 7801646193176429207, guid: eab38b831bb5b4746a48a8513d02afc4, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8931141900926556729, guid: b9d75d471586edc48bd152dabd8a83c9, type: 3}
   _isSea: 0
   _forestMaxHearts: 3
-  _maxSecondsBetweenHitsBeforeReset: 0
+  _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &3288347952628646473
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1108,6 +1188,10 @@ MonoBehaviour:
     Objects:
     - Level: 1
       Prefab: {fileID: 6608581757617870961, guid: ee1042a81fc0d79469b4d87dbfe2630e, type: 3}
+    - Level: 1
+      Prefab: {fileID: 5779875062523082673, guid: 4332e2f4a699f0546a0af0a0fc458dd1, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8184289268387992267, guid: 15e0c7d6441cb054dad1627bb622c69b, type: 3}
   - Type: 2
     Objects:
     - Level: 1
@@ -1118,9 +1202,13 @@ MonoBehaviour:
       Prefab: {fileID: 1415793716209962778, guid: 78a7eccd0bcd7f246bd0dc4f404a9e86, type: 3}
     - Level: 4
       Prefab: {fileID: 1555560859900711931, guid: 13e587024f422914fb777e605a57866b, type: 3}
+    - Level: 1
+      Prefab: {fileID: 7801646193176429207, guid: eab38b831bb5b4746a48a8513d02afc4, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8931141900926556729, guid: b9d75d471586edc48bd152dabd8a83c9, type: 3}
   _isSea: 0
   _forestMaxHearts: 3
-  _maxSecondsBetweenHitsBeforeReset: 0
+  _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &6094295576483680136
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1188,6 +1276,10 @@ MonoBehaviour:
     Objects:
     - Level: 1
       Prefab: {fileID: 6608581757617870961, guid: ee1042a81fc0d79469b4d87dbfe2630e, type: 3}
+    - Level: 1
+      Prefab: {fileID: 5779875062523082673, guid: 4332e2f4a699f0546a0af0a0fc458dd1, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8184289268387992267, guid: 15e0c7d6441cb054dad1627bb622c69b, type: 3}
   - Type: 2
     Objects:
     - Level: 1
@@ -1198,9 +1290,13 @@ MonoBehaviour:
       Prefab: {fileID: 1415793716209962778, guid: 78a7eccd0bcd7f246bd0dc4f404a9e86, type: 3}
     - Level: 4
       Prefab: {fileID: 1555560859900711931, guid: 13e587024f422914fb777e605a57866b, type: 3}
+    - Level: 1
+      Prefab: {fileID: 7801646193176429207, guid: eab38b831bb5b4746a48a8513d02afc4, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8931141900926556729, guid: b9d75d471586edc48bd152dabd8a83c9, type: 3}
   _isSea: 0
   _forestMaxHearts: 3
-  _maxSecondsBetweenHitsBeforeReset: 0
+  _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &8548617223990623297
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1235,6 +1331,10 @@ MonoBehaviour:
     Objects:
     - Level: 1
       Prefab: {fileID: 6608581757617870961, guid: ee1042a81fc0d79469b4d87dbfe2630e, type: 3}
+    - Level: 1
+      Prefab: {fileID: 5779875062523082673, guid: 4332e2f4a699f0546a0af0a0fc458dd1, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8184289268387992267, guid: 15e0c7d6441cb054dad1627bb622c69b, type: 3}
   - Type: 2
     Objects:
     - Level: 1
@@ -1245,9 +1345,13 @@ MonoBehaviour:
       Prefab: {fileID: 1415793716209962778, guid: 78a7eccd0bcd7f246bd0dc4f404a9e86, type: 3}
     - Level: 4
       Prefab: {fileID: 1555560859900711931, guid: 13e587024f422914fb777e605a57866b, type: 3}
+    - Level: 1
+      Prefab: {fileID: 7801646193176429207, guid: eab38b831bb5b4746a48a8513d02afc4, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8931141900926556729, guid: b9d75d471586edc48bd152dabd8a83c9, type: 3}
   _isSea: 0
   _forestMaxHearts: 3
-  _maxSecondsBetweenHitsBeforeReset: 0
+  _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &1945411184319406340
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1282,6 +1386,10 @@ MonoBehaviour:
     Objects:
     - Level: 1
       Prefab: {fileID: 6608581757617870961, guid: ee1042a81fc0d79469b4d87dbfe2630e, type: 3}
+    - Level: 1
+      Prefab: {fileID: 5779875062523082673, guid: 4332e2f4a699f0546a0af0a0fc458dd1, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8184289268387992267, guid: 15e0c7d6441cb054dad1627bb622c69b, type: 3}
   - Type: 2
     Objects:
     - Level: 1
@@ -1292,9 +1400,13 @@ MonoBehaviour:
       Prefab: {fileID: 1415793716209962778, guid: 78a7eccd0bcd7f246bd0dc4f404a9e86, type: 3}
     - Level: 4
       Prefab: {fileID: 1555560859900711931, guid: 13e587024f422914fb777e605a57866b, type: 3}
+    - Level: 1
+      Prefab: {fileID: 7801646193176429207, guid: eab38b831bb5b4746a48a8513d02afc4, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8931141900926556729, guid: b9d75d471586edc48bd152dabd8a83c9, type: 3}
   _isSea: 0
   _forestMaxHearts: 3
-  _maxSecondsBetweenHitsBeforeReset: 0
+  _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &1399572505478612319
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1329,6 +1441,10 @@ MonoBehaviour:
     Objects:
     - Level: 1
       Prefab: {fileID: 6608581757617870961, guid: ee1042a81fc0d79469b4d87dbfe2630e, type: 3}
+    - Level: 1
+      Prefab: {fileID: 5779875062523082673, guid: 4332e2f4a699f0546a0af0a0fc458dd1, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8184289268387992267, guid: 15e0c7d6441cb054dad1627bb622c69b, type: 3}
   - Type: 2
     Objects:
     - Level: 1
@@ -1339,9 +1455,13 @@ MonoBehaviour:
       Prefab: {fileID: 1415793716209962778, guid: 78a7eccd0bcd7f246bd0dc4f404a9e86, type: 3}
     - Level: 4
       Prefab: {fileID: 1555560859900711931, guid: 13e587024f422914fb777e605a57866b, type: 3}
+    - Level: 1
+      Prefab: {fileID: 7801646193176429207, guid: eab38b831bb5b4746a48a8513d02afc4, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8931141900926556729, guid: b9d75d471586edc48bd152dabd8a83c9, type: 3}
   _isSea: 0
   _forestMaxHearts: 3
-  _maxSecondsBetweenHitsBeforeReset: 0
+  _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &113494093634424223
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1376,6 +1496,10 @@ MonoBehaviour:
     Objects:
     - Level: 1
       Prefab: {fileID: 6608581757617870961, guid: ee1042a81fc0d79469b4d87dbfe2630e, type: 3}
+    - Level: 1
+      Prefab: {fileID: 5779875062523082673, guid: 4332e2f4a699f0546a0af0a0fc458dd1, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8184289268387992267, guid: 15e0c7d6441cb054dad1627bb622c69b, type: 3}
   - Type: 2
     Objects:
     - Level: 1
@@ -1386,9 +1510,13 @@ MonoBehaviour:
       Prefab: {fileID: 1415793716209962778, guid: 78a7eccd0bcd7f246bd0dc4f404a9e86, type: 3}
     - Level: 4
       Prefab: {fileID: 1555560859900711931, guid: 13e587024f422914fb777e605a57866b, type: 3}
+    - Level: 1
+      Prefab: {fileID: 7801646193176429207, guid: eab38b831bb5b4746a48a8513d02afc4, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8931141900926556729, guid: b9d75d471586edc48bd152dabd8a83c9, type: 3}
   _isSea: 0
   _forestMaxHearts: 3
-  _maxSecondsBetweenHitsBeforeReset: 0
+  _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &6384552774506509146
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1423,6 +1551,10 @@ MonoBehaviour:
     Objects:
     - Level: 1
       Prefab: {fileID: 6608581757617870961, guid: ee1042a81fc0d79469b4d87dbfe2630e, type: 3}
+    - Level: 1
+      Prefab: {fileID: 5779875062523082673, guid: 4332e2f4a699f0546a0af0a0fc458dd1, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8184289268387992267, guid: 15e0c7d6441cb054dad1627bb622c69b, type: 3}
   - Type: 2
     Objects:
     - Level: 1
@@ -1433,9 +1565,13 @@ MonoBehaviour:
       Prefab: {fileID: 1415793716209962778, guid: 78a7eccd0bcd7f246bd0dc4f404a9e86, type: 3}
     - Level: 4
       Prefab: {fileID: 1555560859900711931, guid: 13e587024f422914fb777e605a57866b, type: 3}
+    - Level: 1
+      Prefab: {fileID: 7801646193176429207, guid: eab38b831bb5b4746a48a8513d02afc4, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8931141900926556729, guid: b9d75d471586edc48bd152dabd8a83c9, type: 3}
   _isSea: 0
   _forestMaxHearts: 3
-  _maxSecondsBetweenHitsBeforeReset: 0
+  _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &6413505911509871627
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1470,6 +1606,10 @@ MonoBehaviour:
     Objects:
     - Level: 1
       Prefab: {fileID: 6608581757617870961, guid: ee1042a81fc0d79469b4d87dbfe2630e, type: 3}
+    - Level: 1
+      Prefab: {fileID: 5779875062523082673, guid: 4332e2f4a699f0546a0af0a0fc458dd1, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8184289268387992267, guid: 15e0c7d6441cb054dad1627bb622c69b, type: 3}
   - Type: 2
     Objects:
     - Level: 1
@@ -1480,9 +1620,13 @@ MonoBehaviour:
       Prefab: {fileID: 1415793716209962778, guid: 78a7eccd0bcd7f246bd0dc4f404a9e86, type: 3}
     - Level: 4
       Prefab: {fileID: 1555560859900711931, guid: 13e587024f422914fb777e605a57866b, type: 3}
+    - Level: 1
+      Prefab: {fileID: 7801646193176429207, guid: eab38b831bb5b4746a48a8513d02afc4, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8931141900926556729, guid: b9d75d471586edc48bd152dabd8a83c9, type: 3}
   _isSea: 0
   _forestMaxHearts: 3
-  _maxSecondsBetweenHitsBeforeReset: 0
+  _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &5344637752962840615
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1517,6 +1661,10 @@ MonoBehaviour:
     Objects:
     - Level: 1
       Prefab: {fileID: 6608581757617870961, guid: ee1042a81fc0d79469b4d87dbfe2630e, type: 3}
+    - Level: 1
+      Prefab: {fileID: 5779875062523082673, guid: 4332e2f4a699f0546a0af0a0fc458dd1, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8184289268387992267, guid: 15e0c7d6441cb054dad1627bb622c69b, type: 3}
   - Type: 2
     Objects:
     - Level: 1
@@ -1527,9 +1675,13 @@ MonoBehaviour:
       Prefab: {fileID: 1415793716209962778, guid: 78a7eccd0bcd7f246bd0dc4f404a9e86, type: 3}
     - Level: 4
       Prefab: {fileID: 1555560859900711931, guid: 13e587024f422914fb777e605a57866b, type: 3}
+    - Level: 1
+      Prefab: {fileID: 7801646193176429207, guid: eab38b831bb5b4746a48a8513d02afc4, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8931141900926556729, guid: b9d75d471586edc48bd152dabd8a83c9, type: 3}
   _isSea: 0
   _forestMaxHearts: 3
-  _maxSecondsBetweenHitsBeforeReset: 0
+  _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &7794124588143968533
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1597,6 +1749,10 @@ MonoBehaviour:
     Objects:
     - Level: 1
       Prefab: {fileID: 6608581757617870961, guid: ee1042a81fc0d79469b4d87dbfe2630e, type: 3}
+    - Level: 1
+      Prefab: {fileID: 5779875062523082673, guid: 4332e2f4a699f0546a0af0a0fc458dd1, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8184289268387992267, guid: 15e0c7d6441cb054dad1627bb622c69b, type: 3}
   - Type: 2
     Objects:
     - Level: 1
@@ -1607,9 +1763,13 @@ MonoBehaviour:
       Prefab: {fileID: 1415793716209962778, guid: 78a7eccd0bcd7f246bd0dc4f404a9e86, type: 3}
     - Level: 4
       Prefab: {fileID: 1555560859900711931, guid: 13e587024f422914fb777e605a57866b, type: 3}
+    - Level: 1
+      Prefab: {fileID: 7801646193176429207, guid: eab38b831bb5b4746a48a8513d02afc4, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8931141900926556729, guid: b9d75d471586edc48bd152dabd8a83c9, type: 3}
   _isSea: 0
   _forestMaxHearts: 3
-  _maxSecondsBetweenHitsBeforeReset: 0
+  _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &6460813029204848328
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1644,6 +1804,10 @@ MonoBehaviour:
     Objects:
     - Level: 1
       Prefab: {fileID: 6608581757617870961, guid: ee1042a81fc0d79469b4d87dbfe2630e, type: 3}
+    - Level: 1
+      Prefab: {fileID: 5779875062523082673, guid: 4332e2f4a699f0546a0af0a0fc458dd1, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8184289268387992267, guid: 15e0c7d6441cb054dad1627bb622c69b, type: 3}
   - Type: 2
     Objects:
     - Level: 1
@@ -1654,9 +1818,13 @@ MonoBehaviour:
       Prefab: {fileID: 1415793716209962778, guid: 78a7eccd0bcd7f246bd0dc4f404a9e86, type: 3}
     - Level: 4
       Prefab: {fileID: 1555560859900711931, guid: 13e587024f422914fb777e605a57866b, type: 3}
+    - Level: 1
+      Prefab: {fileID: 7801646193176429207, guid: eab38b831bb5b4746a48a8513d02afc4, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8931141900926556729, guid: b9d75d471586edc48bd152dabd8a83c9, type: 3}
   _isSea: 0
   _forestMaxHearts: 3
-  _maxSecondsBetweenHitsBeforeReset: 0
+  _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &510983114972226306
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1691,6 +1859,10 @@ MonoBehaviour:
     Objects:
     - Level: 1
       Prefab: {fileID: 6608581757617870961, guid: ee1042a81fc0d79469b4d87dbfe2630e, type: 3}
+    - Level: 1
+      Prefab: {fileID: 5779875062523082673, guid: 4332e2f4a699f0546a0af0a0fc458dd1, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8184289268387992267, guid: 15e0c7d6441cb054dad1627bb622c69b, type: 3}
   - Type: 2
     Objects:
     - Level: 1
@@ -1701,9 +1873,13 @@ MonoBehaviour:
       Prefab: {fileID: 1415793716209962778, guid: 78a7eccd0bcd7f246bd0dc4f404a9e86, type: 3}
     - Level: 4
       Prefab: {fileID: 1555560859900711931, guid: 13e587024f422914fb777e605a57866b, type: 3}
+    - Level: 1
+      Prefab: {fileID: 7801646193176429207, guid: eab38b831bb5b4746a48a8513d02afc4, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8931141900926556729, guid: b9d75d471586edc48bd152dabd8a83c9, type: 3}
   _isSea: 0
   _forestMaxHearts: 3
-  _maxSecondsBetweenHitsBeforeReset: 0
+  _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &8284738609840467522
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1738,6 +1914,10 @@ MonoBehaviour:
     Objects:
     - Level: 1
       Prefab: {fileID: 6608581757617870961, guid: ee1042a81fc0d79469b4d87dbfe2630e, type: 3}
+    - Level: 1
+      Prefab: {fileID: 5779875062523082673, guid: 4332e2f4a699f0546a0af0a0fc458dd1, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8184289268387992267, guid: 15e0c7d6441cb054dad1627bb622c69b, type: 3}
   - Type: 2
     Objects:
     - Level: 1
@@ -1748,9 +1928,13 @@ MonoBehaviour:
       Prefab: {fileID: 1415793716209962778, guid: 78a7eccd0bcd7f246bd0dc4f404a9e86, type: 3}
     - Level: 4
       Prefab: {fileID: 1555560859900711931, guid: 13e587024f422914fb777e605a57866b, type: 3}
+    - Level: 1
+      Prefab: {fileID: 7801646193176429207, guid: eab38b831bb5b4746a48a8513d02afc4, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8931141900926556729, guid: b9d75d471586edc48bd152dabd8a83c9, type: 3}
   _isSea: 0
   _forestMaxHearts: 3
-  _maxSecondsBetweenHitsBeforeReset: 0
+  _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &2649468285106125918
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1785,6 +1969,10 @@ MonoBehaviour:
     Objects:
     - Level: 1
       Prefab: {fileID: 6608581757617870961, guid: ee1042a81fc0d79469b4d87dbfe2630e, type: 3}
+    - Level: 1
+      Prefab: {fileID: 5779875062523082673, guid: 4332e2f4a699f0546a0af0a0fc458dd1, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8184289268387992267, guid: 15e0c7d6441cb054dad1627bb622c69b, type: 3}
   - Type: 2
     Objects:
     - Level: 1
@@ -1795,9 +1983,13 @@ MonoBehaviour:
       Prefab: {fileID: 1415793716209962778, guid: 78a7eccd0bcd7f246bd0dc4f404a9e86, type: 3}
     - Level: 4
       Prefab: {fileID: 1555560859900711931, guid: 13e587024f422914fb777e605a57866b, type: 3}
+    - Level: 1
+      Prefab: {fileID: 7801646193176429207, guid: eab38b831bb5b4746a48a8513d02afc4, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8931141900926556729, guid: b9d75d471586edc48bd152dabd8a83c9, type: 3}
   _isSea: 0
   _forestMaxHearts: 3
-  _maxSecondsBetweenHitsBeforeReset: 0
+  _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &1579491723821732267
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1832,6 +2024,10 @@ MonoBehaviour:
     Objects:
     - Level: 1
       Prefab: {fileID: 6608581757617870961, guid: ee1042a81fc0d79469b4d87dbfe2630e, type: 3}
+    - Level: 1
+      Prefab: {fileID: 5779875062523082673, guid: 4332e2f4a699f0546a0af0a0fc458dd1, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8184289268387992267, guid: 15e0c7d6441cb054dad1627bb622c69b, type: 3}
   - Type: 2
     Objects:
     - Level: 1
@@ -1842,9 +2038,13 @@ MonoBehaviour:
       Prefab: {fileID: 1415793716209962778, guid: 78a7eccd0bcd7f246bd0dc4f404a9e86, type: 3}
     - Level: 4
       Prefab: {fileID: 1555560859900711931, guid: 13e587024f422914fb777e605a57866b, type: 3}
+    - Level: 1
+      Prefab: {fileID: 7801646193176429207, guid: eab38b831bb5b4746a48a8513d02afc4, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8931141900926556729, guid: b9d75d471586edc48bd152dabd8a83c9, type: 3}
   _isSea: 0
   _forestMaxHearts: 3
-  _maxSecondsBetweenHitsBeforeReset: 0
+  _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &1059854771788650918
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1879,6 +2079,10 @@ MonoBehaviour:
     Objects:
     - Level: 1
       Prefab: {fileID: 6608581757617870961, guid: ee1042a81fc0d79469b4d87dbfe2630e, type: 3}
+    - Level: 1
+      Prefab: {fileID: 5779875062523082673, guid: 4332e2f4a699f0546a0af0a0fc458dd1, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8184289268387992267, guid: 15e0c7d6441cb054dad1627bb622c69b, type: 3}
   - Type: 2
     Objects:
     - Level: 1
@@ -1889,9 +2093,13 @@ MonoBehaviour:
       Prefab: {fileID: 1415793716209962778, guid: 78a7eccd0bcd7f246bd0dc4f404a9e86, type: 3}
     - Level: 4
       Prefab: {fileID: 1555560859900711931, guid: 13e587024f422914fb777e605a57866b, type: 3}
+    - Level: 1
+      Prefab: {fileID: 7801646193176429207, guid: eab38b831bb5b4746a48a8513d02afc4, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8931141900926556729, guid: b9d75d471586edc48bd152dabd8a83c9, type: 3}
   _isSea: 0
   _forestMaxHearts: 3
-  _maxSecondsBetweenHitsBeforeReset: 0
+  _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &131756748853835056
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1926,6 +2134,10 @@ MonoBehaviour:
     Objects:
     - Level: 1
       Prefab: {fileID: 6608581757617870961, guid: ee1042a81fc0d79469b4d87dbfe2630e, type: 3}
+    - Level: 1
+      Prefab: {fileID: 5779875062523082673, guid: 4332e2f4a699f0546a0af0a0fc458dd1, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8184289268387992267, guid: 15e0c7d6441cb054dad1627bb622c69b, type: 3}
   - Type: 2
     Objects:
     - Level: 1
@@ -1936,9 +2148,13 @@ MonoBehaviour:
       Prefab: {fileID: 1415793716209962778, guid: 78a7eccd0bcd7f246bd0dc4f404a9e86, type: 3}
     - Level: 4
       Prefab: {fileID: 1555560859900711931, guid: 13e587024f422914fb777e605a57866b, type: 3}
+    - Level: 1
+      Prefab: {fileID: 7801646193176429207, guid: eab38b831bb5b4746a48a8513d02afc4, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8931141900926556729, guid: b9d75d471586edc48bd152dabd8a83c9, type: 3}
   _isSea: 0
   _forestMaxHearts: 3
-  _maxSecondsBetweenHitsBeforeReset: 0
+  _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &2593128312174915465
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1973,6 +2189,10 @@ MonoBehaviour:
     Objects:
     - Level: 1
       Prefab: {fileID: 6608581757617870961, guid: ee1042a81fc0d79469b4d87dbfe2630e, type: 3}
+    - Level: 1
+      Prefab: {fileID: 5779875062523082673, guid: 4332e2f4a699f0546a0af0a0fc458dd1, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8184289268387992267, guid: 15e0c7d6441cb054dad1627bb622c69b, type: 3}
   - Type: 2
     Objects:
     - Level: 1
@@ -1983,9 +2203,13 @@ MonoBehaviour:
       Prefab: {fileID: 1415793716209962778, guid: 78a7eccd0bcd7f246bd0dc4f404a9e86, type: 3}
     - Level: 4
       Prefab: {fileID: 1555560859900711931, guid: 13e587024f422914fb777e605a57866b, type: 3}
+    - Level: 1
+      Prefab: {fileID: 7801646193176429207, guid: eab38b831bb5b4746a48a8513d02afc4, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8931141900926556729, guid: b9d75d471586edc48bd152dabd8a83c9, type: 3}
   _isSea: 0
   _forestMaxHearts: 3
-  _maxSecondsBetweenHitsBeforeReset: 0
+  _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &7924433239336640901
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2020,6 +2244,10 @@ MonoBehaviour:
     Objects:
     - Level: 1
       Prefab: {fileID: 6608581757617870961, guid: ee1042a81fc0d79469b4d87dbfe2630e, type: 3}
+    - Level: 1
+      Prefab: {fileID: 5779875062523082673, guid: 4332e2f4a699f0546a0af0a0fc458dd1, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8184289268387992267, guid: 15e0c7d6441cb054dad1627bb622c69b, type: 3}
   - Type: 2
     Objects:
     - Level: 1
@@ -2030,9 +2258,13 @@ MonoBehaviour:
       Prefab: {fileID: 1415793716209962778, guid: 78a7eccd0bcd7f246bd0dc4f404a9e86, type: 3}
     - Level: 4
       Prefab: {fileID: 1555560859900711931, guid: 13e587024f422914fb777e605a57866b, type: 3}
+    - Level: 1
+      Prefab: {fileID: 7801646193176429207, guid: eab38b831bb5b4746a48a8513d02afc4, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8931141900926556729, guid: b9d75d471586edc48bd152dabd8a83c9, type: 3}
   _isSea: 0
   _forestMaxHearts: 3
-  _maxSecondsBetweenHitsBeforeReset: 0
+  _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &6395235681307584113
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2100,6 +2332,10 @@ MonoBehaviour:
     Objects:
     - Level: 1
       Prefab: {fileID: 6608581757617870961, guid: ee1042a81fc0d79469b4d87dbfe2630e, type: 3}
+    - Level: 1
+      Prefab: {fileID: 5779875062523082673, guid: 4332e2f4a699f0546a0af0a0fc458dd1, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8184289268387992267, guid: 15e0c7d6441cb054dad1627bb622c69b, type: 3}
   - Type: 2
     Objects:
     - Level: 1
@@ -2110,9 +2346,13 @@ MonoBehaviour:
       Prefab: {fileID: 1415793716209962778, guid: 78a7eccd0bcd7f246bd0dc4f404a9e86, type: 3}
     - Level: 4
       Prefab: {fileID: 1555560859900711931, guid: 13e587024f422914fb777e605a57866b, type: 3}
+    - Level: 1
+      Prefab: {fileID: 7801646193176429207, guid: eab38b831bb5b4746a48a8513d02afc4, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8931141900926556729, guid: b9d75d471586edc48bd152dabd8a83c9, type: 3}
   _isSea: 0
   _forestMaxHearts: 3
-  _maxSecondsBetweenHitsBeforeReset: 0
+  _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &6129336138040018906
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2180,6 +2420,10 @@ MonoBehaviour:
     Objects:
     - Level: 1
       Prefab: {fileID: 6608581757617870961, guid: ee1042a81fc0d79469b4d87dbfe2630e, type: 3}
+    - Level: 1
+      Prefab: {fileID: 5779875062523082673, guid: 4332e2f4a699f0546a0af0a0fc458dd1, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8184289268387992267, guid: 15e0c7d6441cb054dad1627bb622c69b, type: 3}
   - Type: 2
     Objects:
     - Level: 1
@@ -2190,9 +2434,13 @@ MonoBehaviour:
       Prefab: {fileID: 1415793716209962778, guid: 78a7eccd0bcd7f246bd0dc4f404a9e86, type: 3}
     - Level: 4
       Prefab: {fileID: 1555560859900711931, guid: 13e587024f422914fb777e605a57866b, type: 3}
+    - Level: 1
+      Prefab: {fileID: 7801646193176429207, guid: eab38b831bb5b4746a48a8513d02afc4, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8931141900926556729, guid: b9d75d471586edc48bd152dabd8a83c9, type: 3}
   _isSea: 0
   _forestMaxHearts: 3
-  _maxSecondsBetweenHitsBeforeReset: 0
+  _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &4110362722196731545
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2227,6 +2475,10 @@ MonoBehaviour:
     Objects:
     - Level: 1
       Prefab: {fileID: 6608581757617870961, guid: ee1042a81fc0d79469b4d87dbfe2630e, type: 3}
+    - Level: 1
+      Prefab: {fileID: 5779875062523082673, guid: 4332e2f4a699f0546a0af0a0fc458dd1, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8184289268387992267, guid: 15e0c7d6441cb054dad1627bb622c69b, type: 3}
   - Type: 2
     Objects:
     - Level: 1
@@ -2237,9 +2489,13 @@ MonoBehaviour:
       Prefab: {fileID: 1415793716209962778, guid: 78a7eccd0bcd7f246bd0dc4f404a9e86, type: 3}
     - Level: 4
       Prefab: {fileID: 1555560859900711931, guid: 13e587024f422914fb777e605a57866b, type: 3}
+    - Level: 1
+      Prefab: {fileID: 7801646193176429207, guid: eab38b831bb5b4746a48a8513d02afc4, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8931141900926556729, guid: b9d75d471586edc48bd152dabd8a83c9, type: 3}
   _isSea: 0
   _forestMaxHearts: 3
-  _maxSecondsBetweenHitsBeforeReset: 0
+  _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &4185036219639134451
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2274,6 +2530,10 @@ MonoBehaviour:
     Objects:
     - Level: 1
       Prefab: {fileID: 6608581757617870961, guid: ee1042a81fc0d79469b4d87dbfe2630e, type: 3}
+    - Level: 1
+      Prefab: {fileID: 5779875062523082673, guid: 4332e2f4a699f0546a0af0a0fc458dd1, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8184289268387992267, guid: 15e0c7d6441cb054dad1627bb622c69b, type: 3}
   - Type: 2
     Objects:
     - Level: 1
@@ -2284,9 +2544,13 @@ MonoBehaviour:
       Prefab: {fileID: 1415793716209962778, guid: 78a7eccd0bcd7f246bd0dc4f404a9e86, type: 3}
     - Level: 4
       Prefab: {fileID: 1555560859900711931, guid: 13e587024f422914fb777e605a57866b, type: 3}
+    - Level: 1
+      Prefab: {fileID: 7801646193176429207, guid: eab38b831bb5b4746a48a8513d02afc4, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8931141900926556729, guid: b9d75d471586edc48bd152dabd8a83c9, type: 3}
   _isSea: 0
   _forestMaxHearts: 3
-  _maxSecondsBetweenHitsBeforeReset: 0
+  _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &7015142364794700805
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2321,6 +2585,10 @@ MonoBehaviour:
     Objects:
     - Level: 1
       Prefab: {fileID: 6608581757617870961, guid: ee1042a81fc0d79469b4d87dbfe2630e, type: 3}
+    - Level: 1
+      Prefab: {fileID: 5779875062523082673, guid: 4332e2f4a699f0546a0af0a0fc458dd1, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8184289268387992267, guid: 15e0c7d6441cb054dad1627bb622c69b, type: 3}
   - Type: 2
     Objects:
     - Level: 1
@@ -2331,9 +2599,13 @@ MonoBehaviour:
       Prefab: {fileID: 1415793716209962778, guid: 78a7eccd0bcd7f246bd0dc4f404a9e86, type: 3}
     - Level: 4
       Prefab: {fileID: 1555560859900711931, guid: 13e587024f422914fb777e605a57866b, type: 3}
+    - Level: 1
+      Prefab: {fileID: 7801646193176429207, guid: eab38b831bb5b4746a48a8513d02afc4, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8931141900926556729, guid: b9d75d471586edc48bd152dabd8a83c9, type: 3}
   _isSea: 0
   _forestMaxHearts: 3
-  _maxSecondsBetweenHitsBeforeReset: 0
+  _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &1680062638614214418
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2368,6 +2640,10 @@ MonoBehaviour:
     Objects:
     - Level: 1
       Prefab: {fileID: 6608581757617870961, guid: ee1042a81fc0d79469b4d87dbfe2630e, type: 3}
+    - Level: 1
+      Prefab: {fileID: 5779875062523082673, guid: 4332e2f4a699f0546a0af0a0fc458dd1, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8184289268387992267, guid: 15e0c7d6441cb054dad1627bb622c69b, type: 3}
   - Type: 2
     Objects:
     - Level: 1
@@ -2378,9 +2654,13 @@ MonoBehaviour:
       Prefab: {fileID: 1415793716209962778, guid: 78a7eccd0bcd7f246bd0dc4f404a9e86, type: 3}
     - Level: 4
       Prefab: {fileID: 1555560859900711931, guid: 13e587024f422914fb777e605a57866b, type: 3}
+    - Level: 1
+      Prefab: {fileID: 7801646193176429207, guid: eab38b831bb5b4746a48a8513d02afc4, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8931141900926556729, guid: b9d75d471586edc48bd152dabd8a83c9, type: 3}
   _isSea: 0
   _forestMaxHearts: 3
-  _maxSecondsBetweenHitsBeforeReset: 0
+  _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &4385286434343662661
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2481,6 +2761,10 @@ MonoBehaviour:
     Objects:
     - Level: 1
       Prefab: {fileID: 6608581757617870961, guid: ee1042a81fc0d79469b4d87dbfe2630e, type: 3}
+    - Level: 1
+      Prefab: {fileID: 5779875062523082673, guid: 4332e2f4a699f0546a0af0a0fc458dd1, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8184289268387992267, guid: 15e0c7d6441cb054dad1627bb622c69b, type: 3}
   - Type: 2
     Objects:
     - Level: 1
@@ -2491,9 +2775,13 @@ MonoBehaviour:
       Prefab: {fileID: 1415793716209962778, guid: 78a7eccd0bcd7f246bd0dc4f404a9e86, type: 3}
     - Level: 4
       Prefab: {fileID: 1555560859900711931, guid: 13e587024f422914fb777e605a57866b, type: 3}
+    - Level: 1
+      Prefab: {fileID: 7801646193176429207, guid: eab38b831bb5b4746a48a8513d02afc4, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8931141900926556729, guid: b9d75d471586edc48bd152dabd8a83c9, type: 3}
   _isSea: 0
   _forestMaxHearts: 3
-  _maxSecondsBetweenHitsBeforeReset: 0
+  _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &4890972441408171875
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2528,6 +2816,10 @@ MonoBehaviour:
     Objects:
     - Level: 1
       Prefab: {fileID: 6608581757617870961, guid: ee1042a81fc0d79469b4d87dbfe2630e, type: 3}
+    - Level: 1
+      Prefab: {fileID: 5779875062523082673, guid: 4332e2f4a699f0546a0af0a0fc458dd1, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8184289268387992267, guid: 15e0c7d6441cb054dad1627bb622c69b, type: 3}
   - Type: 2
     Objects:
     - Level: 1
@@ -2538,9 +2830,13 @@ MonoBehaviour:
       Prefab: {fileID: 1415793716209962778, guid: 78a7eccd0bcd7f246bd0dc4f404a9e86, type: 3}
     - Level: 4
       Prefab: {fileID: 1555560859900711931, guid: 13e587024f422914fb777e605a57866b, type: 3}
+    - Level: 1
+      Prefab: {fileID: 7801646193176429207, guid: eab38b831bb5b4746a48a8513d02afc4, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8931141900926556729, guid: b9d75d471586edc48bd152dabd8a83c9, type: 3}
   _isSea: 0
   _forestMaxHearts: 3
-  _maxSecondsBetweenHitsBeforeReset: 0
+  _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &12015040285958023
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2575,6 +2871,10 @@ MonoBehaviour:
     Objects:
     - Level: 1
       Prefab: {fileID: 6608581757617870961, guid: ee1042a81fc0d79469b4d87dbfe2630e, type: 3}
+    - Level: 1
+      Prefab: {fileID: 5779875062523082673, guid: 4332e2f4a699f0546a0af0a0fc458dd1, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8184289268387992267, guid: 15e0c7d6441cb054dad1627bb622c69b, type: 3}
   - Type: 2
     Objects:
     - Level: 1
@@ -2585,9 +2885,13 @@ MonoBehaviour:
       Prefab: {fileID: 1415793716209962778, guid: 78a7eccd0bcd7f246bd0dc4f404a9e86, type: 3}
     - Level: 4
       Prefab: {fileID: 1555560859900711931, guid: 13e587024f422914fb777e605a57866b, type: 3}
+    - Level: 1
+      Prefab: {fileID: 7801646193176429207, guid: eab38b831bb5b4746a48a8513d02afc4, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8931141900926556729, guid: b9d75d471586edc48bd152dabd8a83c9, type: 3}
   _isSea: 0
   _forestMaxHearts: 3
-  _maxSecondsBetweenHitsBeforeReset: 0
+  _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &8416100453185906446
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2655,6 +2959,10 @@ MonoBehaviour:
     Objects:
     - Level: 1
       Prefab: {fileID: 6608581757617870961, guid: ee1042a81fc0d79469b4d87dbfe2630e, type: 3}
+    - Level: 1
+      Prefab: {fileID: 5779875062523082673, guid: 4332e2f4a699f0546a0af0a0fc458dd1, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8184289268387992267, guid: 15e0c7d6441cb054dad1627bb622c69b, type: 3}
   - Type: 2
     Objects:
     - Level: 1
@@ -2665,9 +2973,13 @@ MonoBehaviour:
       Prefab: {fileID: 1415793716209962778, guid: 78a7eccd0bcd7f246bd0dc4f404a9e86, type: 3}
     - Level: 4
       Prefab: {fileID: 1555560859900711931, guid: 13e587024f422914fb777e605a57866b, type: 3}
+    - Level: 1
+      Prefab: {fileID: 7801646193176429207, guid: eab38b831bb5b4746a48a8513d02afc4, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8931141900926556729, guid: b9d75d471586edc48bd152dabd8a83c9, type: 3}
   _isSea: 0
   _forestMaxHearts: 3
-  _maxSecondsBetweenHitsBeforeReset: 0
+  _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &5922415415116216766
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2735,6 +3047,10 @@ MonoBehaviour:
     Objects:
     - Level: 1
       Prefab: {fileID: 6608581757617870961, guid: ee1042a81fc0d79469b4d87dbfe2630e, type: 3}
+    - Level: 1
+      Prefab: {fileID: 5779875062523082673, guid: 4332e2f4a699f0546a0af0a0fc458dd1, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8184289268387992267, guid: 15e0c7d6441cb054dad1627bb622c69b, type: 3}
   - Type: 2
     Objects:
     - Level: 1
@@ -2745,9 +3061,13 @@ MonoBehaviour:
       Prefab: {fileID: 1415793716209962778, guid: 78a7eccd0bcd7f246bd0dc4f404a9e86, type: 3}
     - Level: 4
       Prefab: {fileID: 1555560859900711931, guid: 13e587024f422914fb777e605a57866b, type: 3}
+    - Level: 1
+      Prefab: {fileID: 7801646193176429207, guid: eab38b831bb5b4746a48a8513d02afc4, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8931141900926556729, guid: b9d75d471586edc48bd152dabd8a83c9, type: 3}
   _isSea: 0
   _forestMaxHearts: 3
-  _maxSecondsBetweenHitsBeforeReset: 0
+  _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &3265399214332214789
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2782,6 +3102,10 @@ MonoBehaviour:
     Objects:
     - Level: 1
       Prefab: {fileID: 6608581757617870961, guid: ee1042a81fc0d79469b4d87dbfe2630e, type: 3}
+    - Level: 1
+      Prefab: {fileID: 5779875062523082673, guid: 4332e2f4a699f0546a0af0a0fc458dd1, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8184289268387992267, guid: 15e0c7d6441cb054dad1627bb622c69b, type: 3}
   - Type: 2
     Objects:
     - Level: 1
@@ -2792,9 +3116,13 @@ MonoBehaviour:
       Prefab: {fileID: 1415793716209962778, guid: 78a7eccd0bcd7f246bd0dc4f404a9e86, type: 3}
     - Level: 4
       Prefab: {fileID: 1555560859900711931, guid: 13e587024f422914fb777e605a57866b, type: 3}
+    - Level: 1
+      Prefab: {fileID: 7801646193176429207, guid: eab38b831bb5b4746a48a8513d02afc4, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8931141900926556729, guid: b9d75d471586edc48bd152dabd8a83c9, type: 3}
   _isSea: 0
   _forestMaxHearts: 3
-  _maxSecondsBetweenHitsBeforeReset: 0
+  _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &2255284213794123678
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2829,6 +3157,10 @@ MonoBehaviour:
     Objects:
     - Level: 1
       Prefab: {fileID: 6608581757617870961, guid: ee1042a81fc0d79469b4d87dbfe2630e, type: 3}
+    - Level: 1
+      Prefab: {fileID: 5779875062523082673, guid: 4332e2f4a699f0546a0af0a0fc458dd1, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8184289268387992267, guid: 15e0c7d6441cb054dad1627bb622c69b, type: 3}
   - Type: 2
     Objects:
     - Level: 1
@@ -2839,9 +3171,13 @@ MonoBehaviour:
       Prefab: {fileID: 1415793716209962778, guid: 78a7eccd0bcd7f246bd0dc4f404a9e86, type: 3}
     - Level: 4
       Prefab: {fileID: 1555560859900711931, guid: 13e587024f422914fb777e605a57866b, type: 3}
+    - Level: 1
+      Prefab: {fileID: 7801646193176429207, guid: eab38b831bb5b4746a48a8513d02afc4, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8931141900926556729, guid: b9d75d471586edc48bd152dabd8a83c9, type: 3}
   _isSea: 0
   _forestMaxHearts: 3
-  _maxSecondsBetweenHitsBeforeReset: 0
+  _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &242801795043960614
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2909,6 +3245,10 @@ MonoBehaviour:
     Objects:
     - Level: 1
       Prefab: {fileID: 6608581757617870961, guid: ee1042a81fc0d79469b4d87dbfe2630e, type: 3}
+    - Level: 1
+      Prefab: {fileID: 5779875062523082673, guid: 4332e2f4a699f0546a0af0a0fc458dd1, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8184289268387992267, guid: 15e0c7d6441cb054dad1627bb622c69b, type: 3}
   - Type: 2
     Objects:
     - Level: 1
@@ -2919,9 +3259,13 @@ MonoBehaviour:
       Prefab: {fileID: 1415793716209962778, guid: 78a7eccd0bcd7f246bd0dc4f404a9e86, type: 3}
     - Level: 4
       Prefab: {fileID: 1555560859900711931, guid: 13e587024f422914fb777e605a57866b, type: 3}
+    - Level: 1
+      Prefab: {fileID: 7801646193176429207, guid: eab38b831bb5b4746a48a8513d02afc4, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8931141900926556729, guid: b9d75d471586edc48bd152dabd8a83c9, type: 3}
   _isSea: 0
   _forestMaxHearts: 3
-  _maxSecondsBetweenHitsBeforeReset: 0
+  _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &338450471644782334
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2956,6 +3300,10 @@ MonoBehaviour:
     Objects:
     - Level: 1
       Prefab: {fileID: 6608581757617870961, guid: ee1042a81fc0d79469b4d87dbfe2630e, type: 3}
+    - Level: 1
+      Prefab: {fileID: 5779875062523082673, guid: 4332e2f4a699f0546a0af0a0fc458dd1, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8184289268387992267, guid: 15e0c7d6441cb054dad1627bb622c69b, type: 3}
   - Type: 2
     Objects:
     - Level: 1
@@ -2966,9 +3314,13 @@ MonoBehaviour:
       Prefab: {fileID: 1415793716209962778, guid: 78a7eccd0bcd7f246bd0dc4f404a9e86, type: 3}
     - Level: 4
       Prefab: {fileID: 1555560859900711931, guid: 13e587024f422914fb777e605a57866b, type: 3}
+    - Level: 1
+      Prefab: {fileID: 7801646193176429207, guid: eab38b831bb5b4746a48a8513d02afc4, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8931141900926556729, guid: b9d75d471586edc48bd152dabd8a83c9, type: 3}
   _isSea: 0
   _forestMaxHearts: 3
-  _maxSecondsBetweenHitsBeforeReset: 0
+  _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &9200933739256639908
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3003,6 +3355,10 @@ MonoBehaviour:
     Objects:
     - Level: 1
       Prefab: {fileID: 6608581757617870961, guid: ee1042a81fc0d79469b4d87dbfe2630e, type: 3}
+    - Level: 1
+      Prefab: {fileID: 5779875062523082673, guid: 4332e2f4a699f0546a0af0a0fc458dd1, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8184289268387992267, guid: 15e0c7d6441cb054dad1627bb622c69b, type: 3}
   - Type: 2
     Objects:
     - Level: 1
@@ -3013,9 +3369,13 @@ MonoBehaviour:
       Prefab: {fileID: 1415793716209962778, guid: 78a7eccd0bcd7f246bd0dc4f404a9e86, type: 3}
     - Level: 4
       Prefab: {fileID: 1555560859900711931, guid: 13e587024f422914fb777e605a57866b, type: 3}
+    - Level: 1
+      Prefab: {fileID: 7801646193176429207, guid: eab38b831bb5b4746a48a8513d02afc4, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8931141900926556729, guid: b9d75d471586edc48bd152dabd8a83c9, type: 3}
   _isSea: 0
   _forestMaxHearts: 3
-  _maxSecondsBetweenHitsBeforeReset: 0
+  _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &3846816136935400750
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3050,6 +3410,10 @@ MonoBehaviour:
     Objects:
     - Level: 1
       Prefab: {fileID: 6608581757617870961, guid: ee1042a81fc0d79469b4d87dbfe2630e, type: 3}
+    - Level: 1
+      Prefab: {fileID: 5779875062523082673, guid: 4332e2f4a699f0546a0af0a0fc458dd1, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8184289268387992267, guid: 15e0c7d6441cb054dad1627bb622c69b, type: 3}
   - Type: 2
     Objects:
     - Level: 1
@@ -3060,9 +3424,13 @@ MonoBehaviour:
       Prefab: {fileID: 1415793716209962778, guid: 78a7eccd0bcd7f246bd0dc4f404a9e86, type: 3}
     - Level: 4
       Prefab: {fileID: 1555560859900711931, guid: 13e587024f422914fb777e605a57866b, type: 3}
+    - Level: 1
+      Prefab: {fileID: 7801646193176429207, guid: eab38b831bb5b4746a48a8513d02afc4, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8931141900926556729, guid: b9d75d471586edc48bd152dabd8a83c9, type: 3}
   _isSea: 0
   _forestMaxHearts: 3
-  _maxSecondsBetweenHitsBeforeReset: 0
+  _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &4601063546516938697
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3097,6 +3465,10 @@ MonoBehaviour:
     Objects:
     - Level: 1
       Prefab: {fileID: 6608581757617870961, guid: ee1042a81fc0d79469b4d87dbfe2630e, type: 3}
+    - Level: 1
+      Prefab: {fileID: 5779875062523082673, guid: 4332e2f4a699f0546a0af0a0fc458dd1, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8184289268387992267, guid: 15e0c7d6441cb054dad1627bb622c69b, type: 3}
   - Type: 2
     Objects:
     - Level: 1
@@ -3107,9 +3479,13 @@ MonoBehaviour:
       Prefab: {fileID: 1415793716209962778, guid: 78a7eccd0bcd7f246bd0dc4f404a9e86, type: 3}
     - Level: 4
       Prefab: {fileID: 1555560859900711931, guid: 13e587024f422914fb777e605a57866b, type: 3}
+    - Level: 1
+      Prefab: {fileID: 7801646193176429207, guid: eab38b831bb5b4746a48a8513d02afc4, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8931141900926556729, guid: b9d75d471586edc48bd152dabd8a83c9, type: 3}
   _isSea: 0
   _forestMaxHearts: 3
-  _maxSecondsBetweenHitsBeforeReset: 0
+  _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &5510470850985957730
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3144,6 +3520,10 @@ MonoBehaviour:
     Objects:
     - Level: 1
       Prefab: {fileID: 6608581757617870961, guid: ee1042a81fc0d79469b4d87dbfe2630e, type: 3}
+    - Level: 1
+      Prefab: {fileID: 5779875062523082673, guid: 4332e2f4a699f0546a0af0a0fc458dd1, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8184289268387992267, guid: 15e0c7d6441cb054dad1627bb622c69b, type: 3}
   - Type: 2
     Objects:
     - Level: 1
@@ -3154,9 +3534,13 @@ MonoBehaviour:
       Prefab: {fileID: 1415793716209962778, guid: 78a7eccd0bcd7f246bd0dc4f404a9e86, type: 3}
     - Level: 4
       Prefab: {fileID: 1555560859900711931, guid: 13e587024f422914fb777e605a57866b, type: 3}
+    - Level: 1
+      Prefab: {fileID: 7801646193176429207, guid: eab38b831bb5b4746a48a8513d02afc4, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8931141900926556729, guid: b9d75d471586edc48bd152dabd8a83c9, type: 3}
   _isSea: 0
   _forestMaxHearts: 3
-  _maxSecondsBetweenHitsBeforeReset: 0
+  _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &4377981831320235562
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3191,6 +3575,10 @@ MonoBehaviour:
     Objects:
     - Level: 1
       Prefab: {fileID: 6608581757617870961, guid: ee1042a81fc0d79469b4d87dbfe2630e, type: 3}
+    - Level: 1
+      Prefab: {fileID: 5779875062523082673, guid: 4332e2f4a699f0546a0af0a0fc458dd1, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8184289268387992267, guid: 15e0c7d6441cb054dad1627bb622c69b, type: 3}
   - Type: 2
     Objects:
     - Level: 1
@@ -3201,9 +3589,13 @@ MonoBehaviour:
       Prefab: {fileID: 1415793716209962778, guid: 78a7eccd0bcd7f246bd0dc4f404a9e86, type: 3}
     - Level: 4
       Prefab: {fileID: 1555560859900711931, guid: 13e587024f422914fb777e605a57866b, type: 3}
+    - Level: 1
+      Prefab: {fileID: 7801646193176429207, guid: eab38b831bb5b4746a48a8513d02afc4, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8931141900926556729, guid: b9d75d471586edc48bd152dabd8a83c9, type: 3}
   _isSea: 0
   _forestMaxHearts: 3
-  _maxSecondsBetweenHitsBeforeReset: 0
+  _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &7208509922792953147
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3271,6 +3663,10 @@ MonoBehaviour:
     Objects:
     - Level: 1
       Prefab: {fileID: 6608581757617870961, guid: ee1042a81fc0d79469b4d87dbfe2630e, type: 3}
+    - Level: 1
+      Prefab: {fileID: 5779875062523082673, guid: 4332e2f4a699f0546a0af0a0fc458dd1, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8184289268387992267, guid: 15e0c7d6441cb054dad1627bb622c69b, type: 3}
   - Type: 2
     Objects:
     - Level: 1
@@ -3281,9 +3677,13 @@ MonoBehaviour:
       Prefab: {fileID: 1415793716209962778, guid: 78a7eccd0bcd7f246bd0dc4f404a9e86, type: 3}
     - Level: 4
       Prefab: {fileID: 1555560859900711931, guid: 13e587024f422914fb777e605a57866b, type: 3}
+    - Level: 1
+      Prefab: {fileID: 7801646193176429207, guid: eab38b831bb5b4746a48a8513d02afc4, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8931141900926556729, guid: b9d75d471586edc48bd152dabd8a83c9, type: 3}
   _isSea: 0
   _forestMaxHearts: 3
-  _maxSecondsBetweenHitsBeforeReset: 0
+  _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &7567395761990446607
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3318,6 +3718,10 @@ MonoBehaviour:
     Objects:
     - Level: 1
       Prefab: {fileID: 6608581757617870961, guid: ee1042a81fc0d79469b4d87dbfe2630e, type: 3}
+    - Level: 1
+      Prefab: {fileID: 5779875062523082673, guid: 4332e2f4a699f0546a0af0a0fc458dd1, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8184289268387992267, guid: 15e0c7d6441cb054dad1627bb622c69b, type: 3}
   - Type: 2
     Objects:
     - Level: 1
@@ -3328,9 +3732,13 @@ MonoBehaviour:
       Prefab: {fileID: 1415793716209962778, guid: 78a7eccd0bcd7f246bd0dc4f404a9e86, type: 3}
     - Level: 4
       Prefab: {fileID: 1555560859900711931, guid: 13e587024f422914fb777e605a57866b, type: 3}
+    - Level: 1
+      Prefab: {fileID: 7801646193176429207, guid: eab38b831bb5b4746a48a8513d02afc4, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8931141900926556729, guid: b9d75d471586edc48bd152dabd8a83c9, type: 3}
   _isSea: 0
   _forestMaxHearts: 3
-  _maxSecondsBetweenHitsBeforeReset: 0
+  _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &399597423078251868
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3365,6 +3773,10 @@ MonoBehaviour:
     Objects:
     - Level: 1
       Prefab: {fileID: 6608581757617870961, guid: ee1042a81fc0d79469b4d87dbfe2630e, type: 3}
+    - Level: 1
+      Prefab: {fileID: 5779875062523082673, guid: 4332e2f4a699f0546a0af0a0fc458dd1, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8184289268387992267, guid: 15e0c7d6441cb054dad1627bb622c69b, type: 3}
   - Type: 2
     Objects:
     - Level: 1
@@ -3375,9 +3787,13 @@ MonoBehaviour:
       Prefab: {fileID: 1415793716209962778, guid: 78a7eccd0bcd7f246bd0dc4f404a9e86, type: 3}
     - Level: 4
       Prefab: {fileID: 1555560859900711931, guid: 13e587024f422914fb777e605a57866b, type: 3}
+    - Level: 1
+      Prefab: {fileID: 7801646193176429207, guid: eab38b831bb5b4746a48a8513d02afc4, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8931141900926556729, guid: b9d75d471586edc48bd152dabd8a83c9, type: 3}
   _isSea: 0
   _forestMaxHearts: 3
-  _maxSecondsBetweenHitsBeforeReset: 0
+  _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &2953703327699928760
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3412,6 +3828,10 @@ MonoBehaviour:
     Objects:
     - Level: 1
       Prefab: {fileID: 6608581757617870961, guid: ee1042a81fc0d79469b4d87dbfe2630e, type: 3}
+    - Level: 1
+      Prefab: {fileID: 5779875062523082673, guid: 4332e2f4a699f0546a0af0a0fc458dd1, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8184289268387992267, guid: 15e0c7d6441cb054dad1627bb622c69b, type: 3}
   - Type: 2
     Objects:
     - Level: 1
@@ -3422,9 +3842,13 @@ MonoBehaviour:
       Prefab: {fileID: 1415793716209962778, guid: 78a7eccd0bcd7f246bd0dc4f404a9e86, type: 3}
     - Level: 4
       Prefab: {fileID: 1555560859900711931, guid: 13e587024f422914fb777e605a57866b, type: 3}
+    - Level: 1
+      Prefab: {fileID: 7801646193176429207, guid: eab38b831bb5b4746a48a8513d02afc4, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8931141900926556729, guid: b9d75d471586edc48bd152dabd8a83c9, type: 3}
   _isSea: 0
   _forestMaxHearts: 3
-  _maxSecondsBetweenHitsBeforeReset: 0
+  _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &1818099774340271195
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3459,6 +3883,10 @@ MonoBehaviour:
     Objects:
     - Level: 1
       Prefab: {fileID: 6608581757617870961, guid: ee1042a81fc0d79469b4d87dbfe2630e, type: 3}
+    - Level: 1
+      Prefab: {fileID: 5779875062523082673, guid: 4332e2f4a699f0546a0af0a0fc458dd1, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8184289268387992267, guid: 15e0c7d6441cb054dad1627bb622c69b, type: 3}
   - Type: 2
     Objects:
     - Level: 1
@@ -3469,9 +3897,13 @@ MonoBehaviour:
       Prefab: {fileID: 1415793716209962778, guid: 78a7eccd0bcd7f246bd0dc4f404a9e86, type: 3}
     - Level: 4
       Prefab: {fileID: 1555560859900711931, guid: 13e587024f422914fb777e605a57866b, type: 3}
+    - Level: 1
+      Prefab: {fileID: 7801646193176429207, guid: eab38b831bb5b4746a48a8513d02afc4, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8931141900926556729, guid: b9d75d471586edc48bd152dabd8a83c9, type: 3}
   _isSea: 0
   _forestMaxHearts: 3
-  _maxSecondsBetweenHitsBeforeReset: 0
+  _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &4674551750101829409
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3506,6 +3938,10 @@ MonoBehaviour:
     Objects:
     - Level: 1
       Prefab: {fileID: 6608581757617870961, guid: ee1042a81fc0d79469b4d87dbfe2630e, type: 3}
+    - Level: 1
+      Prefab: {fileID: 5779875062523082673, guid: 4332e2f4a699f0546a0af0a0fc458dd1, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8184289268387992267, guid: 15e0c7d6441cb054dad1627bb622c69b, type: 3}
   - Type: 2
     Objects:
     - Level: 1
@@ -3516,9 +3952,13 @@ MonoBehaviour:
       Prefab: {fileID: 1415793716209962778, guid: 78a7eccd0bcd7f246bd0dc4f404a9e86, type: 3}
     - Level: 4
       Prefab: {fileID: 1555560859900711931, guid: 13e587024f422914fb777e605a57866b, type: 3}
+    - Level: 1
+      Prefab: {fileID: 7801646193176429207, guid: eab38b831bb5b4746a48a8513d02afc4, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8931141900926556729, guid: b9d75d471586edc48bd152dabd8a83c9, type: 3}
   _isSea: 0
   _forestMaxHearts: 3
-  _maxSecondsBetweenHitsBeforeReset: 0
+  _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &5574281590507730175
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3553,6 +3993,10 @@ MonoBehaviour:
     Objects:
     - Level: 1
       Prefab: {fileID: 6608581757617870961, guid: ee1042a81fc0d79469b4d87dbfe2630e, type: 3}
+    - Level: 1
+      Prefab: {fileID: 5779875062523082673, guid: 4332e2f4a699f0546a0af0a0fc458dd1, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8184289268387992267, guid: 15e0c7d6441cb054dad1627bb622c69b, type: 3}
   - Type: 2
     Objects:
     - Level: 1
@@ -3563,9 +4007,13 @@ MonoBehaviour:
       Prefab: {fileID: 1415793716209962778, guid: 78a7eccd0bcd7f246bd0dc4f404a9e86, type: 3}
     - Level: 4
       Prefab: {fileID: 1555560859900711931, guid: 13e587024f422914fb777e605a57866b, type: 3}
+    - Level: 1
+      Prefab: {fileID: 7801646193176429207, guid: eab38b831bb5b4746a48a8513d02afc4, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8931141900926556729, guid: b9d75d471586edc48bd152dabd8a83c9, type: 3}
   _isSea: 0
   _forestMaxHearts: 3
-  _maxSecondsBetweenHitsBeforeReset: 0
+  _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &8627598498098463717
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3600,6 +4048,10 @@ MonoBehaviour:
     Objects:
     - Level: 1
       Prefab: {fileID: 6608581757617870961, guid: ee1042a81fc0d79469b4d87dbfe2630e, type: 3}
+    - Level: 1
+      Prefab: {fileID: 5779875062523082673, guid: 4332e2f4a699f0546a0af0a0fc458dd1, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8184289268387992267, guid: 15e0c7d6441cb054dad1627bb622c69b, type: 3}
   - Type: 2
     Objects:
     - Level: 1
@@ -3610,9 +4062,13 @@ MonoBehaviour:
       Prefab: {fileID: 1415793716209962778, guid: 78a7eccd0bcd7f246bd0dc4f404a9e86, type: 3}
     - Level: 4
       Prefab: {fileID: 1555560859900711931, guid: 13e587024f422914fb777e605a57866b, type: 3}
+    - Level: 1
+      Prefab: {fileID: 7801646193176429207, guid: eab38b831bb5b4746a48a8513d02afc4, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8931141900926556729, guid: b9d75d471586edc48bd152dabd8a83c9, type: 3}
   _isSea: 0
   _forestMaxHearts: 3
-  _maxSecondsBetweenHitsBeforeReset: 0
+  _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &8157991342149303459
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3647,6 +4103,10 @@ MonoBehaviour:
     Objects:
     - Level: 1
       Prefab: {fileID: 6608581757617870961, guid: ee1042a81fc0d79469b4d87dbfe2630e, type: 3}
+    - Level: 1
+      Prefab: {fileID: 5779875062523082673, guid: 4332e2f4a699f0546a0af0a0fc458dd1, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8184289268387992267, guid: 15e0c7d6441cb054dad1627bb622c69b, type: 3}
   - Type: 2
     Objects:
     - Level: 1
@@ -3657,9 +4117,13 @@ MonoBehaviour:
       Prefab: {fileID: 1415793716209962778, guid: 78a7eccd0bcd7f246bd0dc4f404a9e86, type: 3}
     - Level: 4
       Prefab: {fileID: 1555560859900711931, guid: 13e587024f422914fb777e605a57866b, type: 3}
+    - Level: 1
+      Prefab: {fileID: 7801646193176429207, guid: eab38b831bb5b4746a48a8513d02afc4, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8931141900926556729, guid: b9d75d471586edc48bd152dabd8a83c9, type: 3}
   _isSea: 0
   _forestMaxHearts: 3
-  _maxSecondsBetweenHitsBeforeReset: 0
+  _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &5050664476105324698
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3694,6 +4158,10 @@ MonoBehaviour:
     Objects:
     - Level: 1
       Prefab: {fileID: 6608581757617870961, guid: ee1042a81fc0d79469b4d87dbfe2630e, type: 3}
+    - Level: 1
+      Prefab: {fileID: 5779875062523082673, guid: 4332e2f4a699f0546a0af0a0fc458dd1, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8184289268387992267, guid: 15e0c7d6441cb054dad1627bb622c69b, type: 3}
   - Type: 2
     Objects:
     - Level: 1
@@ -3704,9 +4172,13 @@ MonoBehaviour:
       Prefab: {fileID: 1415793716209962778, guid: 78a7eccd0bcd7f246bd0dc4f404a9e86, type: 3}
     - Level: 4
       Prefab: {fileID: 1555560859900711931, guid: 13e587024f422914fb777e605a57866b, type: 3}
+    - Level: 1
+      Prefab: {fileID: 7801646193176429207, guid: eab38b831bb5b4746a48a8513d02afc4, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8931141900926556729, guid: b9d75d471586edc48bd152dabd8a83c9, type: 3}
   _isSea: 0
   _forestMaxHearts: 3
-  _maxSecondsBetweenHitsBeforeReset: 0
+  _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &4275207728639781827
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3741,6 +4213,10 @@ MonoBehaviour:
     Objects:
     - Level: 1
       Prefab: {fileID: 6608581757617870961, guid: ee1042a81fc0d79469b4d87dbfe2630e, type: 3}
+    - Level: 1
+      Prefab: {fileID: 5779875062523082673, guid: 4332e2f4a699f0546a0af0a0fc458dd1, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8184289268387992267, guid: 15e0c7d6441cb054dad1627bb622c69b, type: 3}
   - Type: 2
     Objects:
     - Level: 1
@@ -3751,9 +4227,13 @@ MonoBehaviour:
       Prefab: {fileID: 1415793716209962778, guid: 78a7eccd0bcd7f246bd0dc4f404a9e86, type: 3}
     - Level: 4
       Prefab: {fileID: 1555560859900711931, guid: 13e587024f422914fb777e605a57866b, type: 3}
+    - Level: 1
+      Prefab: {fileID: 7801646193176429207, guid: eab38b831bb5b4746a48a8513d02afc4, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8931141900926556729, guid: b9d75d471586edc48bd152dabd8a83c9, type: 3}
   _isSea: 0
   _forestMaxHearts: 3
-  _maxSecondsBetweenHitsBeforeReset: 0
+  _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &953952669536501128
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3788,6 +4268,10 @@ MonoBehaviour:
     Objects:
     - Level: 1
       Prefab: {fileID: 6608581757617870961, guid: ee1042a81fc0d79469b4d87dbfe2630e, type: 3}
+    - Level: 1
+      Prefab: {fileID: 5779875062523082673, guid: 4332e2f4a699f0546a0af0a0fc458dd1, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8184289268387992267, guid: 15e0c7d6441cb054dad1627bb622c69b, type: 3}
   - Type: 2
     Objects:
     - Level: 1
@@ -3798,9 +4282,13 @@ MonoBehaviour:
       Prefab: {fileID: 1415793716209962778, guid: 78a7eccd0bcd7f246bd0dc4f404a9e86, type: 3}
     - Level: 4
       Prefab: {fileID: 1555560859900711931, guid: 13e587024f422914fb777e605a57866b, type: 3}
+    - Level: 1
+      Prefab: {fileID: 7801646193176429207, guid: eab38b831bb5b4746a48a8513d02afc4, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8931141900926556729, guid: b9d75d471586edc48bd152dabd8a83c9, type: 3}
   _isSea: 0
   _forestMaxHearts: 3
-  _maxSecondsBetweenHitsBeforeReset: 0
+  _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &8088394242786982385
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3835,6 +4323,10 @@ MonoBehaviour:
     Objects:
     - Level: 1
       Prefab: {fileID: 6608581757617870961, guid: ee1042a81fc0d79469b4d87dbfe2630e, type: 3}
+    - Level: 1
+      Prefab: {fileID: 5779875062523082673, guid: 4332e2f4a699f0546a0af0a0fc458dd1, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8184289268387992267, guid: 15e0c7d6441cb054dad1627bb622c69b, type: 3}
   - Type: 2
     Objects:
     - Level: 1
@@ -3845,9 +4337,13 @@ MonoBehaviour:
       Prefab: {fileID: 1415793716209962778, guid: 78a7eccd0bcd7f246bd0dc4f404a9e86, type: 3}
     - Level: 4
       Prefab: {fileID: 1555560859900711931, guid: 13e587024f422914fb777e605a57866b, type: 3}
+    - Level: 1
+      Prefab: {fileID: 7801646193176429207, guid: eab38b831bb5b4746a48a8513d02afc4, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8931141900926556729, guid: b9d75d471586edc48bd152dabd8a83c9, type: 3}
   _isSea: 0
   _forestMaxHearts: 3
-  _maxSecondsBetweenHitsBeforeReset: 0
+  _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &5264376749357761086
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3882,6 +4378,10 @@ MonoBehaviour:
     Objects:
     - Level: 1
       Prefab: {fileID: 6608581757617870961, guid: ee1042a81fc0d79469b4d87dbfe2630e, type: 3}
+    - Level: 1
+      Prefab: {fileID: 5779875062523082673, guid: 4332e2f4a699f0546a0af0a0fc458dd1, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8184289268387992267, guid: 15e0c7d6441cb054dad1627bb622c69b, type: 3}
   - Type: 2
     Objects:
     - Level: 1
@@ -3892,9 +4392,13 @@ MonoBehaviour:
       Prefab: {fileID: 1415793716209962778, guid: 78a7eccd0bcd7f246bd0dc4f404a9e86, type: 3}
     - Level: 4
       Prefab: {fileID: 1555560859900711931, guid: 13e587024f422914fb777e605a57866b, type: 3}
+    - Level: 1
+      Prefab: {fileID: 7801646193176429207, guid: eab38b831bb5b4746a48a8513d02afc4, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8931141900926556729, guid: b9d75d471586edc48bd152dabd8a83c9, type: 3}
   _isSea: 0
   _forestMaxHearts: 3
-  _maxSecondsBetweenHitsBeforeReset: 0
+  _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &4242133200547677751
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3929,6 +4433,10 @@ MonoBehaviour:
     Objects:
     - Level: 1
       Prefab: {fileID: 6608581757617870961, guid: ee1042a81fc0d79469b4d87dbfe2630e, type: 3}
+    - Level: 1
+      Prefab: {fileID: 5779875062523082673, guid: 4332e2f4a699f0546a0af0a0fc458dd1, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8184289268387992267, guid: 15e0c7d6441cb054dad1627bb622c69b, type: 3}
   - Type: 2
     Objects:
     - Level: 1
@@ -3939,9 +4447,13 @@ MonoBehaviour:
       Prefab: {fileID: 1415793716209962778, guid: 78a7eccd0bcd7f246bd0dc4f404a9e86, type: 3}
     - Level: 4
       Prefab: {fileID: 1555560859900711931, guid: 13e587024f422914fb777e605a57866b, type: 3}
+    - Level: 1
+      Prefab: {fileID: 7801646193176429207, guid: eab38b831bb5b4746a48a8513d02afc4, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8931141900926556729, guid: b9d75d471586edc48bd152dabd8a83c9, type: 3}
   _isSea: 0
   _forestMaxHearts: 3
-  _maxSecondsBetweenHitsBeforeReset: 0
+  _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &9216321505015306045
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4009,6 +4521,10 @@ MonoBehaviour:
     Objects:
     - Level: 1
       Prefab: {fileID: 6608581757617870961, guid: ee1042a81fc0d79469b4d87dbfe2630e, type: 3}
+    - Level: 1
+      Prefab: {fileID: 5779875062523082673, guid: 4332e2f4a699f0546a0af0a0fc458dd1, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8184289268387992267, guid: 15e0c7d6441cb054dad1627bb622c69b, type: 3}
   - Type: 2
     Objects:
     - Level: 1
@@ -4019,9 +4535,13 @@ MonoBehaviour:
       Prefab: {fileID: 1415793716209962778, guid: 78a7eccd0bcd7f246bd0dc4f404a9e86, type: 3}
     - Level: 4
       Prefab: {fileID: 1555560859900711931, guid: 13e587024f422914fb777e605a57866b, type: 3}
+    - Level: 1
+      Prefab: {fileID: 7801646193176429207, guid: eab38b831bb5b4746a48a8513d02afc4, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8931141900926556729, guid: b9d75d471586edc48bd152dabd8a83c9, type: 3}
   _isSea: 0
   _forestMaxHearts: 3
-  _maxSecondsBetweenHitsBeforeReset: 0
+  _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &7348311894545270921
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4056,6 +4576,10 @@ MonoBehaviour:
     Objects:
     - Level: 1
       Prefab: {fileID: 6608581757617870961, guid: ee1042a81fc0d79469b4d87dbfe2630e, type: 3}
+    - Level: 1
+      Prefab: {fileID: 5779875062523082673, guid: 4332e2f4a699f0546a0af0a0fc458dd1, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8184289268387992267, guid: 15e0c7d6441cb054dad1627bb622c69b, type: 3}
   - Type: 2
     Objects:
     - Level: 1
@@ -4066,9 +4590,13 @@ MonoBehaviour:
       Prefab: {fileID: 1415793716209962778, guid: 78a7eccd0bcd7f246bd0dc4f404a9e86, type: 3}
     - Level: 4
       Prefab: {fileID: 1555560859900711931, guid: 13e587024f422914fb777e605a57866b, type: 3}
+    - Level: 1
+      Prefab: {fileID: 7801646193176429207, guid: eab38b831bb5b4746a48a8513d02afc4, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8931141900926556729, guid: b9d75d471586edc48bd152dabd8a83c9, type: 3}
   _isSea: 0
   _forestMaxHearts: 3
-  _maxSecondsBetweenHitsBeforeReset: 0
+  _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &3439062211298323675
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4136,6 +4664,10 @@ MonoBehaviour:
     Objects:
     - Level: 1
       Prefab: {fileID: 6608581757617870961, guid: ee1042a81fc0d79469b4d87dbfe2630e, type: 3}
+    - Level: 1
+      Prefab: {fileID: 5779875062523082673, guid: 4332e2f4a699f0546a0af0a0fc458dd1, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8184289268387992267, guid: 15e0c7d6441cb054dad1627bb622c69b, type: 3}
   - Type: 2
     Objects:
     - Level: 1
@@ -4146,9 +4678,13 @@ MonoBehaviour:
       Prefab: {fileID: 1415793716209962778, guid: 78a7eccd0bcd7f246bd0dc4f404a9e86, type: 3}
     - Level: 4
       Prefab: {fileID: 1555560859900711931, guid: 13e587024f422914fb777e605a57866b, type: 3}
+    - Level: 1
+      Prefab: {fileID: 7801646193176429207, guid: eab38b831bb5b4746a48a8513d02afc4, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8931141900926556729, guid: b9d75d471586edc48bd152dabd8a83c9, type: 3}
   _isSea: 0
   _forestMaxHearts: 3
-  _maxSecondsBetweenHitsBeforeReset: 0
+  _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &198514101015076380
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4200,6 +4736,10 @@ MonoBehaviour:
     Objects:
     - Level: 1
       Prefab: {fileID: 6608581757617870961, guid: ee1042a81fc0d79469b4d87dbfe2630e, type: 3}
+    - Level: 1
+      Prefab: {fileID: 5779875062523082673, guid: 4332e2f4a699f0546a0af0a0fc458dd1, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8184289268387992267, guid: 15e0c7d6441cb054dad1627bb622c69b, type: 3}
   - Type: 2
     Objects:
     - Level: 1
@@ -4210,9 +4750,13 @@ MonoBehaviour:
       Prefab: {fileID: 1415793716209962778, guid: 78a7eccd0bcd7f246bd0dc4f404a9e86, type: 3}
     - Level: 4
       Prefab: {fileID: 1555560859900711931, guid: 13e587024f422914fb777e605a57866b, type: 3}
+    - Level: 1
+      Prefab: {fileID: 7801646193176429207, guid: eab38b831bb5b4746a48a8513d02afc4, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8931141900926556729, guid: b9d75d471586edc48bd152dabd8a83c9, type: 3}
   _isSea: 0
   _forestMaxHearts: 3
-  _maxSecondsBetweenHitsBeforeReset: 0
+  _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &3856371469670216926
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4247,6 +4791,10 @@ MonoBehaviour:
     Objects:
     - Level: 1
       Prefab: {fileID: 6608581757617870961, guid: ee1042a81fc0d79469b4d87dbfe2630e, type: 3}
+    - Level: 1
+      Prefab: {fileID: 5779875062523082673, guid: 4332e2f4a699f0546a0af0a0fc458dd1, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8184289268387992267, guid: 15e0c7d6441cb054dad1627bb622c69b, type: 3}
   - Type: 2
     Objects:
     - Level: 1
@@ -4257,9 +4805,13 @@ MonoBehaviour:
       Prefab: {fileID: 1415793716209962778, guid: 78a7eccd0bcd7f246bd0dc4f404a9e86, type: 3}
     - Level: 4
       Prefab: {fileID: 1555560859900711931, guid: 13e587024f422914fb777e605a57866b, type: 3}
+    - Level: 1
+      Prefab: {fileID: 7801646193176429207, guid: eab38b831bb5b4746a48a8513d02afc4, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8931141900926556729, guid: b9d75d471586edc48bd152dabd8a83c9, type: 3}
   _isSea: 0
   _forestMaxHearts: 3
-  _maxSecondsBetweenHitsBeforeReset: 0
+  _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &5256561637389611226
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4294,6 +4846,10 @@ MonoBehaviour:
     Objects:
     - Level: 1
       Prefab: {fileID: 6608581757617870961, guid: ee1042a81fc0d79469b4d87dbfe2630e, type: 3}
+    - Level: 1
+      Prefab: {fileID: 5779875062523082673, guid: 4332e2f4a699f0546a0af0a0fc458dd1, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8184289268387992267, guid: 15e0c7d6441cb054dad1627bb622c69b, type: 3}
   - Type: 2
     Objects:
     - Level: 1
@@ -4304,9 +4860,13 @@ MonoBehaviour:
       Prefab: {fileID: 1415793716209962778, guid: 78a7eccd0bcd7f246bd0dc4f404a9e86, type: 3}
     - Level: 4
       Prefab: {fileID: 1555560859900711931, guid: 13e587024f422914fb777e605a57866b, type: 3}
+    - Level: 1
+      Prefab: {fileID: 7801646193176429207, guid: eab38b831bb5b4746a48a8513d02afc4, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8931141900926556729, guid: b9d75d471586edc48bd152dabd8a83c9, type: 3}
   _isSea: 0
   _forestMaxHearts: 3
-  _maxSecondsBetweenHitsBeforeReset: 0
+  _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &1462870089237242472
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4341,6 +4901,10 @@ MonoBehaviour:
     Objects:
     - Level: 1
       Prefab: {fileID: 6608581757617870961, guid: ee1042a81fc0d79469b4d87dbfe2630e, type: 3}
+    - Level: 1
+      Prefab: {fileID: 5779875062523082673, guid: 4332e2f4a699f0546a0af0a0fc458dd1, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8184289268387992267, guid: 15e0c7d6441cb054dad1627bb622c69b, type: 3}
   - Type: 2
     Objects:
     - Level: 1
@@ -4351,9 +4915,13 @@ MonoBehaviour:
       Prefab: {fileID: 1415793716209962778, guid: 78a7eccd0bcd7f246bd0dc4f404a9e86, type: 3}
     - Level: 4
       Prefab: {fileID: 1555560859900711931, guid: 13e587024f422914fb777e605a57866b, type: 3}
+    - Level: 1
+      Prefab: {fileID: 7801646193176429207, guid: eab38b831bb5b4746a48a8513d02afc4, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8931141900926556729, guid: b9d75d471586edc48bd152dabd8a83c9, type: 3}
   _isSea: 0
   _forestMaxHearts: 3
-  _maxSecondsBetweenHitsBeforeReset: 0
+  _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &5498584717127901520
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4388,6 +4956,10 @@ MonoBehaviour:
     Objects:
     - Level: 1
       Prefab: {fileID: 6608581757617870961, guid: ee1042a81fc0d79469b4d87dbfe2630e, type: 3}
+    - Level: 1
+      Prefab: {fileID: 5779875062523082673, guid: 4332e2f4a699f0546a0af0a0fc458dd1, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8184289268387992267, guid: 15e0c7d6441cb054dad1627bb622c69b, type: 3}
   - Type: 2
     Objects:
     - Level: 1
@@ -4398,9 +4970,13 @@ MonoBehaviour:
       Prefab: {fileID: 1415793716209962778, guid: 78a7eccd0bcd7f246bd0dc4f404a9e86, type: 3}
     - Level: 4
       Prefab: {fileID: 1555560859900711931, guid: 13e587024f422914fb777e605a57866b, type: 3}
+    - Level: 1
+      Prefab: {fileID: 7801646193176429207, guid: eab38b831bb5b4746a48a8513d02afc4, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8931141900926556729, guid: b9d75d471586edc48bd152dabd8a83c9, type: 3}
   _isSea: 0
   _forestMaxHearts: 3
-  _maxSecondsBetweenHitsBeforeReset: 0
+  _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &2986831690786069148
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4435,6 +5011,10 @@ MonoBehaviour:
     Objects:
     - Level: 1
       Prefab: {fileID: 6608581757617870961, guid: ee1042a81fc0d79469b4d87dbfe2630e, type: 3}
+    - Level: 1
+      Prefab: {fileID: 5779875062523082673, guid: 4332e2f4a699f0546a0af0a0fc458dd1, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8184289268387992267, guid: 15e0c7d6441cb054dad1627bb622c69b, type: 3}
   - Type: 2
     Objects:
     - Level: 1
@@ -4445,9 +5025,13 @@ MonoBehaviour:
       Prefab: {fileID: 1415793716209962778, guid: 78a7eccd0bcd7f246bd0dc4f404a9e86, type: 3}
     - Level: 4
       Prefab: {fileID: 1555560859900711931, guid: 13e587024f422914fb777e605a57866b, type: 3}
+    - Level: 1
+      Prefab: {fileID: 7801646193176429207, guid: eab38b831bb5b4746a48a8513d02afc4, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8931141900926556729, guid: b9d75d471586edc48bd152dabd8a83c9, type: 3}
   _isSea: 0
   _forestMaxHearts: 3
-  _maxSecondsBetweenHitsBeforeReset: 0
+  _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &144982542193741270
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4482,6 +5066,10 @@ MonoBehaviour:
     Objects:
     - Level: 1
       Prefab: {fileID: 6608581757617870961, guid: ee1042a81fc0d79469b4d87dbfe2630e, type: 3}
+    - Level: 1
+      Prefab: {fileID: 5779875062523082673, guid: 4332e2f4a699f0546a0af0a0fc458dd1, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8184289268387992267, guid: 15e0c7d6441cb054dad1627bb622c69b, type: 3}
   - Type: 2
     Objects:
     - Level: 1
@@ -4492,9 +5080,13 @@ MonoBehaviour:
       Prefab: {fileID: 1415793716209962778, guid: 78a7eccd0bcd7f246bd0dc4f404a9e86, type: 3}
     - Level: 4
       Prefab: {fileID: 1555560859900711931, guid: 13e587024f422914fb777e605a57866b, type: 3}
+    - Level: 1
+      Prefab: {fileID: 7801646193176429207, guid: eab38b831bb5b4746a48a8513d02afc4, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8931141900926556729, guid: b9d75d471586edc48bd152dabd8a83c9, type: 3}
   _isSea: 0
   _forestMaxHearts: 3
-  _maxSecondsBetweenHitsBeforeReset: 0
+  _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &2585247652874962781
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4529,6 +5121,10 @@ MonoBehaviour:
     Objects:
     - Level: 1
       Prefab: {fileID: 6608581757617870961, guid: ee1042a81fc0d79469b4d87dbfe2630e, type: 3}
+    - Level: 1
+      Prefab: {fileID: 5779875062523082673, guid: 4332e2f4a699f0546a0af0a0fc458dd1, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8184289268387992267, guid: 15e0c7d6441cb054dad1627bb622c69b, type: 3}
   - Type: 2
     Objects:
     - Level: 1
@@ -4539,9 +5135,13 @@ MonoBehaviour:
       Prefab: {fileID: 1415793716209962778, guid: 78a7eccd0bcd7f246bd0dc4f404a9e86, type: 3}
     - Level: 4
       Prefab: {fileID: 1555560859900711931, guid: 13e587024f422914fb777e605a57866b, type: 3}
+    - Level: 1
+      Prefab: {fileID: 7801646193176429207, guid: eab38b831bb5b4746a48a8513d02afc4, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8931141900926556729, guid: b9d75d471586edc48bd152dabd8a83c9, type: 3}
   _isSea: 0
   _forestMaxHearts: 3
-  _maxSecondsBetweenHitsBeforeReset: 0
+  _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &3071800770103141024
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4576,6 +5176,10 @@ MonoBehaviour:
     Objects:
     - Level: 1
       Prefab: {fileID: 6608581757617870961, guid: ee1042a81fc0d79469b4d87dbfe2630e, type: 3}
+    - Level: 1
+      Prefab: {fileID: 5779875062523082673, guid: 4332e2f4a699f0546a0af0a0fc458dd1, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8184289268387992267, guid: 15e0c7d6441cb054dad1627bb622c69b, type: 3}
   - Type: 2
     Objects:
     - Level: 1
@@ -4586,9 +5190,13 @@ MonoBehaviour:
       Prefab: {fileID: 1415793716209962778, guid: 78a7eccd0bcd7f246bd0dc4f404a9e86, type: 3}
     - Level: 4
       Prefab: {fileID: 1555560859900711931, guid: 13e587024f422914fb777e605a57866b, type: 3}
+    - Level: 1
+      Prefab: {fileID: 7801646193176429207, guid: eab38b831bb5b4746a48a8513d02afc4, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8931141900926556729, guid: b9d75d471586edc48bd152dabd8a83c9, type: 3}
   _isSea: 0
   _forestMaxHearts: 3
-  _maxSecondsBetweenHitsBeforeReset: 0
+  _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &9071457886645282332
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4623,6 +5231,10 @@ MonoBehaviour:
     Objects:
     - Level: 1
       Prefab: {fileID: 6608581757617870961, guid: ee1042a81fc0d79469b4d87dbfe2630e, type: 3}
+    - Level: 1
+      Prefab: {fileID: 5779875062523082673, guid: 4332e2f4a699f0546a0af0a0fc458dd1, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8184289268387992267, guid: 15e0c7d6441cb054dad1627bb622c69b, type: 3}
   - Type: 2
     Objects:
     - Level: 1
@@ -4633,9 +5245,13 @@ MonoBehaviour:
       Prefab: {fileID: 1415793716209962778, guid: 78a7eccd0bcd7f246bd0dc4f404a9e86, type: 3}
     - Level: 4
       Prefab: {fileID: 1555560859900711931, guid: 13e587024f422914fb777e605a57866b, type: 3}
+    - Level: 1
+      Prefab: {fileID: 7801646193176429207, guid: eab38b831bb5b4746a48a8513d02afc4, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8931141900926556729, guid: b9d75d471586edc48bd152dabd8a83c9, type: 3}
   _isSea: 0
   _forestMaxHearts: 3
-  _maxSecondsBetweenHitsBeforeReset: 0
+  _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &2319229215727622488
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4670,6 +5286,10 @@ MonoBehaviour:
     Objects:
     - Level: 1
       Prefab: {fileID: 6608581757617870961, guid: ee1042a81fc0d79469b4d87dbfe2630e, type: 3}
+    - Level: 1
+      Prefab: {fileID: 5779875062523082673, guid: 4332e2f4a699f0546a0af0a0fc458dd1, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8184289268387992267, guid: 15e0c7d6441cb054dad1627bb622c69b, type: 3}
   - Type: 2
     Objects:
     - Level: 1
@@ -4680,9 +5300,13 @@ MonoBehaviour:
       Prefab: {fileID: 1415793716209962778, guid: 78a7eccd0bcd7f246bd0dc4f404a9e86, type: 3}
     - Level: 4
       Prefab: {fileID: 1555560859900711931, guid: 13e587024f422914fb777e605a57866b, type: 3}
+    - Level: 1
+      Prefab: {fileID: 7801646193176429207, guid: eab38b831bb5b4746a48a8513d02afc4, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8931141900926556729, guid: b9d75d471586edc48bd152dabd8a83c9, type: 3}
   _isSea: 0
   _forestMaxHearts: 3
-  _maxSecondsBetweenHitsBeforeReset: 0
+  _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &4602259845696515763
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4717,6 +5341,10 @@ MonoBehaviour:
     Objects:
     - Level: 1
       Prefab: {fileID: 6608581757617870961, guid: ee1042a81fc0d79469b4d87dbfe2630e, type: 3}
+    - Level: 1
+      Prefab: {fileID: 5779875062523082673, guid: 4332e2f4a699f0546a0af0a0fc458dd1, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8184289268387992267, guid: 15e0c7d6441cb054dad1627bb622c69b, type: 3}
   - Type: 2
     Objects:
     - Level: 1
@@ -4727,9 +5355,13 @@ MonoBehaviour:
       Prefab: {fileID: 1415793716209962778, guid: 78a7eccd0bcd7f246bd0dc4f404a9e86, type: 3}
     - Level: 4
       Prefab: {fileID: 1555560859900711931, guid: 13e587024f422914fb777e605a57866b, type: 3}
+    - Level: 1
+      Prefab: {fileID: 7801646193176429207, guid: eab38b831bb5b4746a48a8513d02afc4, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8931141900926556729, guid: b9d75d471586edc48bd152dabd8a83c9, type: 3}
   _isSea: 0
   _forestMaxHearts: 3
-  _maxSecondsBetweenHitsBeforeReset: 0
+  _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &2148192945915362573
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4764,6 +5396,10 @@ MonoBehaviour:
     Objects:
     - Level: 1
       Prefab: {fileID: 6608581757617870961, guid: ee1042a81fc0d79469b4d87dbfe2630e, type: 3}
+    - Level: 1
+      Prefab: {fileID: 5779875062523082673, guid: 4332e2f4a699f0546a0af0a0fc458dd1, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8184289268387992267, guid: 15e0c7d6441cb054dad1627bb622c69b, type: 3}
   - Type: 2
     Objects:
     - Level: 1
@@ -4774,9 +5410,13 @@ MonoBehaviour:
       Prefab: {fileID: 1415793716209962778, guid: 78a7eccd0bcd7f246bd0dc4f404a9e86, type: 3}
     - Level: 4
       Prefab: {fileID: 1555560859900711931, guid: 13e587024f422914fb777e605a57866b, type: 3}
+    - Level: 1
+      Prefab: {fileID: 7801646193176429207, guid: eab38b831bb5b4746a48a8513d02afc4, type: 3}
+    - Level: 1
+      Prefab: {fileID: 8931141900926556729, guid: b9d75d471586edc48bd152dabd8a83c9, type: 3}
   _isSea: 0
   _forestMaxHearts: 3
-  _maxSecondsBetweenHitsBeforeReset: 0
+  _maxSecondsBetweenHitsBeforeReset: 1
 --- !u!114 &7513664044244154662
 MonoBehaviour:
   m_ObjectHideFlags: 0
