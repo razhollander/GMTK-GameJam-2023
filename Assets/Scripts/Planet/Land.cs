@@ -119,6 +119,7 @@ namespace Planet
 
         private void OnMouseEnter()
         {
+            LandClickedManager.Instance.LandMouseEnter(this);
             _material.SetFloat("_OutLineOpacity", 1f);
         }
 
