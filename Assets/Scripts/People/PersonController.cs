@@ -21,7 +21,7 @@ public class PlayerController : MonoBehaviour
     private Vector3 center = Vector3.zero;
     private Vector3 _lastPos;
     private bool _arrived;
-    
+    private bool isBuild;
     private void Start()
     {
         var myTransform = transform;
@@ -42,6 +42,7 @@ public class PlayerController : MonoBehaviour
 
     private void Update ()
     {
+        if(isBuild) target.IncreaseBuildTime(Time.deltaTime);
         var ray = new Ray(rayPos.position, -transform.up);
        Physics.Raycast(ray, out var hit, 1, world);
        wayUp = hit.normal;
@@ -95,7 +96,7 @@ public class PlayerController : MonoBehaviour
                 var rnd = Random.Range(0, probability);
                 if (rnd == 0)
                 {
-                    target.BuildBuilding(1);
+                    SetBuild(true);
                 }
                 else
                 {
@@ -151,6 +152,8 @@ public class PlayerController : MonoBehaviour
         {
             humanMeshRenderer.material = material;
         }
+        
+        public void SetBuild(bool _build){ isBuild = _build;}
 
     #endregion
 }
