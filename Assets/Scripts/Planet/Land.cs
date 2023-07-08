@@ -11,6 +11,7 @@ namespace Planet
     public class Land : MonoBehaviour
     {
         [SerializeField] private List<BuildingObjectsContainer> _buildingObjects;
+        [SerializeField] private bool _isSea;
 
         private int _amountNeighbors;
         private Material _material;
@@ -19,6 +20,7 @@ namespace Planet
         private List<GameObject> _objects = new();
         private float _timerSeconds;
         private const float _nextLevelSeconds = 15f;
+        private int _vertex = 0;
 
         private Dictionary<int, int> _levelToBuildingsMaxHeartDits = new Dictionary<int, int>()
         {
@@ -32,7 +34,7 @@ namespace Planet
         public int Id { get; set; }
         public List<Land> Neighbors { get; set; }
         public Vector3 Position { get; set; }
-        public int Vertex { get; set; }
+        public int Vertex { get => _isSea ? 5 : 6; set => _vertex = value; }
         [SerializeField] private float _maxSecondsBetweenHitsBeforeReset;
 
         public int Heart { get; set; }
