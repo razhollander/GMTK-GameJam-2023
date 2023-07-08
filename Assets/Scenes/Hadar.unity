@@ -474,6 +474,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _target: {fileID: 2127951983}
   _speed: 3
+  _animationSmooth: 0.01
 --- !u!114 &133527592
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1987,7 +1988,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 8e27b480879909941afe3f499e6392d3, type: 2}
     - target: {fileID: 9088324687475286197, guid: 79a39f2f641b1ab4a9105b8789b85ee2, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 9088324687475286197, guid: 79a39f2f641b1ab4a9105b8789b85ee2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4140,7 +4141,7 @@ PrefabInstance:
       objectReference: {fileID: 2607126428937965409, guid: 1c74c370c4931fb419dd637ce9e0850c, type: 3}
     - target: {fileID: 4894276024021154152, guid: 88b26c2d6ca12f746bb7ede602f020c8, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4894276024021154152, guid: 88b26c2d6ca12f746bb7ede602f020c8, type: 3}
       propertyPath: m_LocalPosition.x
