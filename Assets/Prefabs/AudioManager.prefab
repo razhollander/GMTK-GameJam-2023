@@ -31,7 +31,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!81 &8620857660340588442
 AudioListener:
@@ -56,4 +56,6 @@ MonoBehaviour:
   _clips:
   - Type: 0
     Clip: {fileID: 8300000, guid: 0d0d1e9a92a119e4e8658bc8c52dea10, type: 3}
+  - Type: 1
+    Clip: {fileID: 8300000, guid: 39ad36077a1254f4daf118e4e0a51ca8, type: 3}
   _audioSourcePrefab: {fileID: 7556497738588048030, guid: 2919c56d9d8d92544945d500fe8f10b4, type: 3}

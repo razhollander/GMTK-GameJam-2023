@@ -41,7 +41,8 @@ namespace Audio
         
         public enum SoundsType
         {
-            StartCollect
+            StartCollect,
+            PoofLevelUpBuilding
         }
         
         [Serializable]

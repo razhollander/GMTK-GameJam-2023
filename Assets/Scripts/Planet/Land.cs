@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
+using Audio;
 using Cysharp.Threading.Tasks;
 using UnityEngine;
 using Random = UnityEngine.Random;
@@ -213,6 +214,8 @@ namespace Planet
                 {
                     ShakeCamera.Instance.Shake();
                 }
+                
+                AudioManager.Instance.Play(AudioManager.SoundsType.PoofLevelUpBuilding);
             }
         }
 
