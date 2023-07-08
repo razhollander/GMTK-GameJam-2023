@@ -21,8 +21,6 @@ namespace CameraGameJam
             
                 RotateAround(_target.position, new Vector3(0,1,0), angelX);
                 RotateAround(_target.position, new Vector3(1,0,0), angelY);
-            
-                transform.LookAt(_target.position);
             }
 
             _lastTouch = Input.mousePosition;
