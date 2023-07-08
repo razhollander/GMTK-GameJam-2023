@@ -8,7 +8,7 @@ namespace Planet
     {
         [SerializeField] private Land _landPrefab;
 
-        public PlanetManager Instance { get; private set; }
+        public static PlanetManager Instance { get; private set; }
         public List<Land> Lands { get; private set; }
 
         private void Awake()
