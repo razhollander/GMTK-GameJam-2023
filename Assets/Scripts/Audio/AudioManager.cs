@@ -25,11 +25,16 @@ namespace Audio
             }
         }
 
-        public async UniTask Play(SoundsType type)
+        public async UniTask Play(SoundsType type, bool isDontDestroyOnChangeScene = false)
         {
             var source = Instantiate(_audioSourcePrefab);
             source.clip = _clips.Find(t => t.Type == type).Clip;
             source.Play();
+
+            if (isDontDestroyOnChangeScene)
+            {
+                DontDestroyOnLoad(source);
+            }
 
             while (source.isPlaying)
             {
@@ -42,7 +47,10 @@ namespace Audio
         public enum SoundsType
         {
             StartCollect,
-            PoofLevelUpBuilding
+            PoofLevelUpBuilding,
+            BuildingDestroySuccess,
+            HitBuilding,
+            BackgroundMusic
         }
         
         [Serializable]

@@ -214,8 +214,11 @@ namespace Planet
                 {
                     ShakeCamera.Instance.Shake();
                 }
-                
-                AudioManager.Instance.Play(AudioManager.SoundsType.PoofLevelUpBuilding);
+
+                if (buildType == BuildingType.Forest)
+                {
+                    AudioManager.Instance.Play(AudioManager.SoundsType.PoofLevelUpBuilding);
+                }
             }
         }
 
@@ -224,6 +227,7 @@ namespace Planet
             _objects.ForEach(j => Destroy(j.gameObject));
             _objects.Clear();
             _buildingType = BuildingType.None;
+            AudioManager.Instance.Play(AudioManager.SoundsType.BuildingDestroySuccess);
         }
 
         public async UniTask HitBuilding()
