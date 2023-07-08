@@ -36,8 +36,10 @@ namespace Planet
 
             foreach (var land in Lands)
             {
-                land.Neighbors = Lands.OrderBy(i => Vector3.Distance(i.transform.position, land.transform.position)).Take(land.AmountNeighbors + 1).TakeLast(land.AmountNeighbors).ToList();
+                land.Neighbors = Lands.OrderBy(i => Vector3.Distance(i.Position, land.Position)).Where(i=>i != land).Take(land.AmountNeighbors).ToList();
             }
+
+            Lands.First(i => i.Id == 1).Neighbors.ForEach(i => i.Level = 1);
         }
     }
 }
