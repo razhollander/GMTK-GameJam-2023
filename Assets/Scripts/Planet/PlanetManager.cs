@@ -9,7 +9,7 @@ namespace Planet
         public static PlanetManager Instance { get; private set; }
         public List<Land> Lands { get; private set; }
 
-        private void Awake()
+        private void Start()
         {
             if (Instance == null)
             {

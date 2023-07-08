@@ -1,8 +1,9 @@
+using Planet;
 using UnityEngine;
- 
+
 public class PlayerController : MonoBehaviour
 {
-    [SerializeField] private Transform target;
+    [SerializeField] private Land target;
     [SerializeField] private Transform renderer;
     [SerializeField] private Transform rayPos;
     [SerializeField] private float yOffset = .1f;
@@ -11,12 +12,16 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private LayerMask world;
     private Vector3 center = Vector3.zero;
     private Vector3 _lastPos;
-
+    
     private void Start()
     {
         var myTransform = transform;
         renderer = myTransform.GetChild(0);
         rayPos = myTransform.GetChild(1);
+        Debug.Log(target.name);
+        SetTarget(target.Neighbors[Random.Range(0, target.Neighbors.Count)]);
+        Debug.Log(target.name);
+
     }
 
     private void LateUpdate()
@@ -26,7 +31,7 @@ public class PlayerController : MonoBehaviour
 
     private void Update ()
     {
-       if (target) MoveTowardsTarget(target);
+       if (target) MoveTowardsTarget(target.transform);
        
        var ray = new Ray(rayPos.position, -transform.up);
        if (!Physics.Raycast(ray, out var hit, 1, world)) return;
@@ -57,6 +62,11 @@ public class PlayerController : MonoBehaviour
         
     }
 
+    public void FindNextTarget()
+    {
+        SetTarget(target.Neighbors[Random.Range(0, target.Neighbors.Count)]);
+    }
+
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.red;
@@ -69,7 +79,7 @@ public class PlayerController : MonoBehaviour
         
         public float GetSpeed() {return speed;}
         
-        public void SetTarget(Transform _target) {target = _target;}
+        public void SetTarget(Land _target) {target = _target;}
 
     #endregion
 }
