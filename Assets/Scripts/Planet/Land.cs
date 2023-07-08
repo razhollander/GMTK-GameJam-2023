@@ -26,6 +26,8 @@ namespace Planet
         private const float _nextLevelSeconds = 15f;
         private int _vertex = 0;
 
+        public Action madeForest;
+
         private Dictionary<int, int> _levelToBuildingsMaxHeartDits = new Dictionary<int, int>()
         {
             {1, 3},
@@ -69,7 +71,6 @@ namespace Planet
                 UpdateColorView();
             }
         }
-
         
         
         public BuildingType BuildingType
@@ -105,7 +106,7 @@ namespace Planet
                 switch (BuildingType)
                 {
                     case BuildingType.None:
-                        _material.SetFloat("_Color", 0.65f);
+                        _material?.SetFloat("_Color", 0.65f);
                         break;
                     case BuildingType.Forest:
                         _material.SetFloat("_Color", 0f);
@@ -218,6 +219,7 @@ namespace Planet
                 if (buildType == BuildingType.Forest)
                 {
                     ShakeCamera.Instance.Shake();
+                    madeForest?.Invoke();
                 }
                 
                 AudioManager.Instance.Play(AudioManager.SoundsType.PoofLevelUpBuilding);
@@ -350,7 +352,7 @@ namespace Planet
             // play building animation;
             
             curBuildTime += amount;
-            if (curBuildTime >= buildTime)
+            if (curBuildTime >= buildTime && BuildingType == BuildingType.None)
             {
                 BuildBuilding(1);
             }

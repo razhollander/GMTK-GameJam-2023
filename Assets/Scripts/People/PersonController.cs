@@ -115,9 +115,7 @@ public class PlayerController : MonoBehaviour
                     FindNextTarget();
                 }
                 break;
-
         }
-
     }
 
     private async UniTask WaitAndContinue(bool next, int timeToWait)
@@ -142,18 +140,25 @@ public class PlayerController : MonoBehaviour
 
     #region getters&setters
 
-        public void SetSpeed(float _speed) {speed = _speed;}
-        
-        public float GetSpeed() {return speed;}
-        
         public void SetTarget(Land _target) {target = _target;}
 
         public void SetLook(Material material)
         {
             humanMeshRenderer.material = material;
         }
-        
-        public void SetBuild(bool _build){ isBuild = _build;}
+
+        private void SetBuild(bool _build)
+        {
+            isBuild = _build;
+            target.madeForest += StopBuilding;
+        }
+
+        private void StopBuilding()
+        {
+            isBuild = false;
+            target.madeForest -= StopBuilding;
+            FindNextTarget();
+        }
 
     #endregion
 }

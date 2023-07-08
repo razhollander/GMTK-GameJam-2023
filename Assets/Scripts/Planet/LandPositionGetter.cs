@@ -7,7 +7,18 @@ namespace Planet
     {
         private MeshFilter _meshFilter;
 
-        public int Vertex => _meshFilter.mesh.vertexCount;
+        public int Vertex
+        {
+
+            get
+            {
+                if (_meshFilter == null)
+                {
+                    _meshFilter = GetComponent<MeshFilter>();
+                }
+                return _meshFilter.mesh.vertexCount;
+            }
+        }
 
         public Vector3 Position
         {
