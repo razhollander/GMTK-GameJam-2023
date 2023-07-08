@@ -1,11 +1,14 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 namespace Planet
 {
     public class Land : MonoBehaviour
     {
+        [SerializeField] private List<BuildingObjectsContainer> _buildingObjects;
+        
         private int _amountNeighbors;
         private Material _material;
         private int _level;
@@ -15,6 +18,7 @@ namespace Planet
         public List<Land> Neighbors { get; set; }
         public Vector3 Position { get; set; }
         public int Vertex { get; set; }
+        public int Heart { get; set; }
 
         public int Level
         {
@@ -117,22 +121,57 @@ namespace Planet
 
         public void BuildForest(int level)
         {
-            
+            Build(level, BuildingType.Forest);
         }
-        
+
         public void BuildBuilding(int level)
         {
-            
+            Build(level, BuildingType.Building);
+        }
+
+        private void Build(int level, BuildingType buildType)
+        {
+            var index = 0;
+            Level = level;
+            var builds = _buildingObjects.First(i => i.Type == buildType);
+            foreach (var buildsObject in builds.Objects)
+            {
+                if (index + 1 == Level)
+                {
+                    buildsObject.SetActive(true);
+                }
+                else
+                {
+                    buildsObject.SetActive(false);
+                }
+            }
+        }
+
+        public void DestroyBuilding()
+        {
+            _buildingObjects.ForEach(i => i.Objects.ForEach(j => j.gameObject.SetActive(false)));
         }
         
-        public void DestroyBuilding(int level)
+        public void HitBuilding()
         {
-            
+            Heart--;
         }
         
-        public void HitBuilding(int level)
+        public void DestroyForest()
         {
-            
+            _buildingObjects.ForEach(i => i.Objects.ForEach(j => j.gameObject.SetActive(false)));
+        }
+        
+        public void HitForest()
+        {
+            Heart--;
+        }
+        
+        [Serializable]
+        private struct BuildingObjectsContainer
+        {
+            public BuildingType Type;
+            public List<GameObject> Objects;
         }
     }
 }
