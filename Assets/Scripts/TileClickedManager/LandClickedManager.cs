@@ -14,6 +14,7 @@ public class LandClickedManager : MonoBehaviour
     [SerializeField] private Texture2D _hoverBuildingCursorTexture;
     [SerializeField] private Texture2D _hitBuildingCursorTexture;
     [SerializeField] private Texture2D _meteorBuildingCursorTexture;
+    [SerializeField] private Texture2D _tornadoBuildingCursorTexture;
 
     public static LandClickedManager Instance;
     private Land _currentLandMouseDown;
@@ -23,7 +24,7 @@ public class LandClickedManager : MonoBehaviour
     private Texture2D _idleMouseTexture;
     private bool _isMouseCurrentlyDownHitBuilding;
     private bool _isMouseCurrentlyDownCreateForest;
-    private bool _isMouseCurrentlyHaveMeteor;
+    private ElementEffect _mouseCurrentElementEffect = ElementEffect.None;
 
     private void Awake()
     {
@@ -61,6 +62,12 @@ public class LandClickedManager : MonoBehaviour
     public async UniTask LandMouseDown(Land land)
     {
         _currentLandMouseDown = land;
+
+        if (_mouseCurrentElementEffect != ElementEffect.None)
+        {
+            _mouseCurrentElementEffect = ElementEffect.None;
+            
+        }
         
         switch (land.BuildingType)
         {
@@ -111,21 +118,27 @@ public class LandClickedManager : MonoBehaviour
     {
         _currentLandMouseHover = land;
         _currentLandMouseHover.BuildingTypeChangedEvent += UpdateIdleCursorTexture;
-        Debug.Log("Enter!");
+
         UpdateIdleCursorTexture();
         UpdateToCorrectCursorImage();
     }
 
-    public void ReceivedElement()
+    public void ReceiveElement(ElementEffect elementEffect)
     {
+        _mouseCurrentElementEffect = elementEffect;
         UpdateToCorrectCursorImage();
     }
     
     private void UpdateToCorrectCursorImage()
     {
-        if (_isMouseCurrentlyHaveMeteor)
+        if (_mouseCurrentElementEffect != ElementEffect.None)
         {
-            ChangeToCursorImage(_meteorBuildingCursorTexture);
+            switch (_mouseCurrentElementEffect)
+            {
+                case ElementEffect.Meteor: ChangeToCursorImage(_meteorBuildingCursorTexture); break;
+                case ElementEffect.Tornado: ChangeToCursorImage(_tornadoBuildingCursorTexture); break;
+            }
+            
             return;
         }
         
