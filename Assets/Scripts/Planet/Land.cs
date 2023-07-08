@@ -5,7 +5,7 @@ using System.Threading;
 using Cysharp.Threading.Tasks;
 using UnityEngine;
 using Random = UnityEngine.Random;
-
+using TMPro;
 namespace Planet
 {
     public class Land : MonoBehaviour, IHeatProvider
@@ -13,7 +13,7 @@ namespace Planet
         [SerializeField] private List<BuildingObjectsContainer> _buildingObjects;
         [SerializeField] private bool _isSea;
         [SerializeField] private int _forestHeatt =2;
-        
+        [SerializeField] private TextMeshProUGUI _landHeatAddedText; 
         private int _amountNeighbors;
         private Material _material;
         private int _level;
@@ -325,7 +325,12 @@ namespace Planet
 
         public void OnHeatInterval()
         {
-            
+            var heatProvided = HeatProvided;
+
+            if (heatProvided != 0)
+            {
+                //_landHeatAddedText.play
+            }
         }
     }
 }
