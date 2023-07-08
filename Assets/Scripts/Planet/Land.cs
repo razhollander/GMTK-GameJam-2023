@@ -8,7 +8,7 @@ namespace Planet
     public class Land : MonoBehaviour
     {
         [SerializeField] private List<BuildingObjectsContainer> _buildingObjects;
-        
+
         private int _amountNeighbors;
         private Material _material;
         private int _level;
@@ -131,18 +131,21 @@ namespace Planet
 
         private void Build(int level, BuildingType buildType)
         {
-            var index = 0;
-            Level = level;
-            var builds = _buildingObjects.First(i => i.Type == buildType);
-            foreach (var buildsObject in builds.Objects)
+            if (Vertex == 6)
             {
-                if (index + 1 == Level)
+                var index = 0;
+                Level = level;
+                var builds = _buildingObjects.First(i => i.Type == buildType);
+                foreach (var buildsObject in builds.Objects)
                 {
-                    buildsObject.SetActive(true);
-                }
-                else
-                {
-                    buildsObject.SetActive(false);
+                    if (index + 1 == Level)
+                    {
+                        buildsObject.SetActive(true);
+                    }
+                    else
+                    {
+                        buildsObject.SetActive(false);
+                    }
                 }
             }
         }
@@ -151,24 +154,23 @@ namespace Planet
         {
             _buildingObjects.ForEach(i => i.Objects.ForEach(j => j.gameObject.SetActive(false)));
         }
-        
+
         public void HitBuilding()
         {
             Heart--;
         }
-        
+
         public void DestroyForest()
         {
             _buildingObjects.ForEach(i => i.Objects.ForEach(j => j.gameObject.SetActive(false)));
         }
-        
+
         public void HitForest()
         {
             Heart--;
         }
-        
-        [Serializable]
-        private struct BuildingObjectsContainer
+
+        [Serializable] private struct BuildingObjectsContainer
         {
             public BuildingType Type;
             public List<GameObject> Objects;
