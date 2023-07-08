@@ -51,11 +51,11 @@ public class HeatSystem : MonoBehaviour
         CheckHeatInterval();
     }
 
-    private UniTask CheckHeatInterval()
+    private async UniTask CheckHeatInterval()
     {
         while (true)
         {
-            UniTask.Delay(_checkHeatIntervalInSeconds * 100);
+            await UniTask.Delay(_checkHeatIntervalInSeconds * 100);
             
             var heatTotalDelta = 0;
             _heatProviders.ForEach(x =>
