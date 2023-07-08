@@ -43,7 +43,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _BorderWidth: 0.485
-    - _Color: 1
+    - _Color: 0
     - _ISOUTLINEON: 1
     - _Opacity: 0
     - _OutLine: 1
