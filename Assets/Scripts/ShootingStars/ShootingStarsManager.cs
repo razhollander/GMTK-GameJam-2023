@@ -7,12 +7,6 @@ using Random = UnityEngine.Random;
 public class ShootingStarsManager : MonoBehaviour
 {
     private PlanetManager _planetManager;
-    public enum Effect
-    {
-        Meteor,
-        Tornado
-    }
-    
 
     [SerializeField] private ShootingStar star;
     [SerializeField] private float radius = 6;
@@ -39,4 +33,11 @@ public class ShootingStarsManager : MonoBehaviour
         newStar.SetLand(land);
         SpawnStar();
     }
+}
+
+public enum ElementEffect
+{
+    None,
+    Meteor,
+    Tornado
 }
