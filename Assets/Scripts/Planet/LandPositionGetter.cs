@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace Planet
 {
-    public class PartPositionGetter : MonoBehaviour
+    public class LandPositionGetter : MonoBehaviour
     {
         private MeshFilter _meshFilter;
 
