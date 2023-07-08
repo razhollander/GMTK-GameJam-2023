@@ -22,13 +22,14 @@ public class LandHeatAddedText : MonoBehaviour
     
     public async UniTask Play(int heatAmount)
     {
+        Debug.Log("play");
         gameObject.SetActive(true);
         //_text.transform.LookAt(Camera.main.transform);
         //var zAngleRotation = (Quaternion.FromToRotation(transform.up, _text.transform.position) * transform.rotation).eulerAngles.z;
         //_text.transform.rotation = Quaternion.Euler(0, 0, zAngleRotation);
         RotateTextToCamera();
-        _text.text =  heatAmount > 0? "+" + heatAmount : heatAmount.ToString();
-        _text.color = heatAmount > 0 ? _colorPositive : _colorNegative;
+        _text.text =  heatAmount > 0? "+"+heatAmount.ToString()+"°" : heatAmount.ToString()+"°";
+        _text.color = heatAmount > 0 ? _colorNegative : _colorPositive;
         _text.transform.localPosition = _text.transform.up * _startingYOffset;
         _text.transform.DOLocalMoveY(_text.transform.localPosition.y + _addedYOffset, _animationTime).OnComplete(OnCompleteEffect).SetEase(Ease.OutCubic);
         _text.DOFade(0, _animationTime).SetEase(Ease.InQuart);

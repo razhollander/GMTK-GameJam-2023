@@ -153,6 +153,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _meteorElement: {fileID: 5403042147988807116, guid: 6c20088aed0beb540b1e00916d091a93, type: 3}
+  _tornadoElement: {fileID: 3489480581518065224, guid: c2e4f947aed5a3143acc2a40d8713f29, type: 3}
   _meteorSpawnRadius: 6
   _upOffset: 1
 --- !u!4 &81684050
