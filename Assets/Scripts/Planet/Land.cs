@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -36,12 +37,23 @@ namespace Planet
 
         private void OnMouseExit()
         {
+            LandClickedManager.Instance.LandMouseExit(this);
             Debug.Log("Mouse exit");
         }
 
         private void OnMouseUpAsButton()
         {
             Debug.Log("Clicked");
+        }
+
+        private void OnMouseUp()
+        {
+            LandClickedManager.Instance.LandMouseUp(this);
+        }
+
+        private void OnMouseDown()
+        {
+            LandClickedManager.Instance.LandMouseDown(this);
         }
     }
 }
