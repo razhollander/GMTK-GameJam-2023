@@ -57,8 +57,8 @@ MonoBehaviour:
   _colorPositive: {r: 0.12941177, g: 0.43137258, b: 0.9294118, a: 1}
   _colorNegative: {r: 0.7686275, g: 0.29803923, b: 0.3803922, a: 1}
   _renderer: {fileID: 1878270882401399267}
-  _minimumScale: 0.5
-  _scaleStep: 0.5
+  _minimumScale: 0.25
+  _scaleStep: 0.25
   _notFullOpacity: 0.15
 --- !u!1 &4241866184504535785
 GameObject:

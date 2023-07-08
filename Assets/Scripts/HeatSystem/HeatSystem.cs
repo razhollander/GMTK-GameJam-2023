@@ -8,7 +8,7 @@ public class HeatSystem : MonoBehaviour
 {
     public static HeatSystem Instance;
     [SerializeField] private int _checkHeatIntervalInSeconds = 5;
-    private int _currentHeat = 0;
+    private int _currentHeat = 50;
     public int CurrentHeat
     {
         get
@@ -74,7 +74,6 @@ public class HeatSystem : MonoBehaviour
                 x.OnHeatInterval();
             });
             CurrentHeat += heatTotalDelta;
-            Debug.Log("@@@@@@@@@@@@@@@@@@ Delta: "+heatTotalDelta+", CurrentHeat: "+CurrentHeat);
             _heatIntervalObservers.ForEach(x => x.OnHeatInterval(CurrentHeat, heatTotalDelta));
         }
     }

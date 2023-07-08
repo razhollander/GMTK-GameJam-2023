@@ -55,9 +55,9 @@ public class GameManager : MonoBehaviour, IHeatIntervalObserver
 
     private void DoLose()
     {
-        Score.Instance.SaveHighScore();
-        _loseUI.gameObject.SetActive(true);
-        _loseUI.Show();
+        //Score.Instance.SaveHighScore();
+        //_loseUI.gameObject.SetActive(true);
+        //_loseUI.Show();
     }
 
     public void GoToMenu()

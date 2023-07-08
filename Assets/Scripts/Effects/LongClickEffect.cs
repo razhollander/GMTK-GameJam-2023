@@ -26,12 +26,17 @@ public class LongClickEffect : MonoBehaviour
     public async UniTask StartFillBar(float duration, CancellationTokenSource cs)
     {
         _barImage.fillAmount = 0;
-
         await DOTween.To(() => _barImage.fillAmount, (x) =>
         {
             _barImage.fillAmount = x;
             transform.position = Input.mousePosition + _offset.ToVector3XY();
         }, 1, duration).SetEase(_ease).ToUniTask(cancellationToken: cs.Token);
+
+        //if (cs.IsCancellationRequested)
+        //{
+        //    Debug.Log("CANCEL!");
+        //    await UniTask.CompletedTask;
+        //}
     }
 
     public void SetActive(bool isActive)

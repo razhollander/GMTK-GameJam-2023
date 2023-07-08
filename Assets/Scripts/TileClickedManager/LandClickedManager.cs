@@ -20,7 +20,8 @@ public class LandClickedManager : MonoBehaviour
     public static LandClickedManager Instance;
     private Land _currentLandMouseDown;
     private Land _currentLandMouseHover;
-    
+
+    private bool _isCurrentlyDoingLongClickEffectFlag = false;
     private CancellationTokenSource _landMouseDownCancellationToken;
     private Texture2D _idleMouseTexture;
     private bool _isMouseCurrentlyDownHitBuilding;
@@ -76,19 +77,33 @@ public class LandClickedManager : MonoBehaviour
         switch (land.BuildingType)
         {
             case BuildingType.None:
+                LongClickEffect.Instance.SetActive(true);
                 _landMouseDownCancellationToken?.Cancel();
                 _landMouseDownCancellationToken = new CancellationTokenSource();
-                LongClickEffect.Instance.SetActive(true);
+                var thisToken = _landMouseDownCancellationToken;
                 _isMouseCurrentlyDownCreateForest = true;
                 UpdateToCorrectCursorImage();
-                await LongClickEffect.Instance.StartFillBar(_buildForestDuration, _landMouseDownCancellationToken);
+
+                try
+                {
+                    var task = LongClickEffect.Instance.StartFillBar(_buildForestDuration, thisToken);
+                    await task;
+                }
+                catch (Exception e)
+                {
+                    Debug.Log(e.Message);
+
+                    throw;
+                }
                 _isMouseCurrentlyDownCreateForest = false;
                 UpdateToCorrectCursorImage();
-                if (_landMouseDownCancellationToken.IsCancellationRequested)
+                if (thisToken.IsCancellationRequested)
                 {
+                    Debug.Log("IsCancellationRequested!");
                     return;
                 }
-                
+                Debug.Log("CreateForestInCurrentLand!");
+
                 LongClickEffect.Instance.SetActive(false);
                 CreateForestInCurrentLand();
                 _currentLandMouseDown = null;

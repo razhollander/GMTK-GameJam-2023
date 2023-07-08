@@ -32,7 +32,6 @@ public class PlayerController : MonoBehaviour
         renderer = myTransform.GetChild(0);
         rayPos = myTransform.GetChild(1);
         SetTarget(target.Neighbors[Random.Range(0, target.Neighbors.Count)]);
-        print(target.name);
     }
 
     private void LateUpdate()
@@ -134,14 +133,9 @@ public class PlayerController : MonoBehaviour
 
     public void FindNextTarget()
     {
-        foreach (var _target in target.Neighbors)
-        {
-            print(_target.name);
-        }
         animator.SetBool(Chop, false);
         axe.SetActive(false);
         var next = target.Neighbors[Random.Range(0, target.Neighbors.Count)];
-        print(next.name);
         SetTarget(next);
         _arrived = false;
     }
@@ -187,7 +181,6 @@ public class PlayerController : MonoBehaviour
             {
                 neighbor = PlanetManager.Instance.Lands[Random.Range(0, PlanetManager.Instance.Lands.Count)];
             }
-            print(_target.name + neighbor.name);
             target = neighbor;
         }
 
@@ -198,7 +191,6 @@ public class PlayerController : MonoBehaviour
 
         private void SetBuild(bool _build)
         {
-            print("build");
             animator.SetBool(Chop, true);
             axe.SetActive(true);
             isBuild = _build;
