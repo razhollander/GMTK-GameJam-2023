@@ -29,7 +29,7 @@ public class LandClickedManager : MonoBehaviour
     {
         Instance = this;
     }
-
+    
     public void LandMouseExit(Land land)
     {
         _currentLandMouseHover.BuildingTypeChangedEvent -= UpdateIdleCursorTexture;
@@ -100,11 +100,6 @@ public class LandClickedManager : MonoBehaviour
     private void HitBuildingsInCurrentLand()
     {
         _currentLandMouseDown.HitBuilding();
-
-        if (_currentLandMouseDown.Heart == 0)
-        {
-            _currentLandMouseDown.DestroyBuilding();
-        }
     }
 
     private void ChangeToCursorImage(Texture2D cursorTexture)
@@ -121,6 +116,11 @@ public class LandClickedManager : MonoBehaviour
         UpdateToCorrectCursorImage();
     }
 
+    public void ReceivedElement()
+    {
+        UpdateToCorrectCursorImage();
+    }
+    
     private void UpdateToCorrectCursorImage()
     {
         if (_isMouseCurrentlyHaveMeteor)
