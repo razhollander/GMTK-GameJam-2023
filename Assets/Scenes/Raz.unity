@@ -8666,6 +8666,30 @@ PrefabInstance:
       propertyPath: _buildForestDuration
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 7575765082325447304, guid: 1dc079bc2bfd50a44a3dd5ea8b79aa5e, type: 3}
+      propertyPath: _hoverLandCursorTexture
+      value: 
+      objectReference: {fileID: 2800000, guid: 757c44a9c4d27b44595b5d3f30fb1ee9, type: 3}
+    - target: {fileID: 7575765082325447304, guid: 1dc079bc2bfd50a44a3dd5ea8b79aa5e, type: 3}
+      propertyPath: _hitBuildingCursorTexture
+      value: 
+      objectReference: {fileID: 2800000, guid: 7bf05a1e65b9a9841800b3f884b706f1, type: 3}
+    - target: {fileID: 7575765082325447304, guid: 1dc079bc2bfd50a44a3dd5ea8b79aa5e, type: 3}
+      propertyPath: _hoverForestCursorTexture
+      value: 
+      objectReference: {fileID: 2800000, guid: 757c44a9c4d27b44595b5d3f30fb1ee9, type: 3}
+    - target: {fileID: 7575765082325447304, guid: 1dc079bc2bfd50a44a3dd5ea8b79aa5e, type: 3}
+      propertyPath: _createForestCursorTexture
+      value: 
+      objectReference: {fileID: 2800000, guid: 9c84269e51169a642a041c9746519d90, type: 3}
+    - target: {fileID: 7575765082325447304, guid: 1dc079bc2bfd50a44a3dd5ea8b79aa5e, type: 3}
+      propertyPath: _hoverBuildingCursorTexture
+      value: 
+      objectReference: {fileID: 2800000, guid: 6a8479f7b0201c74dbd8ca60fa7e7795, type: 3}
+    - target: {fileID: 7575765082325447304, guid: 1dc079bc2bfd50a44a3dd5ea8b79aa5e, type: 3}
+      propertyPath: _meteorBuildingCursorTexture
+      value: 
+      objectReference: {fileID: 2800000, guid: ae4051c4a75f8474e97bd8fa3c1afe3b, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
