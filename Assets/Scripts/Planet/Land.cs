@@ -8,6 +8,7 @@ using UnityEngine;
 using Random = UnityEngine.Random;
 using TMPro;
 using Unity.Mathematics;
+using DG.Tweening;
 
 namespace Planet
 {
@@ -86,6 +87,11 @@ namespace Planet
                 UpdateColorView();
             }
         }
+        
+        [SerializeField] float _shakeDuration = 0.3f;
+        [SerializeField] float _shakeStrength = 1f;
+        [SerializeField] int _shakeVib = 5;
+        [SerializeField] float _shakeRandomness = 10f;
         
         private void Start()
         {
@@ -261,7 +267,7 @@ namespace Planet
         public async UniTask HitBuilding()
         {
             Heart--;
-            
+            _objects.ForEach(x => x.transform.DOShakePosition(_shakeDuration, _shakeStrength, _shakeVib, _shakeRandomness));
             if (_resetHeartCountdownCancellationToken != null)
             {
                 _resetHeartCountdownCancellationToken.Cancel();

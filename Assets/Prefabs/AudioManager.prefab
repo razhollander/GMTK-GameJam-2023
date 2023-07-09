@@ -64,4 +64,7 @@ MonoBehaviour:
     Clip: {fileID: 8300000, guid: 8a321694091e4ff428ac9cdf4e9dfef8, type: 3}
   - Type: 4
     Clip: {fileID: 8300000, guid: e64b1ab0a75bd5244bd14219f94c400f, type: 3}
+  - Type: 5
+    Clip: {fileID: 8300000, guid: f6bf7f80ec184d243973bba7b58c6cc7, type: 3}
   _audioSourcePrefab: {fileID: 7556497738588048030, guid: 2919c56d9d8d92544945d500fe8f10b4, type: 3}
+  _audioListener: {fileID: 0}
