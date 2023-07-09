@@ -31,7 +31,7 @@ public class LandHeatAddedText : MonoBehaviour
         gameObject.SetActive(false);
     }
     
-    public async UniTask Play(int heatAmount, bool isFullOpacity)
+    public async UniTask Play(float heatAmount, bool isFullOpacity)
     {
         gameObject.SetActive(true);
         _text.transform.localScale = Vector3.one * (_minimumScale + _scaleStep * Math.Abs(heatAmount));

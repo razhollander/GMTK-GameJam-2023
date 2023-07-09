@@ -1641,6 +1641,10 @@ MonoBehaviour:
   poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
+  _shakeDuration: 0.3
+  _shakeStrength: 0.5
+  _shakeVib: 20
+  _shakeRandomness: 20
 --- !u!114 &1331281871154932310
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1724,6 +1728,10 @@ MonoBehaviour:
   poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
+  _shakeDuration: 0.3
+  _shakeStrength: 0.5
+  _shakeVib: 20
+  _shakeRandomness: 20
 --- !u!114 &7915260279986453672
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1807,6 +1815,10 @@ MonoBehaviour:
   poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
+  _shakeDuration: 0.3
+  _shakeStrength: 0.5
+  _shakeVib: 20
+  _shakeRandomness: 20
 --- !u!114 &373810146306408405
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1878,6 +1890,10 @@ MonoBehaviour:
   poofDestroy: {fileID: 0}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 0
+  _shakeDuration: 0.3
+  _shakeStrength: 1
+  _shakeVib: 5
+  _shakeRandomness: 10
 --- !u!1 &396595255188567234 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -4478952436831102111, guid: 4ae36f52254bf2243a85c99b8125bc2e, type: 3}
@@ -1927,6 +1943,10 @@ MonoBehaviour:
   poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
+  _shakeDuration: 0.3
+  _shakeStrength: 0.5
+  _shakeVib: 20
+  _shakeRandomness: 20
 --- !u!114 &1093484058815200382
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1998,6 +2018,10 @@ MonoBehaviour:
   poofDestroy: {fileID: 0}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 0
+  _shakeDuration: 0.3
+  _shakeStrength: 1
+  _shakeVib: 5
+  _shakeRandomness: 10
 --- !u!1 &552306177924156402 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4899145359160058961, guid: 4ae36f52254bf2243a85c99b8125bc2e, type: 3}
@@ -2047,6 +2071,10 @@ MonoBehaviour:
   poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
+  _shakeDuration: 0.3
+  _shakeStrength: 0.5
+  _shakeVib: 20
+  _shakeRandomness: 20
 --- !u!114 &7438698935374601152
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2130,6 +2158,10 @@ MonoBehaviour:
   poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
+  _shakeDuration: 0.3
+  _shakeStrength: 0.5
+  _shakeVib: 20
+  _shakeRandomness: 20
 --- !u!114 &2508100412402386959
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2213,6 +2245,10 @@ MonoBehaviour:
   poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
+  _shakeDuration: 0.3
+  _shakeStrength: 0.5
+  _shakeVib: 20
+  _shakeRandomness: 20
 --- !u!114 &7570091726619738077
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2296,6 +2332,10 @@ MonoBehaviour:
   poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
+  _shakeDuration: 0.3
+  _shakeStrength: 0.5
+  _shakeVib: 20
+  _shakeRandomness: 20
 --- !u!114 &299380828398267625
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2379,6 +2419,10 @@ MonoBehaviour:
   poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
+  _shakeDuration: 0.3
+  _shakeStrength: 0.5
+  _shakeVib: 20
+  _shakeRandomness: 20
 --- !u!114 &4686708604143393745
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2462,6 +2506,10 @@ MonoBehaviour:
   poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
+  _shakeDuration: 0.3
+  _shakeStrength: 0.5
+  _shakeVib: 20
+  _shakeRandomness: 20
 --- !u!114 &6514420144953991138
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2545,6 +2593,10 @@ MonoBehaviour:
   poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
+  _shakeDuration: 0.3
+  _shakeStrength: 0.5
+  _shakeVib: 20
+  _shakeRandomness: 20
 --- !u!114 &809782172503298043
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2628,6 +2680,10 @@ MonoBehaviour:
   poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
+  _shakeDuration: 0.3
+  _shakeStrength: 0.5
+  _shakeVib: 20
+  _shakeRandomness: 20
 --- !u!114 &7641888945773535276
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2711,6 +2767,10 @@ MonoBehaviour:
   poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
+  _shakeDuration: 0.3
+  _shakeStrength: 0.5
+  _shakeVib: 20
+  _shakeRandomness: 20
 --- !u!114 &5747918532990189610
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2794,6 +2854,10 @@ MonoBehaviour:
   poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
+  _shakeDuration: 0.3
+  _shakeStrength: 0.5
+  _shakeVib: 20
+  _shakeRandomness: 20
 --- !u!114 &2105162779297016240
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2865,6 +2929,10 @@ MonoBehaviour:
   poofDestroy: {fileID: 0}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 0
+  _shakeDuration: 0.3
+  _shakeStrength: 1
+  _shakeVib: 5
+  _shakeRandomness: 10
 --- !u!1 &2144154630964170060 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6455624688477512431, guid: 4ae36f52254bf2243a85c99b8125bc2e, type: 3}
@@ -2914,6 +2982,10 @@ MonoBehaviour:
   poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
+  _shakeDuration: 0.3
+  _shakeStrength: 0.5
+  _shakeVib: 20
+  _shakeRandomness: 20
 --- !u!114 &7217517572608452455
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2997,6 +3069,10 @@ MonoBehaviour:
   poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
+  _shakeDuration: 0.3
+  _shakeStrength: 0.5
+  _shakeVib: 20
+  _shakeRandomness: 20
 --- !u!114 &5692797289571399416
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3080,6 +3156,10 @@ MonoBehaviour:
   poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
+  _shakeDuration: 0.3
+  _shakeStrength: 0.5
+  _shakeVib: 20
+  _shakeRandomness: 20
 --- !u!114 &4783741964047189308
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3163,6 +3243,10 @@ MonoBehaviour:
   poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
+  _shakeDuration: 0.3
+  _shakeStrength: 0.5
+  _shakeVib: 20
+  _shakeRandomness: 20
 --- !u!114 &526348019606554739
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3246,6 +3330,10 @@ MonoBehaviour:
   poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
+  _shakeDuration: 0.3
+  _shakeStrength: 0.5
+  _shakeVib: 20
+  _shakeRandomness: 20
 --- !u!114 &3263307987302257824
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3329,6 +3417,10 @@ MonoBehaviour:
   poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
+  _shakeDuration: 0.3
+  _shakeStrength: 0.5
+  _shakeVib: 20
+  _shakeRandomness: 20
 --- !u!114 &8201753513348178004
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3412,6 +3504,10 @@ MonoBehaviour:
   poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
+  _shakeDuration: 0.3
+  _shakeStrength: 0.5
+  _shakeVib: 20
+  _shakeRandomness: 20
 --- !u!114 &2971891168489105069
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3495,6 +3591,10 @@ MonoBehaviour:
   poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
+  _shakeDuration: 0.3
+  _shakeStrength: 0.5
+  _shakeVib: 20
+  _shakeRandomness: 20
 --- !u!114 &587864675183798978
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3578,6 +3678,10 @@ MonoBehaviour:
   poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
+  _shakeDuration: 0.3
+  _shakeStrength: 0.5
+  _shakeVib: 20
+  _shakeRandomness: 20
 --- !u!114 &2106921296679003737
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3649,6 +3753,10 @@ MonoBehaviour:
   poofDestroy: {fileID: 0}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 0
+  _shakeDuration: 0.3
+  _shakeStrength: 1
+  _shakeVib: 5
+  _shakeRandomness: 10
 --- !u!1 &3611923936715844748 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8536375846074368815, guid: 4ae36f52254bf2243a85c99b8125bc2e, type: 3}
@@ -3698,6 +3806,10 @@ MonoBehaviour:
   poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
+  _shakeDuration: 0.3
+  _shakeStrength: 0.5
+  _shakeVib: 20
+  _shakeRandomness: 20
 --- !u!114 &6955494826652140147
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3781,6 +3893,10 @@ MonoBehaviour:
   poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
+  _shakeDuration: 0.3
+  _shakeStrength: 0.5
+  _shakeVib: 20
+  _shakeRandomness: 20
 --- !u!114 &2194633386481771889
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3864,6 +3980,10 @@ MonoBehaviour:
   poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
+  _shakeDuration: 0.3
+  _shakeStrength: 0.5
+  _shakeVib: 20
+  _shakeRandomness: 20
 --- !u!114 &5850464323930285237
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3947,6 +4067,10 @@ MonoBehaviour:
   poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
+  _shakeDuration: 0.3
+  _shakeStrength: 0.5
+  _shakeVib: 20
+  _shakeRandomness: 20
 --- !u!114 &1135400846304124751
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4030,6 +4154,10 @@ MonoBehaviour:
   poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
+  _shakeDuration: 0.3
+  _shakeStrength: 0.5
+  _shakeVib: 20
+  _shakeRandomness: 20
 --- !u!114 &67940740975134834
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4113,6 +4241,10 @@ MonoBehaviour:
   poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
+  _shakeDuration: 0.3
+  _shakeStrength: 0.5
+  _shakeVib: 20
+  _shakeRandomness: 20
 --- !u!114 &7127701656474903781
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4196,6 +4328,10 @@ MonoBehaviour:
   poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
+  _shakeDuration: 0.3
+  _shakeStrength: 0.5
+  _shakeVib: 20
+  _shakeRandomness: 20
 --- !u!114 &456955890313801792
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4279,6 +4415,10 @@ MonoBehaviour:
   poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
+  _shakeDuration: 0.3
+  _shakeStrength: 0.5
+  _shakeVib: 20
+  _shakeRandomness: 20
 --- !u!114 &3369028525088687119
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4362,6 +4502,10 @@ MonoBehaviour:
   poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
+  _shakeDuration: 0.3
+  _shakeStrength: 0.5
+  _shakeVib: 20
+  _shakeRandomness: 20
 --- !u!114 &3034236759513645438
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4445,6 +4589,10 @@ MonoBehaviour:
   poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
+  _shakeDuration: 0.3
+  _shakeStrength: 0.5
+  _shakeVib: 20
+  _shakeRandomness: 20
 --- !u!114 &6934988504574624870
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4528,6 +4676,10 @@ MonoBehaviour:
   poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
+  _shakeDuration: 0.3
+  _shakeStrength: 0.5
+  _shakeVib: 20
+  _shakeRandomness: 20
 --- !u!114 &6207780425786507872
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4611,6 +4763,10 @@ MonoBehaviour:
   poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
+  _shakeDuration: 0.3
+  _shakeStrength: 0.5
+  _shakeVib: 20
+  _shakeRandomness: 20
 --- !u!114 &7599026670009093414
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4694,6 +4850,10 @@ MonoBehaviour:
   poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
+  _shakeDuration: 0.3
+  _shakeStrength: 0.5
+  _shakeVib: 20
+  _shakeRandomness: 20
 --- !u!114 &9048019939841779965
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4777,6 +4937,10 @@ MonoBehaviour:
   poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
+  _shakeDuration: 0.3
+  _shakeStrength: 0.5
+  _shakeVib: 20
+  _shakeRandomness: 20
 --- !u!114 &4425996379530620998
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4860,6 +5024,10 @@ MonoBehaviour:
   poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
+  _shakeDuration: 0.3
+  _shakeStrength: 0.5
+  _shakeVib: 20
+  _shakeRandomness: 20
 --- !u!114 &1206153598429357439
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4943,6 +5111,10 @@ MonoBehaviour:
   poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
+  _shakeDuration: 0.3
+  _shakeStrength: 0.5
+  _shakeVib: 20
+  _shakeRandomness: 20
 --- !u!114 &7362953743359550030
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5026,6 +5198,10 @@ MonoBehaviour:
   poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
+  _shakeDuration: 0.3
+  _shakeStrength: 0.5
+  _shakeVib: 20
+  _shakeRandomness: 20
 --- !u!114 &7415698653428535263
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5109,6 +5285,10 @@ MonoBehaviour:
   poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
+  _shakeDuration: 0.3
+  _shakeStrength: 0.5
+  _shakeVib: 20
+  _shakeRandomness: 20
 --- !u!114 &1352679666057778210
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5192,6 +5372,10 @@ MonoBehaviour:
   poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
+  _shakeDuration: 0.3
+  _shakeStrength: 0.5
+  _shakeVib: 20
+  _shakeRandomness: 20
 --- !u!114 &3009603572233127691
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5275,6 +5459,10 @@ MonoBehaviour:
   poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
+  _shakeDuration: 0.3
+  _shakeStrength: 0.5
+  _shakeVib: 20
+  _shakeRandomness: 20
 --- !u!114 &2151451956822671584
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5375,6 +5563,10 @@ MonoBehaviour:
   poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
+  _shakeDuration: 0.3
+  _shakeStrength: 0.5
+  _shakeVib: 20
+  _shakeRandomness: 20
 --- !u!114 &2724046226766826253
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5458,6 +5650,10 @@ MonoBehaviour:
   poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
+  _shakeDuration: 0.3
+  _shakeStrength: 0.5
+  _shakeVib: 20
+  _shakeRandomness: 20
 --- !u!114 &4020293618022936541
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5541,6 +5737,10 @@ MonoBehaviour:
   poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
+  _shakeDuration: 0.3
+  _shakeStrength: 0.5
+  _shakeVib: 20
+  _shakeRandomness: 20
 --- !u!114 &4969277878259410022
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5624,6 +5824,10 @@ MonoBehaviour:
   poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
+  _shakeDuration: 0.3
+  _shakeStrength: 0.5
+  _shakeVib: 20
+  _shakeRandomness: 20
 --- !u!114 &7116309499095377959
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5695,6 +5899,10 @@ MonoBehaviour:
   poofDestroy: {fileID: 0}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 0
+  _shakeDuration: 0.3
+  _shakeStrength: 1
+  _shakeVib: 5
+  _shakeRandomness: 10
 --- !u!1 &5960009851260692834 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7574675978582391103, guid: 4ae36f52254bf2243a85c99b8125bc2e, type: 3}
@@ -5744,6 +5952,10 @@ MonoBehaviour:
   poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
+  _shakeDuration: 0.3
+  _shakeStrength: 0.5
+  _shakeVib: 20
+  _shakeRandomness: 20
 --- !u!114 &5114887495375371977
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5827,6 +6039,10 @@ MonoBehaviour:
   poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
+  _shakeDuration: 0.3
+  _shakeStrength: 0.5
+  _shakeVib: 20
+  _shakeRandomness: 20
 --- !u!114 &4743661602190872679
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5898,6 +6114,10 @@ MonoBehaviour:
   poofDestroy: {fileID: 0}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 0
+  _shakeDuration: 0.3
+  _shakeStrength: 1
+  _shakeVib: 5
+  _shakeRandomness: 10
 --- !u!1 &6392209771809808888 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7141902112441479589, guid: 4ae36f52254bf2243a85c99b8125bc2e, type: 3}
@@ -5947,6 +6167,10 @@ MonoBehaviour:
   poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
+  _shakeDuration: 0.3
+  _shakeStrength: 0.5
+  _shakeVib: 20
+  _shakeRandomness: 20
 --- !u!114 &5147758599375923123
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6030,6 +6254,10 @@ MonoBehaviour:
   poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
+  _shakeDuration: 0.3
+  _shakeStrength: 0.5
+  _shakeVib: 20
+  _shakeRandomness: 20
 --- !u!114 &7717082732294125696
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6113,6 +6341,10 @@ MonoBehaviour:
   poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
+  _shakeDuration: 0.3
+  _shakeStrength: 0.5
+  _shakeVib: 20
+  _shakeRandomness: 20
 --- !u!114 &4795637597396849687
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6196,6 +6428,10 @@ MonoBehaviour:
   poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
+  _shakeDuration: 0.3
+  _shakeStrength: 0.5
+  _shakeVib: 20
+  _shakeRandomness: 20
 --- !u!114 &7634034024070733814
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6279,6 +6515,10 @@ MonoBehaviour:
   poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
+  _shakeDuration: 0.3
+  _shakeStrength: 0.5
+  _shakeVib: 20
+  _shakeRandomness: 20
 --- !u!114 &8900723058529730036
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6362,6 +6602,10 @@ MonoBehaviour:
   poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
+  _shakeDuration: 0.3
+  _shakeStrength: 0.5
+  _shakeVib: 20
+  _shakeRandomness: 20
 --- !u!114 &697485118748990164
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6445,6 +6689,10 @@ MonoBehaviour:
   poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
+  _shakeDuration: 0.3
+  _shakeStrength: 0.5
+  _shakeVib: 20
+  _shakeRandomness: 20
 --- !u!114 &5425032388224496484
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6528,6 +6776,10 @@ MonoBehaviour:
   poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
+  _shakeDuration: 0.3
+  _shakeStrength: 0.5
+  _shakeVib: 20
+  _shakeRandomness: 20
 --- !u!114 &7566246777467218899
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6611,6 +6863,10 @@ MonoBehaviour:
   poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
+  _shakeDuration: 0.3
+  _shakeStrength: 0.5
+  _shakeVib: 20
+  _shakeRandomness: 20
 --- !u!114 &1354507078356840114
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6694,6 +6950,10 @@ MonoBehaviour:
   poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
+  _shakeDuration: 0.3
+  _shakeStrength: 0.5
+  _shakeVib: 20
+  _shakeRandomness: 20
 --- !u!114 &7132271067993823271
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6777,6 +7037,10 @@ MonoBehaviour:
   poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
+  _shakeDuration: 0.3
+  _shakeStrength: 0.5
+  _shakeVib: 20
+  _shakeRandomness: 20
 --- !u!114 &5330879334983945534
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6860,6 +7124,10 @@ MonoBehaviour:
   poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
+  _shakeDuration: 0.3
+  _shakeStrength: 0.5
+  _shakeVib: 20
+  _shakeRandomness: 20
 --- !u!114 &8728769086317384109
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6931,6 +7199,10 @@ MonoBehaviour:
   poofDestroy: {fileID: 0}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 0
+  _shakeDuration: 0.3
+  _shakeStrength: 1
+  _shakeVib: 5
+  _shakeRandomness: 10
 --- !u!1 &7377643173738230788 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2465098839616510887, guid: 4ae36f52254bf2243a85c99b8125bc2e, type: 3}
@@ -6980,6 +7252,10 @@ MonoBehaviour:
   poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
+  _shakeDuration: 0.3
+  _shakeStrength: 0.5
+  _shakeVib: 20
+  _shakeRandomness: 20
 --- !u!114 &2193854616446204951
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7063,6 +7339,10 @@ MonoBehaviour:
   poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
+  _shakeDuration: 0.3
+  _shakeStrength: 0.5
+  _shakeVib: 20
+  _shakeRandomness: 20
 --- !u!114 &4762162623283328576
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7146,6 +7426,10 @@ MonoBehaviour:
   poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
+  _shakeDuration: 0.3
+  _shakeStrength: 0.5
+  _shakeVib: 20
+  _shakeRandomness: 20
 --- !u!114 &3116352441258717749
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7229,6 +7513,10 @@ MonoBehaviour:
   poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
+  _shakeDuration: 0.3
+  _shakeStrength: 0.5
+  _shakeVib: 20
+  _shakeRandomness: 20
 --- !u!114 &6985916437551067804
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7312,6 +7600,10 @@ MonoBehaviour:
   poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
+  _shakeDuration: 0.3
+  _shakeStrength: 0.5
+  _shakeVib: 20
+  _shakeRandomness: 20
 --- !u!114 &7752887109871856441
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7395,6 +7687,10 @@ MonoBehaviour:
   poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
+  _shakeDuration: 0.3
+  _shakeStrength: 0.5
+  _shakeVib: 20
+  _shakeRandomness: 20
 --- !u!114 &3600414326958448976
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7478,6 +7774,10 @@ MonoBehaviour:
   poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
+  _shakeDuration: 0.3
+  _shakeStrength: 0.5
+  _shakeVib: 20
+  _shakeRandomness: 20
 --- !u!114 &8515531458499887219
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7561,6 +7861,10 @@ MonoBehaviour:
   poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
+  _shakeDuration: 0.3
+  _shakeStrength: 0.5
+  _shakeVib: 20
+  _shakeRandomness: 20
 --- !u!114 &8417135376199392598
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7644,6 +7948,10 @@ MonoBehaviour:
   poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
+  _shakeDuration: 0.3
+  _shakeStrength: 0.5
+  _shakeVib: 20
+  _shakeRandomness: 20
 --- !u!114 &8203476675186282743
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7727,6 +8035,10 @@ MonoBehaviour:
   poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
+  _shakeDuration: 0.3
+  _shakeStrength: 0.5
+  _shakeVib: 20
+  _shakeRandomness: 20
 --- !u!114 &4039600243539786101
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7810,6 +8122,10 @@ MonoBehaviour:
   poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
+  _shakeDuration: 0.3
+  _shakeStrength: 0.5
+  _shakeVib: 20
+  _shakeRandomness: 20
 --- !u!114 &8587193414910862661
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7893,6 +8209,10 @@ MonoBehaviour:
   poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
+  _shakeDuration: 0.3
+  _shakeStrength: 0.5
+  _shakeVib: 20
+  _shakeRandomness: 20
 --- !u!114 &7823344575213360581
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7976,6 +8296,10 @@ MonoBehaviour:
   poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
+  _shakeDuration: 0.3
+  _shakeStrength: 0.5
+  _shakeVib: 20
+  _shakeRandomness: 20
 --- !u!114 &901752234542064166
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8047,6 +8371,10 @@ MonoBehaviour:
   poofDestroy: {fileID: 0}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 0
+  _shakeDuration: 0.3
+  _shakeStrength: 1
+  _shakeVib: 5
+  _shakeRandomness: 10
 --- !u!1 &8459652723190609326 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -5678524141706126835, guid: 4ae36f52254bf2243a85c99b8125bc2e, type: 3}
@@ -8084,6 +8412,10 @@ MonoBehaviour:
   poofDestroy: {fileID: 0}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 0
+  _shakeDuration: 0.3
+  _shakeStrength: 1
+  _shakeVib: 5
+  _shakeRandomness: 10
 --- !u!1 &8519661675394763281 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3633426412015936946, guid: 4ae36f52254bf2243a85c99b8125bc2e, type: 3}
@@ -8121,6 +8453,10 @@ MonoBehaviour:
   poofDestroy: {fileID: 0}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 0
+  _shakeDuration: 0.3
+  _shakeStrength: 1
+  _shakeVib: 5
+  _shakeRandomness: 10
 --- !u!1 &8550092926797396459 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3674766883569522248, guid: 4ae36f52254bf2243a85c99b8125bc2e, type: 3}
@@ -8170,6 +8506,10 @@ MonoBehaviour:
   poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
+  _shakeDuration: 0.3
+  _shakeStrength: 0.5
+  _shakeVib: 20
+  _shakeRandomness: 20
 --- !u!114 &7350560305175077955
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8253,6 +8593,10 @@ MonoBehaviour:
   poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
+  _shakeDuration: 0.3
+  _shakeStrength: 0.5
+  _shakeVib: 20
+  _shakeRandomness: 20
 --- !u!114 &5721065386258747158
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8336,6 +8680,10 @@ MonoBehaviour:
   poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
+  _shakeDuration: 0.3
+  _shakeStrength: 0.5
+  _shakeVib: 20
+  _shakeRandomness: 20
 --- !u!114 &1312301860961774265
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8419,6 +8767,10 @@ MonoBehaviour:
   poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
+  _shakeDuration: 0.3
+  _shakeStrength: 0.5
+  _shakeVib: 20
+  _shakeRandomness: 20
 --- !u!114 &3828905679332618858
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8502,6 +8854,10 @@ MonoBehaviour:
   poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
+  _shakeDuration: 0.3
+  _shakeStrength: 0.5
+  _shakeVib: 20
+  _shakeRandomness: 20
 --- !u!114 &8018054467382770915
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8573,6 +8929,10 @@ MonoBehaviour:
   poofDestroy: {fileID: 0}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 0
+  _shakeDuration: 0.3
+  _shakeStrength: 1
+  _shakeVib: 5
+  _shakeRandomness: 10
 --- !u!1 &9175778543736717293 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4251825543122686030, guid: 4ae36f52254bf2243a85c99b8125bc2e, type: 3}
@@ -8610,6 +8970,10 @@ MonoBehaviour:
   poofDestroy: {fileID: 0}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 0
+  _shakeDuration: 0.3
+  _shakeStrength: 1
+  _shakeVib: 5
+  _shakeRandomness: 10
 --- !u!1 &9191217467338586280 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -4910420427118635253, guid: 4ae36f52254bf2243a85c99b8125bc2e, type: 3}
@@ -8659,6 +9023,10 @@ MonoBehaviour:
   poofDestroy: {fileID: 8712494870628970421, guid: 414119a714ace004aab899c971bd7dc5, type: 3}
   _forestMaxHearts: 3
   _maxSecondsBetweenHitsBeforeReset: 1
+  _shakeDuration: 0.3
+  _shakeStrength: 0.5
+  _shakeVib: 20
+  _shakeRandomness: 20
 --- !u!114 &3862742228800067649
 MonoBehaviour:
   m_ObjectHideFlags: 0

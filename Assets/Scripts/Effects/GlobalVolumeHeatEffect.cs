@@ -15,7 +15,7 @@ public class GlobalVolumeHeatEffect : MonoBehaviour, IHeatIntervalObserver
         UpdateEffectIntensity(HeatSystem.Instance.CurrentHeat);
     }
 
-    public void OnHeatInterval(int newHeat, int deltaHeat)
+    public void OnHeatInterval(float newHeat, float deltaHeat)
     {
         UpdateEffectIntensity(newHeat);
     }
@@ -26,7 +26,7 @@ public class GlobalVolumeHeatEffect : MonoBehaviour, IHeatIntervalObserver
         UpdateEffectIntensity(50);
     }
     
-    private void UpdateEffectIntensity(int newHeat)
+    private void UpdateEffectIntensity(float newHeat)
     {
         Bloom bloom;
         _volume.profile.TryGet<Bloom>(out bloom);

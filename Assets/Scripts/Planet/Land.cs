@@ -35,10 +35,10 @@ namespace Planet
 
         private Dictionary<int, int> _levelToBuildingsMaxHeartDits = new Dictionary<int, int>()
         {
-            {1, 3},
-            {2, 4},
-            {3, 5},
-            {4, 7},
+            {1, 1},
+            {2, 2},
+            {3, 2},
+            {4, 3},
         };
         
         [SerializeField] private int _forestMaxHearts = 3; 
@@ -359,14 +359,14 @@ namespace Planet
             }
         }
 
-        public int HeatProvided
+        public float HeatProvided
         {
             get
             {
                 switch (_buildingType)
                 {
                     case BuildingType.Forest: return -_forestHeatt ; break;
-                    case BuildingType.Building: return _level-1; break;
+                    case BuildingType.Building: return _level*0.5f; break;
                     default:
                         return 0; 
                 }
