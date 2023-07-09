@@ -9,7 +9,6 @@ namespace Audio
     {
         [SerializeField] private List<AudioPerId> _clips;
         [SerializeField] private AudioSource _audioSourcePrefab;
-        [SerializeField] private AudioListener _audioListener;
         public static AudioManager Instance { get; private set; }
 
         private void Awake()
@@ -41,7 +40,7 @@ namespace Audio
                 await UniTask.Delay(1000);
             }
             
-            Destroy(source);
+            Destroy(source.gameObject);
         }
         
         public enum SoundsType
@@ -50,7 +49,8 @@ namespace Audio
             PoofLevelUpBuilding,
             BuildingDestroySuccess,
             HitBuilding,
-            BackgroundMusic
+            BackgroundMusic,
+            Tornado
         }
         
         [Serializable]

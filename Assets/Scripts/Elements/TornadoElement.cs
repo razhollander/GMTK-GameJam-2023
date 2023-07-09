@@ -1,7 +1,10 @@
+using System;
+using Audio;
 using Cysharp.Threading.Tasks;
 using Planet;
 using UniRx;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 namespace Elements
 {
@@ -23,6 +26,11 @@ namespace Elements
 
         private Land _firstLand;
         private Land target;
+
+        private void Awake()
+        {
+            AudioManager.Instance.Play(AudioManager.SoundsType.Tornado);
+        }
 
         public void SetFirstLand(Land land)
         {
