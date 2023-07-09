@@ -160,7 +160,7 @@ namespace Planet
 
         private void OnMouseEnter()
         {
-            if (GameButtons.Instance.IsPaused)
+            if (GameButtons.Instance != null && GameButtons.Instance.IsPaused)
             {
                 return;
             }
@@ -171,7 +171,7 @@ namespace Planet
 
         private void OnMouseExit()
         {
-            if (GameButtons.Instance.IsPaused)
+            if (GameButtons.Instance != null && GameButtons.Instance.IsPaused)
             {
                 return;
             }
@@ -186,7 +186,7 @@ namespace Planet
 
         private void OnMouseDown()
         {
-            if (GameButtons.Instance.IsPaused)
+            if (GameButtons.Instance != null && GameButtons.Instance.IsPaused)
             {
                 return;
             }
@@ -196,7 +196,7 @@ namespace Planet
 
         private void OnMouseUp()
         {
-            if (GameButtons.Instance.IsPaused)
+            if (GameButtons.Instance != null && GameButtons.Instance.IsPaused)
             {
                 return;
             }
@@ -336,11 +336,6 @@ namespace Planet
 
         private void Update()
         {
-            if (GameButtons.Instance.IsPaused)
-            {
-                return;
-            }
-            
             UpdateNextLevel();
         }
 
