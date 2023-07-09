@@ -12,7 +12,7 @@ public class DroppedStar : MonoBehaviour
     
     private void OnMouseUpAsButton()
     {
-        if (GameButtons.Instance.IsPaused)
+        if (GameButtons.Instance != null && GameButtons.Instance.IsPaused)
         {
             return;
         }

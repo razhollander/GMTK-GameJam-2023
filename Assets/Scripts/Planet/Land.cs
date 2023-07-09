@@ -366,7 +366,7 @@ namespace Planet
                 switch (_buildingType)
                 {
                     case BuildingType.Forest: return -_forestHeatt ; break;
-                    case BuildingType.Building: return _level; break;
+                    case BuildingType.Building: return _level-1; break;
                     default:
                         return 0; 
                 }
