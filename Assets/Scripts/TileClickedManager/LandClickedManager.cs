@@ -99,10 +99,10 @@ public class LandClickedManager : MonoBehaviour
                 UpdateToCorrectCursorImage();
                 if (thisToken.IsCancellationRequested)
                 {
-                    Debug.Log("IsCancellationRequested!");
+                    // Debug.Log("IsCancellationRequested!");
                     return;
                 }
-                Debug.Log("CreateForestInCurrentLand!");
+                // Debug.Log("CreateForestInCurrentLand!");
 
                 LongClickEffect.Instance.SetActive(false);
                 CreateForestInCurrentLand();
