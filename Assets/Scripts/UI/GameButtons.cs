@@ -9,7 +9,11 @@ public class GameButtons : MonoBehaviour
 {
     [SerializeField] private Toggle _pauseToggle;
     [SerializeField] private Toggle _muteToggle;
-
+    [SerializeField] private Sprite _muteSprite;
+    [SerializeField] private Sprite _pauseSprite;
+    [SerializeField] private Sprite _unPauseSprite;
+    [SerializeField] private Sprite _unMuteSprite;
+    
     public static GameButtons Instance;
     public bool IsPaused { get; private set; }
     private void Awake()
@@ -27,6 +31,8 @@ public class GameButtons : MonoBehaviour
 
     private void Pause(bool isOn)
     {
+        _pauseToggle.image.sprite = isOn ? _pauseSprite : _unPauseSprite;
+
         IsPaused = isOn;
         if (isOn)
         {
@@ -46,6 +52,7 @@ public class GameButtons : MonoBehaviour
     private void Mute(bool isMute)
     {
         var volume = isMute? 0:1;
+        _muteToggle.image.sprite = isMute ? _muteSprite : _unMuteSprite;
         AudioListener.volume = volume;
     }
 }
