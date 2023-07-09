@@ -14,11 +14,9 @@ namespace Elements
 
         [SerializeField] private Transform rayPos;
         [SerializeField] private LayerMask world;
-        [SerializeField] private float yOffset = .1f;
-        [SerializeField] private Transform renderer;
         [SerializeField] private float speed = 1;
         [SerializeField] private float radius = 5;
-        [SerializeField] private float _aliveSeconds = 10;
+        [SerializeField] private float _aliveSeconds = 60;
         private Vector3 wayUp;
         private Vector3 center = Vector3.zero;
         private Vector3 _lastPos;
@@ -113,7 +111,10 @@ namespace Elements
                 if (timerHit < secondsForHit)
                 {
                     timerHit = 0;
-                    _firstLand.HitBuilding();
+                    if (_firstLand.BuildingType != BuildingType.Forest)
+                    {
+                        _firstLand.HitBuilding();
+                    }
                 }
 
                 await UniTask.DelayFrame(1);
@@ -129,7 +130,10 @@ namespace Elements
                 if (timerHit < secondsForHit)
                 {
                     timerHit = 0;
-                    target.HitBuilding();
+                    if (_firstLand.BuildingType != BuildingType.Forest)
+                    {
+                        _firstLand.HitBuilding();
+                    }
                 }
 
                 await UniTask.DelayFrame(1);
