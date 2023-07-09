@@ -407,7 +407,7 @@ MonoBehaviour:
   _muteSprite: {fileID: 21300000, guid: 6d42af78a63ba134dbc157e637d1a3ab, type: 3}
   _pauseSprite: {fileID: 21300000, guid: 4081bc489a2472c4eba9c4d644cf1312, type: 3}
   _unPauseSprite: {fileID: 21300000, guid: e888084d5ad0df848b96adb393633278, type: 3}
-  _unMuteSprite: {fileID: 21300000, guid: e888084d5ad0df848b96adb393633278, type: 3}
+  _unMuteSprite: {fileID: 21300000, guid: 4081bc489a2472c4eba9c4d644cf1312, type: 3}
 --- !u!1 &1103623097791396633
 GameObject:
   m_ObjectHideFlags: 0
