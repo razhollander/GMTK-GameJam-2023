@@ -182,7 +182,6 @@ public class PlayerController : MonoBehaviour
                 neighbor = PlanetManager.Instance.Lands[Random.Range(0, PlanetManager.Instance.Lands.Count)];
             }
 
-            print("started from: " + _target.name + " Ended in: " + neighbor.name);
             target = neighbor;
         }
 

@@ -55,7 +55,7 @@ public class SkyManager : MonoBehaviour, IHeatIntervalObserver
             var emission = smoke.emission;
             if (newHeat > 80)
             {
-                emission.rateOverTime = newHeat - 10;
+                emission.rateOverTime = newHeat - 20;
             }
             else
             {
