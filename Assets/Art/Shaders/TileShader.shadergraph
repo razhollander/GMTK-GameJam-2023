@@ -20,6 +20,9 @@
         },
         {
             "m_Id": "3d16654a55d14f989d3b5907c7f05611"
+        },
+        {
+            "m_Id": "dbd3144553934062ba8e96af7539579a"
         }
     ],
     "m_Keywords": [
@@ -123,6 +126,9 @@
         },
         {
             "m_Id": "ead07ef3374842f293ac2a5977b07bb0"
+        },
+        {
+            "m_Id": "afe97a69d05a4e308c3fe3fa0ef0cd30"
         }
     ],
     "m_GroupDatas": [],
@@ -327,20 +333,6 @@
         {
             "m_OutputSlot": {
                 "m_Node": {
-                    "m_Id": "a2050a8e99064a29a11e361edb6df488"
-                },
-                "m_SlotId": 0
-            },
-            "m_InputSlot": {
-                "m_Node": {
-                    "m_Id": "5af73f8edbdb46ac9f634c2879c88bc4"
-                },
-                "m_SlotId": 0
-            }
-        },
-        {
-            "m_OutputSlot": {
-                "m_Node": {
                     "m_Id": "ac5dc1c27d6f4869abbba66f28610b48"
                 },
                 "m_SlotId": 2
@@ -362,6 +354,20 @@
             "m_InputSlot": {
                 "m_Node": {
                     "m_Id": "0ce54a86a845477ab9b30c029db18f55"
+                },
+                "m_SlotId": 0
+            }
+        },
+        {
+            "m_OutputSlot": {
+                "m_Node": {
+                    "m_Id": "afe97a69d05a4e308c3fe3fa0ef0cd30"
+                },
+                "m_SlotId": 0
+            },
+            "m_InputSlot": {
+                "m_Node": {
+                    "m_Id": "5af73f8edbdb46ac9f634c2879c88bc4"
                 },
                 "m_SlotId": 0
             }
@@ -829,6 +835,9 @@
         },
         {
             "m_Id": "3d16654a55d14f989d3b5907c7f05611"
+        },
+        {
+            "m_Id": "dbd3144553934062ba8e96af7539579a"
         }
     ]
 }
@@ -2771,6 +2780,42 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
+    "m_ObjectId": "afe97a69d05a4e308c3fe3fa0ef0cd30",
+    "m_Group": {
+        "m_Id": ""
+    },
+    "m_Name": "Property",
+    "m_DrawState": {
+        "m_Expanded": true,
+        "m_Position": {
+            "serializedVersion": "2",
+            "x": 512.4588012695313,
+            "y": 781.8057250976563,
+            "width": 0.0,
+            "height": 0.0
+        }
+    },
+    "m_Slots": [
+        {
+            "m_Id": "eb0d41a68bb647438417aa3b6b1677c9"
+        }
+    ],
+    "synonyms": [],
+    "m_Precision": 0,
+    "m_PreviewExpanded": true,
+    "m_DismissedVersion": 0,
+    "m_PreviewMode": 0,
+    "m_CustomColors": {
+        "m_SerializableColors": []
+    },
+    "m_Property": {
+        "m_Id": "dbd3144553934062ba8e96af7539579a"
+    }
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "b13fe38c53074389a662f81366558222",
     "m_Id": 0,
@@ -3321,6 +3366,36 @@
 }
 
 {
+    "m_SGVersion": 3,
+    "m_Type": "UnityEditor.ShaderGraph.Internal.ColorShaderProperty",
+    "m_ObjectId": "dbd3144553934062ba8e96af7539579a",
+    "m_Guid": {
+        "m_GuidSerialized": "e94914d2-d59b-49c1-af58-1cf46b3f2914"
+    },
+    "m_Name": "edgeColor",
+    "m_DefaultRefNameVersion": 1,
+    "m_RefNameGeneratedByDisplayName": "edgeColor",
+    "m_DefaultReferenceName": "_edgeColor",
+    "m_OverrideReferenceName": "",
+    "m_GeneratePropertyBlock": true,
+    "m_UseCustomSlotLabel": false,
+    "m_CustomSlotLabel": "",
+    "m_DismissedVersion": 0,
+    "m_Precision": 0,
+    "overrideHLSLDeclaration": false,
+    "hlslDeclarationOverride": 0,
+    "m_Hidden": false,
+    "m_Value": {
+        "r": 0.9056603908538818,
+        "g": 0.9056603908538818,
+        "b": 0.9056603908538818,
+        "a": 0.2823529541492462
+    },
+    "isMainColor": false,
+    "m_ColorMode": 1
+}
+
+{
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.BlockNode",
     "m_ObjectId": "dc284ffd944e4ce484a9818e1f134d32",
@@ -3578,6 +3653,31 @@
     "m_CustomColors": {
         "m_SerializableColors": []
     }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector4MaterialSlot",
+    "m_ObjectId": "eb0d41a68bb647438417aa3b6b1677c9",
+    "m_Id": 0,
+    "m_DisplayName": "edgeColor",
+    "m_SlotType": 1,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "Out",
+    "m_StageCapability": 3,
+    "m_Value": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+    },
+    "m_DefaultValue": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+    },
+    "m_Labels": []
 }
 
 {
