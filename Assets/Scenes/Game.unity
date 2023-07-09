@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.33615682, g: 0.03708338, b: 0.010186335, a: 1}
+  m_IndirectSpecularColor: {r: 0.19929712, g: 0.6259218, b: 0.7195691, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2404,8 +2404,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2663138538657857090, guid: 47d5b0de599862944b9b246d8cfe6167, type: 3}
-      propertyPath: EmissionModule.rateOverTime.scalar
+      propertyPath: ForceModule.enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2663138538657857090, guid: 47d5b0de599862944b9b246d8cfe6167, type: 3}
+      propertyPath: VelocityModule.orbitalY.scalar
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2663138538657857090, guid: 47d5b0de599862944b9b246d8cfe6167, type: 3}
+      propertyPath: VelocityModule.orbitalZ.scalar
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2663138538657857090, guid: 47d5b0de599862944b9b246d8cfe6167, type: 3}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6172169926567186269, guid: 47d5b0de599862944b9b246d8cfe6167, type: 3}
       propertyPath: m_Name
