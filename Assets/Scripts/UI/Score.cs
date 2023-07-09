@@ -24,7 +24,7 @@ public class Score : MonoBehaviour
     void Update()
     {
         _score += Time.deltaTime * _scoreSpeed;
-        _text.text = ScoreAmount.ToString();
+        _text.text = "Score: "+ScoreAmount.ToString();
     }
 
     public void SaveHighScore()
