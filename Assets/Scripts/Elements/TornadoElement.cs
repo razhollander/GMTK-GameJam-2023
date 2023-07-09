@@ -92,7 +92,7 @@ namespace Elements
 
         private async UniTask HitAsync()
         {
-            float secondsForEachLand = 2f;
+            float secondsForEachLand = 1.5f;
             float secondsForHit = 0.3f;
             float timerOnLand = 0;
             float timerHit = 0;
