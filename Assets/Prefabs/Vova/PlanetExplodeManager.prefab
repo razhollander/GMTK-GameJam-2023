@@ -58,6 +58,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Planet_Explotion_VFX
       objectReference: {fileID: 0}
+    - target: {fileID: 3669567399809728853, guid: de75e489417fafa4b8b43cca0b616aba, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4059965564152892945, guid: de75e489417fafa4b8b43cca0b616aba, type: 3}
       propertyPath: m_RootOrder
       value: 11
