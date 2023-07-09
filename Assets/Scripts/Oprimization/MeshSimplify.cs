@@ -6,9 +6,9 @@ using System.Collections;
 using System.Collections.Generic;
 using Sirenix.OdinInspector;
 using UnityEditor;
-using UnityEngine;
 using UnityEngine.Serialization;
 #endif
+using UnityEngine;
 
 namespace Oprimization
 {
