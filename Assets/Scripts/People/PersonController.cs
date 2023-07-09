@@ -173,6 +173,11 @@ public class PlayerController : MonoBehaviour
         {
             var neighbor = _target.Neighbors[Random.Range(0, _target.Neighbors.Count)];
             var i = 0;
+
+            if (neighbor == null)
+            {
+                return;
+            }
             while (neighbor.Vertex == 5 || neighbor.name == _target.name)
             {
                 neighbor = _target.Neighbors[Random.Range(0, _target.Neighbors.Count)];
@@ -185,12 +190,6 @@ public class PlayerController : MonoBehaviour
             }
 
             target = neighbor;
-            
-            
-            if (_target.Id == target.Id)
-            {
-                Debug.Log("aaa!!!!!!!!!");
-            }
             //SetTarget(target.Neighbors[Random.Range(0, target.Neighbors.Count)]);
         }
 

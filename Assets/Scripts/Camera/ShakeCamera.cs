@@ -28,6 +28,7 @@ public class ShakeCamera : MonoBehaviour
         if (_shakeCoroutine != null)
         {
             StopCoroutine(_shakeCoroutine);
+            transform.position = _startPos;
         }
         
         _shakeCoroutine = StartCoroutine(isSmall ? DoShakeSmall() : DoShake());

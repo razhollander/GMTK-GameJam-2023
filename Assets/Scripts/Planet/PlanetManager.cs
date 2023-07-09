@@ -29,7 +29,7 @@ namespace Planet
                 land.Id = idCounter;
                 land.AmountNeighbors = part.Vertex;
                 land.Position = part.Position;
-                land.Vertex = part.Vertex;
+                //land.Vertex = part.Vertex;
                 land.BuildingType = BuildingType.None;
                 idCounter++;
             }
