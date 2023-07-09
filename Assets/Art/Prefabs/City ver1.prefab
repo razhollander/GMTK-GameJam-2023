@@ -198,6 +198,7 @@ GameObject:
   - component: {fileID: 7117405244220326056}
   - component: {fileID: 6275903361559815389}
   - component: {fileID: 8986105905289581707}
+  - component: {fileID: 984914869645380480}
   m_Layer: 0
   m_Name: Parent
   m_TagString: Untagged
@@ -311,6 +312,19 @@ MonoBehaviour:
   destroyCombinedChildren: 1
   folderPath: Prefabs/CombinedMeshes
   meshFiltersToSkip: []
+--- !u!114 &984914869645380480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3353057540122692523}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcdaca41d6f04f38b26c7c065107e059, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  quality: 0.5
 --- !u!1 &3654903821652191381
 GameObject:
   m_ObjectHideFlags: 0
