@@ -92,7 +92,40 @@ namespace Elements
 
         private async UniTask HitAsync()
         {
+            float secondsForEachLand = 2f;
+            float secondsForHit = 0.3f;
+            float timerOnLand = 0;
+            float timerHit = 0;
+
+            while (timerOnLand < secondsForEachLand)
+            {
+                timerOnLand += Time.deltaTime;
+                timerHit += Time.deltaTime;
+
+                if (timerHit < secondsForHit)
+                {
+                    timerHit = 0;
+                    _firstLand.HitBuilding();
+                }
+
+                await UniTask.DelayFrame(1);
+            }
+
+            timerOnLand = 0;
             
+            while (timerOnLand < secondsForEachLand)
+            {
+                timerOnLand += Time.deltaTime;
+                timerHit += Time.deltaTime;
+
+                if (timerHit < secondsForHit)
+                {
+                    timerHit = 0;
+                    target.HitBuilding();
+                }
+
+                await UniTask.DelayFrame(1);
+            }
         }
     }
 }
