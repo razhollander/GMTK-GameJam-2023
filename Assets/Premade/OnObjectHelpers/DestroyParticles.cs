@@ -9,7 +9,7 @@ public class DestroyParticles : MonoBehaviour
         private IEnumerator Start()
         {
             var particles = GetComponent<ParticleSystem>();
-            yield return new WaitForSeconds(particles.main.duration*particles.sim);
+            yield return new WaitForSeconds(particles.main.duration*particles.main.simulationSpeed);
             
             if (_isSetActive)
             {
