@@ -27,7 +27,7 @@ public class ShootingStarsManager : MonoBehaviour
             land = _planetManager.Lands[Random.Range(0, _planetManager.Lands.Count)];
         }
 
-        var newStar = Instantiate(star, land.Position * radius, Quaternion.identity);
+        var newStar = Instantiate(star, land.Position * radius, Quaternion.identity, PlanetManager.Instance.transform);
         newStar.SetLand(land);
         SpawnStar();
     }

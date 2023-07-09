@@ -70,6 +70,11 @@ public class LandClickedManager : MonoBehaviour
             {
                 ElementsManager.Instance.CreateTornado(land);
             }
+
+            if (_mouseCurrentElementEffect == ElementEffect.Meteor)
+            {
+                ElementsManager.Instance.CreateMeteors(land);
+            }
             _mouseCurrentElementEffect = ElementEffect.None;
             
         }
