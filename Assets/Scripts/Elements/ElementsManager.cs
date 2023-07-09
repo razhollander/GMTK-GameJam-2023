@@ -35,8 +35,6 @@ public class ElementsManager : MonoBehaviour
                                                         neighbor.transform.up * _upOffset, Quaternion.identity);
             newMeteor.SetLand(neighbor);
         }
-        
-        
     }
     
     public async UniTask CreateTornado(Land land)
