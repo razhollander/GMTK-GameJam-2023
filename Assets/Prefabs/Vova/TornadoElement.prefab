@@ -54,6 +54,7 @@ MonoBehaviour:
   renderer: {fileID: 9021418698536796905}
   speed: 1
   radius: 3.5
+  _aliveSeconds: 10
 --- !u!1 &8713431499937827649
 GameObject:
   m_ObjectHideFlags: 0
@@ -96,6 +97,10 @@ PrefabInstance:
     - target: {fileID: 4507065534628535034, guid: ab16c6c49a9eaaa4cb805bb10dd3a751, type: 3}
       propertyPath: looping
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4507065534628535034, guid: ab16c6c49a9eaaa4cb805bb10dd3a751, type: 3}
+      propertyPath: lengthInSec
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 5673435054167053255, guid: ab16c6c49a9eaaa4cb805bb10dd3a751, type: 3}
       propertyPath: m_Name
