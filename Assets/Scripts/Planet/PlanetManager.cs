@@ -36,11 +36,12 @@ namespace Planet
 
             foreach (var land in Lands)
             {
-                if (land.Vertex > 5)
+                if (!land.IsSea)
                 {
                     land.Neighbors = Lands.OrderBy(i => Vector3.Distance(i.Position, land.Position)).ToList();
-                    land.Neighbors = land.Neighbors.Take(land.Vertex).ToList();
-                    land.Neighbors = land.Neighbors.Where(i => i.Vertex == 6).ToList();
+                    land.Neighbors = land.Neighbors.Take(7).ToList();
+                    land.Neighbors = land.Neighbors.Where(i => !i.IsSea && i!=land).ToList();
+                    Debug.Log(land.Neighbors.Count);
                 }
 
             }

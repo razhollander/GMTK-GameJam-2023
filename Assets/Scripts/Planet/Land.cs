@@ -28,8 +28,7 @@ namespace Planet
         private List<GameObject> _objects = new();
         private float _timerSeconds;
         private const float _nextLevelSeconds = 30f;
-        private int _vertex = 0;
-
+        public bool IsSea => _isSea;
         public Action madeForest;
         public Action madeBuilding;
 
@@ -46,7 +45,6 @@ namespace Planet
         [field: SerializeField]
         public List<Land> Neighbors { get; set; }
         public Vector3 Position { get; set; }
-        public int Vertex { get => _isSea ? 5 : 6; }
         [SerializeField] private float _maxSecondsBetweenHitsBeforeReset;
 
         private int _heart;
@@ -111,7 +109,7 @@ namespace Planet
 
         private void UpdateColorView()
         {
-            if (Vertex == 6)
+            if (!_isSea)
             {
                 switch (BuildingType)
                 {
@@ -223,7 +221,7 @@ namespace Planet
 
         private void Build(int level, BuildingType buildType)
         {
-            if (Vertex == 6 && _buildingObjects.Find(i => i.Type == buildType).Objects.Count >= level)
+            if (!IsSea && _buildingObjects.Find(i => i.Type == buildType).Objects.Count >= level)
             {
                 _timerSeconds = 0f;
                 var index = 0;

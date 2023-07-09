@@ -36,7 +36,7 @@ public class PeopleManager : MonoBehaviour
             var groundRnd = Random.Range(0, groundLands.Count);
         
             // var newPerson = Instantiate(person, newPos, quaternion.Euler(-newPos.x, -newPos.y, -newPos.z));
-            while (groundLands[groundRnd].Vertex == 5)
+            while (groundLands[groundRnd].IsSea)
             {
                 groundRnd = Random.Range(0, groundLands.Count);
             }
