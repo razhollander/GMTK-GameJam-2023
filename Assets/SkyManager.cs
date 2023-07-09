@@ -17,6 +17,13 @@ public class SkyManager : MonoBehaviour, IHeatIntervalObserver
     [SerializeField] private ParticleSystem smoke;
     private static readonly int Top = Shader.PropertyToID("_SkyGradientTop");
     private static readonly int Bottom = Shader.PropertyToID("_SkyGradientBottom");
+    public static SkyManager Instance { get; private set; }
+
+    private void Awake()
+    {
+        Instance = this;
+    }
+
     private void Start()
     {
         HeatSystem.Instance.AddHeatIntervalObserver(this);
@@ -58,4 +65,13 @@ public class SkyManager : MonoBehaviour, IHeatIntervalObserver
         }
 
     }
+
+    public void StopSmoke()
+    {
+        var emission = smoke.emission;
+        smoke.Stop();
+        emission.rateOverTime = 0;
+        
+    }
+    
 }

@@ -11,15 +11,17 @@ public class ShootingStarsManager : MonoBehaviour
     [SerializeField] private ShootingStar star;
     [SerializeField] private float radius = 6;
     [SerializeField] private float timeBtwSpawns = 5;
-
+    private bool _gameOver;
     private void Start()
     {
         _planetManager = PlanetManager.Instance;
+        GameManager.Instance.Loose += ToggleGameOver;
         SpawnStar();
     }
 
     private async UniTask SpawnStar()
     {
+        if(_gameOver) return;
         await UniTask.Delay(TimeSpan.FromSeconds(timeBtwSpawns));
         var land = _planetManager.Lands[Random.Range(0, _planetManager.Lands.Count)];
         while (land.Vertex == 5)
@@ -31,6 +33,12 @@ public class ShootingStarsManager : MonoBehaviour
         newStar.SetLand(land);
         SpawnStar();
     }
+
+    private void ToggleGameOver()
+    {
+        _gameOver = true;
+    }
+    
 }
 
 public enum ElementEffect

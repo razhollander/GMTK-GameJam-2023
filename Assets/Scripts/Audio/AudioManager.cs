@@ -24,11 +24,12 @@ namespace Audio
             }
         }
 
-        public async UniTask Play(SoundsType type, bool isDontDestroyOnChangeScene = false)
+        public async UniTask Play(SoundsType type, bool isDontDestroyOnChangeScene = false, bool isLoop = false)
         {
             var source = Instantiate(_audioSourcePrefab);
             source.clip = _clips.Find(t => t.Type == type).Clip;
             source.Play();
+            source.loop = isLoop;
 
             if (isDontDestroyOnChangeScene)
             {
@@ -52,7 +53,8 @@ namespace Audio
             BuildingDestroySuccess,
             HitBuilding,
             BackgroundMusic,
-            Tornado
+            Tornado,
+            EarthExplode
         }
         
         [Serializable]

@@ -43,7 +43,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _BorderWidth: 0
-    - _Color: 0.65
+    - _Color: 0.75
     - _ISOUTLINEON: 1
     - _Opacity: 0
     - _OutLine: 1
@@ -55,6 +55,7 @@ Material:
     - _ColorStateA: {r: 0.4008989, g: 0.8584906, b: 0.49959517, a: 1}
     - _ColorStateB: {r: 0.2924528, g: 0.15036489, b: 0.15036489, a: 1}
     - _EmissionOutline: {r: 1, g: 1, b: 1, a: 1}
+    - _edgeColor: {r: 0.029481132, g: 0.029481132, b: 0.029481132, a: 1}
   m_BuildTextureStacks: []
 --- !u!114 &5107451033993609266
 MonoBehaviour:
