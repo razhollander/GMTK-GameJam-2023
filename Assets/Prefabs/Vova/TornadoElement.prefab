@@ -54,7 +54,7 @@ MonoBehaviour:
   renderer: {fileID: 9021418698536796905}
   speed: 1
   radius: 3.5
-  _aliveSeconds: 10
+  _aliveSeconds: 5
 --- !u!1 &8713431499937827649
 GameObject:
   m_ObjectHideFlags: 0
