@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.22608389, g: 0.6434549, b: 0.8505826, a: 1}
+  m_IndirectSpecularColor: {r: 0.24020866, g: 0.6522221, b: 0.9207183, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1469,14 +1469,6 @@ PrefabInstance:
     - target: {fileID: 589672927069661251, guid: 88b26c2d6ca12f746bb7ede602f020c8, type: 3}
       propertyPath: m_Name
       value: PeopleManager
-      objectReference: {fileID: 0}
-    - target: {fileID: 2726337132870566096, guid: 88b26c2d6ca12f746bb7ede602f020c8, type: 3}
-      propertyPath: maxNum
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 2726337132870566096, guid: 88b26c2d6ca12f746bb7ede602f020c8, type: 3}
-      propertyPath: isDebug
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4894276024021154152, guid: 88b26c2d6ca12f746bb7ede602f020c8, type: 3}
       propertyPath: m_RootOrder
