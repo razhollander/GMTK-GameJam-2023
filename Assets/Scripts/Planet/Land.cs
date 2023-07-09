@@ -27,7 +27,7 @@ namespace Planet
         private BuildingType _buildingType;
         private List<GameObject> _objects = new();
         private float _timerSeconds;
-        private const float _nextLevelSeconds = 15f;
+        private const float _nextLevelSeconds = 30f;
         private int _vertex = 0;
 
         public Action madeForest;
