@@ -69,12 +69,12 @@ public class GameManager : MonoBehaviour, IHeatIntervalObserver
 
     public void GoToMenu()
     {
-        
+        SceneManager.LoadScene("Main");
     }
     
     public void Restart()
     {
         Pool.pools = new Dictionary<PooledMonobehaviour, Pool>();
-        SceneManager.LoadScene(SAMPLE_SCENE_NAME);
+        SceneManager.LoadScene("Game");
     }
 }
