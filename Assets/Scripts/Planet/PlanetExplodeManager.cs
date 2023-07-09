@@ -25,6 +25,7 @@ namespace Planet
                 _explode.SetActive(true);
                 _particle.Play();
                 AudioManager.Instance.Play(AudioManager.SoundsType.EarthExplode);
+                SkyManager.Instance.StopSmoke();
                 PlanetManager.Instance.gameObject.SetActive(false);
             };
         }
