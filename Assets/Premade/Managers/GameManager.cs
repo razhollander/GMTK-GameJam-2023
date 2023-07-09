@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -7,6 +8,8 @@ public class GameManager : MonoBehaviour, IHeatIntervalObserver
     public const string SCORE = "Score";
     private const string SAMPLE_SCENE_NAME = "SampleScene";
     private string saveScore = "ScoreSaved";
+
+    public Action Loose;
 
     public static GameManager Instance;
     public CameraManager CameraManager;
@@ -57,6 +60,7 @@ public class GameManager : MonoBehaviour, IHeatIntervalObserver
     private void DoLose()
     {
         _didLoseAlready = true;
+        Loose?.Invoke();
 
         //Score.Instance.SaveHighScore();
         //_loseUI.gameObject.SetActive(true);
