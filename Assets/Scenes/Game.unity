@@ -1470,14 +1470,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: PeopleManager
       objectReference: {fileID: 0}
-    - target: {fileID: 2726337132870566096, guid: 88b26c2d6ca12f746bb7ede602f020c8, type: 3}
-      propertyPath: maxNum
-      value: 50
-      objectReference: {fileID: 0}
-    - target: {fileID: 2726337132870566096, guid: 88b26c2d6ca12f746bb7ede602f020c8, type: 3}
-      propertyPath: isDebug
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 4894276024021154152, guid: 88b26c2d6ca12f746bb7ede602f020c8, type: 3}
       propertyPath: m_RootOrder
       value: 10
