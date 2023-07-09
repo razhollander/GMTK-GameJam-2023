@@ -13,7 +13,7 @@ public class PeopleManager : MonoBehaviour
     [SerializeField] private List<Material> humanSkins;
     private PlanetManager _planetManager;
     private List<Land> groundLands;
-
+    private bool _gameOver;
     #region DUBUG
 
     [SerializeField] private bool isDebug;
@@ -24,11 +24,13 @@ public class PeopleManager : MonoBehaviour
     {
         _planetManager = PlanetManager.Instance;
         groundLands = _planetManager.Lands;
+        GameManager.Instance.Loose += ToggleGameOver;
         Spawn();
     }
 
     private async UniTask Spawn()
     {
+        if(_gameOver) return;
         await UniTask.Delay(TimeSpan.FromSeconds(timeBtwSpawns));
         curNum++;
         var groundRnd = Random.Range(0, groundLands.Count);
@@ -46,5 +48,9 @@ public class PeopleManager : MonoBehaviour
         if (!isDebug && curNum != maxNum) Spawn();
     }
 
-    
+    private void ToggleGameOver()
+    {
+        _gameOver = true;
+    }
+
 }
