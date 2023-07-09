@@ -5,6 +5,7 @@ using System.Threading;
 using Audio;
 using Cysharp.Threading.Tasks;
 using Planet;
+using Unity.Mathematics;
 using UnityEngine;
 
 public class LandClickedManager : MonoBehaviour
@@ -17,6 +18,7 @@ public class LandClickedManager : MonoBehaviour
     [SerializeField] private Texture2D _meteorBuildingCursorTexture;
     [SerializeField] private Texture2D _tornadoBuildingCursorTexture;
 
+    [SerializeField] private ParticleSystem mousePoof;
     public static LandClickedManager Instance;
     private Land _currentLandMouseDown;
     private Land _currentLandMouseHover;
@@ -117,7 +119,24 @@ public class LandClickedManager : MonoBehaviour
                 _isMouseCurrentlyDownHitBuilding = true;
                 UpdateToCorrectCursorImage();
                 HitBuildingsInCurrentLand();
+                
+                
+                RaycastHit hitInfo;
+
+                Vector2 mousePosition = Input.mousePosition;
+
+                Ray rayOrigin = Camera.main.ScreenPointToRay(mousePosition);
+
+                if (Physics.Raycast(rayOrigin, out hitInfo))
+                {
+                    if (hitInfo.transform.GetComponent<MeshRenderer>() != null)
+                    {
+                        Instantiate(mousePoof, hitInfo.point, quaternion.identity);
+                    }
+                   
+                }
                 break;
+            
             case BuildingType.Forest: 
                 break;
         }

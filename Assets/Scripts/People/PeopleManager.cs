@@ -34,7 +34,7 @@ public class PeopleManager : MonoBehaviour
         var groundRnd = Random.Range(0, groundLands.Count);
         var newPos = groundLands[groundRnd].Position;
         // var newPerson = Instantiate(person, newPos, quaternion.Euler(-newPos.x, -newPos.y, -newPos.z));
-        var newPerson = Instantiate(person, newPos, quaternion.identity);
+        var newPerson = Instantiate(person, newPos, quaternion.identity, PlanetManager.Instance.transform);
         while (groundLands[groundRnd].Vertex == 5)
         {
             groundRnd = Random.Range(0, groundLands.Count);

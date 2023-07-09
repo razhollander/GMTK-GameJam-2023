@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.2402087, g: 0.6522221, b: 0.9207184, a: 1}
+  m_IndirectSpecularColor: {r: 0.3356695, g: 0.03696169, b: 0.0101406025, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2157,6 +2157,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2663138538657857090, guid: 47d5b0de599862944b9b246d8cfe6167, type: 3}
+      propertyPath: ForceModule.enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2663138538657857090, guid: 47d5b0de599862944b9b246d8cfe6167, type: 3}
+      propertyPath: VelocityModule.enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2663138538657857090, guid: 47d5b0de599862944b9b246d8cfe6167, type: 3}
       propertyPath: EmissionModule.rateOverTime.scalar
       value: 0
       objectReference: {fileID: 0}
@@ -2230,6 +2238,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7575765082325447304, guid: 1dc079bc2bfd50a44a3dd5ea8b79aa5e, type: 3}
+      propertyPath: mousePoof
+      value: 
+      objectReference: {fileID: 7124311936001446668, guid: 4ebb942051f0be140bf64a7a8b14d0b9, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
