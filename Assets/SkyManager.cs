@@ -69,6 +69,7 @@ public class SkyManager : MonoBehaviour, IHeatIntervalObserver
     public void StopSmoke()
     {
         var emission = smoke.emission;
+        smoke.Stop();
         emission.rateOverTime = 0;
         
     }
