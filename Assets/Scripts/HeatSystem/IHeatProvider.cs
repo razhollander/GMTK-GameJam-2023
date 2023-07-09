@@ -4,6 +4,6 @@ using UnityEngine;
 
 public interface IHeatProvider
 {
-    int HeatProvided { get; }
+    float HeatProvided { get; }
     void OnHeatInterval();
 }

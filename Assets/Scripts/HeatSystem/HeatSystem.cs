@@ -8,8 +8,8 @@ public class HeatSystem : MonoBehaviour
 {
     public static HeatSystem Instance;
     [SerializeField] private int _checkHeatIntervalInSeconds = 5;
-    private int _currentHeat = 50;
-    public int CurrentHeat
+    private float _currentHeat = 50f;
+    public float CurrentHeat
     {
         get
         {
@@ -17,7 +17,7 @@ public class HeatSystem : MonoBehaviour
         }
         private set
         {
-            _currentHeat = Math.Clamp(value, 0, 100);
+            _currentHeat = Math.Clamp(value, 0f, 100f);
         }
         
     }
@@ -67,7 +67,7 @@ public class HeatSystem : MonoBehaviour
         {
             await UniTask.Delay(_checkHeatIntervalInSeconds * 1000);
             
-            var heatTotalDelta = 0;
+            var heatTotalDelta = 0f;
             _heatProviders.ForEach(x =>
             {
                 heatTotalDelta += x.HeatProvided;

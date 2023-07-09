@@ -28,11 +28,11 @@ public class HeatMeter : MonoBehaviour, IHeatIntervalObserver
         HeatSystem.Instance.RemoveHeatIntervalObserver(this);
     }
 
-    private void UpdateSliderByHeat(int heat)
+    private void UpdateSliderByHeat(float heat)
     {
         _slider.DOValue(heat / 100f, _animationDuration).SetEase(_animationEase);
     }
-    public void OnHeatInterval(int newHeat, int deltaHeat)
+    public void OnHeatInterval(float newHeat, float deltaHeat)
     {
         UpdateSliderByHeat(newHeat);
     }

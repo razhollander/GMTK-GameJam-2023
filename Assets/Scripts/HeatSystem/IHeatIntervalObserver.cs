@@ -4,5 +4,5 @@ using UnityEngine;
 
 public interface IHeatIntervalObserver
 {
-    void OnHeatInterval(int newHeat, int deltaHeat);
+    void OnHeatInterval(float newHeat, float deltaHeat);
 }

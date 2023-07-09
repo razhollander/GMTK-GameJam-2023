@@ -10,7 +10,8 @@ public class GameManager : MonoBehaviour, IHeatIntervalObserver
 
     public static GameManager Instance;
     public CameraManager CameraManager;
-    
+
+    private bool _didLoseAlready = false;
     private LoseUI _loseUI;
     
     private void Awake()
@@ -45,9 +46,9 @@ public class GameManager : MonoBehaviour, IHeatIntervalObserver
         Application.Quit();
     }
 
-    public void OnHeatInterval(int newHeat, int deltaHeat)
+    public void OnHeatInterval(float newHeat, float deltaHeat)
     {
-        if (newHeat == 100)
+        if (!_didLoseAlready && newHeat > 99.90f)
         {
             DoLose();
         }
@@ -55,6 +56,8 @@ public class GameManager : MonoBehaviour, IHeatIntervalObserver
 
     private void DoLose()
     {
+        _didLoseAlready = true;
+
         //Score.Instance.SaveHighScore();
         //_loseUI.gameObject.SetActive(true);
         //_loseUI.Show();

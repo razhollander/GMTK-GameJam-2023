@@ -40,7 +40,7 @@ public class SkyManager : MonoBehaviour, IHeatIntervalObserver
         worldLight.intensity = 1 - amount;
     }
 
-    public void OnHeatInterval(int newHeat, int deltaHeat)
+    public void OnHeatInterval(float newHeat, float deltaHeat)
     {
         if (newHeat / 100f > .5f)
         {
