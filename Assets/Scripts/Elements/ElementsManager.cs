@@ -39,7 +39,7 @@ public class ElementsManager : MonoBehaviour
         inst.transform.position = Vector3.zero;
         inst.transform.rotation = Quaternion.Euler(Vector3.zero);
         inst.transform.position = land.Position;
-        inst.transform.LookAt(land.transform);
+        // inst.transform.LookAt(land.transform);
         inst.SetFirstLand(land);
 
     }
