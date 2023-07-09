@@ -185,12 +185,6 @@ public class PlayerController : MonoBehaviour
             }
 
             target = neighbor;
-            
-            
-            if (_target.Id == target.Id)
-            {
-                Debug.Log("aaa!!!!!!!!!");
-            }
             //SetTarget(target.Neighbors[Random.Range(0, target.Neighbors.Count)]);
         }
 

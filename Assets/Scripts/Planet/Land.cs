@@ -43,9 +43,10 @@ namespace Planet
         
         [SerializeField] private int _forestMaxHearts = 3; 
         public int Id { get; set; }
+        [field: SerializeField]
         public List<Land> Neighbors { get; set; }
         public Vector3 Position { get; set; }
-        public int Vertex { get => _isSea ? 5 : 6; set => _vertex = value; }
+        public int Vertex { get => _isSea ? 5 : 6; }
         [SerializeField] private float _maxSecondsBetweenHitsBeforeReset;
 
         private int _heart;
