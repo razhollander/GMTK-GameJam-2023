@@ -50,4 +50,5 @@ MonoBehaviour:
   _hoverBuildingCursorTexture: {fileID: 2800000, guid: 6a8479f7b0201c74dbd8ca60fa7e7795, type: 3}
   _hitBuildingCursorTexture: {fileID: 2800000, guid: 7bf05a1e65b9a9841800b3f884b706f1, type: 3}
   _meteorBuildingCursorTexture: {fileID: 2800000, guid: ae4051c4a75f8474e97bd8fa3c1afe3b, type: 3}
-  _tornadoBuildingCursorTexture: {fileID: 0}
+  _tornadoBuildingCursorTexture: {fileID: 2800000, guid: 090e7fba755421d4eba705653dca24ee, type: 3}
+  mousePoof: {fileID: 0}
