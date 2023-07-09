@@ -35,7 +35,11 @@ public class ElementsManager : MonoBehaviour
     
     public async UniTask CreateTornado(Land land)
     {
-        var tornado = Instantiate(_tornadoElement, land.Position, Quaternion.identity);
-        tornado.SetFirstLand(land);
+        var inst = Instantiate(_tornadoElement);
+        inst.SetFirstLand(land);
+        inst.transform.position = Vector3.zero;
+        inst.transform.rotation = Quaternion.Euler(Vector3.zero);
+        inst.transform.position = land.Position;
+        inst.transform.LookAt(land.transform);
     }
 }
