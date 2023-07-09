@@ -22,7 +22,7 @@ public class LoseUI : MonoBehaviour
     {
         _scoreText.text = "Your Score: " + Score.Instance.ScoreAmount;
         _highScore.text = "Your High Score: " + Score.Instance.HighScoreAmount;
-        _animator.Play("Show");
+        _animator.Play("PopupLooseAnimationShow");
     }
 
     public void GoToMenu()
