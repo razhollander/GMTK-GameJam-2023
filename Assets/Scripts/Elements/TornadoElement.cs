@@ -35,16 +35,16 @@ namespace Elements
             _firstLand = land;
             var counterWhile = 0;
             target = null;
-            while ((target == null || target == land || target.Vertex != 6) && counterWhile < 15)
+            while ((target == null || target == land || target.IsSea) && counterWhile < 15)
             {
                 counterWhile++;
                 var randomIndex = Random.Range(0, land.Neighbors.Count);
                 target = land.Neighbors[randomIndex];
             }
 
-            if (target.Vertex == 5)
+            if (target.IsSea)
             {
-                target = PlanetManager.Instance.Lands.Find(i => i.Vertex == 6);
+                target = PlanetManager.Instance.Lands.Find(i => !i.IsSea);
             }
 
             HitAsync();

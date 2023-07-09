@@ -152,11 +152,11 @@ public class PlayerController : MonoBehaviour
 
         public void SetTarget(Land _target)
         {
-            if (_target == target || _target.Vertex == 5 || _target.Position == transform.position)
+            if (_target == target || _target.IsSea || _target.Position == transform.position)
             {
                 var neighbor = _target.Neighbors[Random.Range(0, _target.Neighbors.Count)];
                 var i = 0;
-                while (neighbor.Vertex == 5 || neighbor == _target)
+                while (neighbor.IsSea || neighbor == _target)
                 {
                     neighbor = _target.Neighbors[Random.Range(0, _target.Neighbors.Count)];
                     i++;
@@ -178,13 +178,13 @@ public class PlayerController : MonoBehaviour
             {
                 return;
             }
-            while (neighbor.Vertex == 5 || neighbor.name == _target.name)
+            while (neighbor.IsSea || neighbor.name == _target.name)
             {
                 neighbor = _target.Neighbors[Random.Range(0, _target.Neighbors.Count)];
                 i++;
                 if (i == 20) break;
             }
-            while (neighbor.Vertex == 5 || neighbor.name == _target.name)
+            while (neighbor.IsSea || neighbor.name == _target.name)
             {
                 neighbor = PlanetManager.Instance.Lands[Random.Range(0, PlanetManager.Instance.Lands.Count)];
             }

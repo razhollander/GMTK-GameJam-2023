@@ -24,7 +24,7 @@ public class ShootingStarsManager : MonoBehaviour
         if(_gameOver) return;
         await UniTask.Delay(TimeSpan.FromSeconds(timeBtwSpawns));
         var land = _planetManager.Lands[Random.Range(0, _planetManager.Lands.Count)];
-        while (land.Vertex == 5)
+        while (land.IsSea)
         {
             land = _planetManager.Lands[Random.Range(0, _planetManager.Lands.Count)];
         }
