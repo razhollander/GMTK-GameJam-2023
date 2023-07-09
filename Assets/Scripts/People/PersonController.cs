@@ -171,22 +171,25 @@ public class PlayerController : MonoBehaviour
         {
             var neighbor = _target.Neighbors[Random.Range(0, _target.Neighbors.Count)];
             var i = 0;
-            while (neighbor.Vertex == 5 || neighbor == _target)
+            while (neighbor.Vertex == 5 || neighbor.name == _target.name)
             {
                 neighbor = _target.Neighbors[Random.Range(0, _target.Neighbors.Count)];
                 i++;
                 if (i == 20) break;
             }
-            while (neighbor.Vertex == 5 || neighbor == _target)
+            while (neighbor.Vertex == 5 || neighbor.name == _target.name)
             {
                 neighbor = PlanetManager.Instance.Lands[Random.Range(0, PlanetManager.Instance.Lands.Count)];
             }
+
+            print("started from: " + _target.name + " Ended in: " + neighbor.name);
             target = neighbor;
         }
 
         public void SetLook(Material material)
         {
             humanMeshRenderer.material = material;
+            axe.GetComponent<MeshRenderer>().material = material;
         }
 
         private void SetBuild(bool _build)
