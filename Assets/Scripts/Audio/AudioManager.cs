@@ -52,7 +52,8 @@ namespace Audio
             BuildingDestroySuccess,
             HitBuilding,
             BackgroundMusic,
-            Tornado
+            Tornado,
+            EarthExplode
         }
         
         [Serializable]

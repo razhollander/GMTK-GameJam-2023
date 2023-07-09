@@ -1,3 +1,4 @@
+using Audio;
 using UnityEngine;
 
 namespace Planet
@@ -23,6 +24,7 @@ namespace Planet
             {
                 _explode.SetActive(true);
                 _particle.Play();
+                AudioManager.Instance.Play(AudioManager.SoundsType.EarthExplode);
                 PlanetManager.Instance.gameObject.SetActive(false);
             };
         }
