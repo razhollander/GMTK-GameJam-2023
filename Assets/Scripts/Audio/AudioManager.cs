@@ -35,6 +35,8 @@ namespace Audio
                 DontDestroyOnLoad(source);
             }
 
+            await UniTask.DelayFrame(3);
+
             while (source.isPlaying)
             {
                 await UniTask.Delay(1000);
