@@ -1,16 +1,13 @@
-using System.Collections;
-using System.Collections.Generic;
 using Planet;
-using Unity.Mathematics;
 using UnityEngine;
 
 public class MeteorElement : MonoBehaviour
 {
-    private Land _targetLand;
+    [SerializeField] private Land _targetLand;
     private bool _hit;
     private const float Epsilon = 0.1f;
     [SerializeField] private float speed = .5f;
-
+    [SerializeField] private GameObject explosion;
     private void Update()
     {
         if(!_targetLand) return;
@@ -18,8 +15,10 @@ public class MeteorElement : MonoBehaviour
         {
             if (_hit) return;
             _hit = true;
+            _targetLand.DestroyBuilding();
+            Instantiate(explosion, transform.position, Quaternion.identity);
+            ShakeCamera.Instance.Shake();
             Destroy(gameObject);
-            // do hit
             return;
         };
         transform.Translate(Time.deltaTime * speed * (_targetLand.Position - transform.position).normalized);
