@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 3
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 6225fa8890cf025489e57d3aa1d87260, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.24020866, g: 0.6522221, b: 0.9207183, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1090,6 +1090,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2097172997}
     - target: {fileID: 7118456868564481984, guid: d87a8f1ec49e9114a8b2767eaa78f400, type: 3}
+      propertyPath: amount
+      value: 0.498
+      objectReference: {fileID: 0}
+    - target: {fileID: 7118456868564481984, guid: d87a8f1ec49e9114a8b2767eaa78f400, type: 3}
       propertyPath: worldLight
       value: 
       objectReference: {fileID: 554955942}
@@ -1465,10 +1469,6 @@ PrefabInstance:
     - target: {fileID: 589672927069661251, guid: 88b26c2d6ca12f746bb7ede602f020c8, type: 3}
       propertyPath: m_Name
       value: PeopleManager
-      objectReference: {fileID: 0}
-    - target: {fileID: 2726337132870566096, guid: 88b26c2d6ca12f746bb7ede602f020c8, type: 3}
-      propertyPath: isDebug
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4894276024021154152, guid: 88b26c2d6ca12f746bb7ede602f020c8, type: 3}
       propertyPath: m_RootOrder
@@ -2288,6 +2288,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8880706258026483529, guid: 6836375307d74614384c42932b83d1de, type: 3}
+      propertyPath: timeBtwSpawns
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2348,6 +2352,10 @@ PrefabInstance:
     - target: {fileID: 5979701157953120234, guid: e9f08c63c80526e458d2de4af2085cc5, type: 3}
       propertyPath: m_Name
       value: Sphere
+      objectReference: {fileID: 0}
+    - target: {fileID: 5979701157953120234, guid: e9f08c63c80526e458d2de4af2085cc5, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7500413745688132403, guid: e9f08c63c80526e458d2de4af2085cc5, type: 3}
       propertyPath: m_LocalPosition.x

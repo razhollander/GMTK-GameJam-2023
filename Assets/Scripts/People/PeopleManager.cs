@@ -18,7 +18,7 @@ public class PeopleManager : MonoBehaviour
 
     [SerializeField] private bool isDebug;
     [SerializeField] private int maxNum = 1;
-
+    private int curNum = 0;
     #endregion
     private void Start()
     {
@@ -30,7 +30,7 @@ public class PeopleManager : MonoBehaviour
     private async UniTask Spawn()
     {
         await UniTask.Delay(TimeSpan.FromSeconds(timeBtwSpawns));
-
+        curNum++;
         var groundRnd = Random.Range(0, groundLands.Count);
         var newPos = groundLands[groundRnd].Position;
         // var newPerson = Instantiate(person, newPos, quaternion.Euler(-newPos.x, -newPos.y, -newPos.z));
@@ -43,7 +43,7 @@ public class PeopleManager : MonoBehaviour
         
         var materialRnd = Random.Range(0, 10);
         newPerson.SetLook(humanSkins[materialRnd]);
-        if (!isDebug) Spawn();
+        if (!isDebug && curNum != maxNum) Spawn();
     }
 
     

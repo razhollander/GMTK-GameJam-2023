@@ -52,7 +52,7 @@ ParticleSystem:
   emitterVelocityMode: 1
   looping: 0
   prewarm: 0
-  playOnAwake: 0
+  playOnAwake: 1
   useUnscaledTime: 0
   autoRandomSeed: 1
   startDelay:
@@ -118,7 +118,7 @@ ParticleSystem:
     startLifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 3
+      scalar: 10
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -4918,7 +4918,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7d15c1a671ae1e428ff498882bbc93c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.5
+  _targetLand: {fileID: 0}
+  speed: 5
+  explosion: {fileID: 5735378474034792112, guid: 6304ece2f7d6af340964fcd8c2ec34dc, type: 3}
 --- !u!1 &2457825010608565130
 GameObject:
   m_ObjectHideFlags: 0
@@ -4969,7 +4971,7 @@ ParticleSystem:
   emitterVelocityMode: 1
   looping: 0
   prewarm: 0
-  playOnAwake: 0
+  playOnAwake: 1
   useUnscaledTime: 0
   autoRandomSeed: 1
   startDelay:
