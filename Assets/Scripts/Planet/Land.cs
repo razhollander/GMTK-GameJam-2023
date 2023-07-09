@@ -160,12 +160,22 @@ namespace Planet
 
         private void OnMouseEnter()
         {
+            if (GameButtons.Instance.IsPaused)
+            {
+                return;
+            }
+            
             LandClickedManager.Instance.LandMouseEnter(this);
             _material.SetFloat("_OutLineOpacity", 1f);
         }
 
         private void OnMouseExit()
         {
+            if (GameButtons.Instance.IsPaused)
+            {
+                return;
+            }
+            
             LandClickedManager.Instance.LandMouseExit(this);
             _material.SetFloat("_OutLineOpacity", 0f);
         }
@@ -176,11 +186,21 @@ namespace Planet
 
         private void OnMouseDown()
         {
+            if (GameButtons.Instance.IsPaused)
+            {
+                return;
+            }
+            
             LandClickedManager.Instance.LandMouseDown(this);
         }
 
         private void OnMouseUp()
         {
+            if (GameButtons.Instance.IsPaused)
+            {
+                return;
+            }
+            
             LandClickedManager.Instance.LandMouseUp(this);
         }
 
@@ -316,6 +336,11 @@ namespace Planet
 
         private void Update()
         {
+            if (GameButtons.Instance.IsPaused)
+            {
+                return;
+            }
+            
             UpdateNextLevel();
         }
 

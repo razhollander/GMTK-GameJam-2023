@@ -12,6 +12,11 @@ public class DroppedStar : MonoBehaviour
     
     private void OnMouseUpAsButton()
     {
+        if (GameButtons.Instance.IsPaused)
+        {
+            return;
+        }
+        
         Destroy(gameObject);
         AudioManager.Instance.Play(AudioManager.SoundsType.StartCollect);
         ElementsManager.Instance.SetElement(GetRandomElement());
