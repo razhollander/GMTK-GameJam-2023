@@ -44,7 +44,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 163cf1991f7046e1aed1d794ef23c2eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _explode: {fileID: 0}
+  _explode: {fileID: 4050800002403275831}
 --- !u!1 &5525790279678994800
 GameObject:
   m_ObjectHideFlags: 0
@@ -75,5 +75,5 @@ Transform:
   m_Children:
   - {fileID: 4183274754321373084}
   m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
