@@ -14,6 +14,7 @@ public class SkyManager : MonoBehaviour, IHeatIntervalObserver
     private float _nextAmount;
     public Light worldLight;
     [SerializeField] private float transitionsSpeed = 1;
+    [SerializeField] private ParticleSystem smoke;
     private static readonly int Top = Shader.PropertyToID("_SkyGradientTop");
     private static readonly int Bottom = Shader.PropertyToID("_SkyGradientBottom");
     private void Start()
@@ -44,6 +45,8 @@ public class SkyManager : MonoBehaviour, IHeatIntervalObserver
         if (newHeat / 100f > .5f)
         {
             _nextAmount = math.remap(50, 100, 0f, 1f,newHeat);
+            var emission = smoke.emission;
+            emission.rateOverTime = newHeat - 50;
         }
 
     }
