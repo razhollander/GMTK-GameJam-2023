@@ -25,30 +25,38 @@ public class PlayerController : MonoBehaviour
     private bool _arrived;
     private bool isBuild;
     private static readonly int Chop = Animator.StringToHash("Chop");
-
+    //private bool _isSetup = false;
     private void Start()
     {
         var myTransform = transform;
         renderer = myTransform.GetChild(0);
         rayPos = myTransform.GetChild(1);
-        SetTarget(target.Neighbors[Random.Range(0, target.Neighbors.Count)]);
     }
 
     private void LateUpdate()
     {
+        //if (!_isSetup) return;
+
         _lastPos = transform.position;
     }
 
     private void Update ()
     {
+        //if (!_isSetup) return;
+        if (!target){
+            return;
+        }
+
         if(isBuild) target.IncreaseBuildTime(Time.deltaTime);
         var ray = new Ray(rayPos.position, -transform.up);
-       Physics.Raycast(ray, out var hit, 1, world);
-       wayUp = hit.normal;
-       var newPos = hit.point;
-       newPos += transform.up * yOffset;
-       renderer.position = newPos;
-       if (target) MoveTowardsTarget(target);
+        Physics.Raycast(ray, out var hit, 1, world);
+        wayUp = hit.normal;
+        var newPos = hit.point;
+        newPos += transform.up * yOffset;
+        renderer.position = newPos;
+        MoveTowardsTarget(target);
+
+
 
     }
 
@@ -140,12 +148,6 @@ public class PlayerController : MonoBehaviour
         _arrived = false;
     }
 
-    private void OnDrawGizmos()
-    {
-        Gizmos.color = Color.red;
-        Gizmos.DrawRay(rayPos.position, -transform.up);
-    }
-
     #region getters&setters
 
         public void SetTarget(Land _target)
@@ -161,9 +163,9 @@ public class PlayerController : MonoBehaviour
                     if (i == 20) break;
                 }
                 neighbor = PlanetManager.Instance.Lands[Random.Range(0, PlanetManager.Instance.Lands.Count)];
-                target = neighbor;
+                _target = neighbor;
             }
-
+      
             target = _target;
         }
         
@@ -183,6 +185,13 @@ public class PlayerController : MonoBehaviour
             }
 
             target = neighbor;
+            
+            
+            if (_target.Id == target.Id)
+            {
+                Debug.Log("aaa!!!!!!!!!");
+            }
+            //SetTarget(target.Neighbors[Random.Range(0, target.Neighbors.Count)]);
         }
 
         public void SetLook(Material material)
@@ -211,4 +220,14 @@ public class PlayerController : MonoBehaviour
         }
 
     #endregion
+
+
+    public void Setup()
+    {
+        // var myTransform = transform;
+        // renderer = myTransform.GetChild(0);
+        // rayPos = myTransform.GetChild(1);
+        // SetTarget(target.Neighbors[Random.Range(0, target.Neighbors.Count)]);
+        //_isSetup = true;
+    }
 }

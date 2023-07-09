@@ -25,27 +25,28 @@ public class PeopleManager : MonoBehaviour
         _planetManager = PlanetManager.Instance;
         groundLands = _planetManager.Lands;
         GameManager.Instance.Loose += ToggleGameOver;
-        Spawn();
+        Spawn().Forget();
     }
 
     private async UniTask Spawn()
     {
         if(_gameOver) return;
-        await UniTask.Delay(TimeSpan.FromSeconds(timeBtwSpawns));
-        curNum++;
-        var groundRnd = Random.Range(0, groundLands.Count);
-        var newPos = groundLands[groundRnd].Position;
-        // var newPerson = Instantiate(person, newPos, quaternion.Euler(-newPos.x, -newPos.y, -newPos.z));
-        var newPerson = Instantiate(person, newPos, quaternion.identity, PlanetManager.Instance.transform);
-        while (groundLands[groundRnd].Vertex == 5)
-        {
-            groundRnd = Random.Range(0, groundLands.Count);
-        }
-        newPerson.FirstSetTarget(groundLands[groundRnd]);
+            await UniTask.Delay(TimeSpan.FromSeconds(timeBtwSpawns));
+            curNum++;
+            var groundRnd = Random.Range(0, groundLands.Count);
         
-        var materialRnd = Random.Range(0, 10);
-        newPerson.SetLook(humanSkins[materialRnd]);
-        if (!isDebug && curNum != maxNum) Spawn();
+            // var newPerson = Instantiate(person, newPos, quaternion.Euler(-newPos.x, -newPos.y, -newPos.z));
+            while (groundLands[groundRnd].Vertex == 5)
+            {
+                groundRnd = Random.Range(0, groundLands.Count);
+            }
+            var newPos = groundLands[groundRnd].Position;
+            var newPerson = Instantiate(person, newPos, quaternion.identity, PlanetManager.Instance.transform);
+            newPerson.FirstSetTarget(groundLands[groundRnd]);
+
+            var materialRnd = Random.Range(0, 10);
+            newPerson.SetLook(humanSkins[materialRnd]);
+            if (!isDebug && curNum != maxNum) Spawn();
     }
 
     private void ToggleGameOver()
