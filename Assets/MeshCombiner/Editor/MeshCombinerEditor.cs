@@ -96,6 +96,10 @@ public class MeshCombinerEditor : Editor
 
 	private string SaveCombinedMesh(Mesh mesh, string folderPath)
 	{
+		if (mesh.name == null || mesh.name == "")
+		{
+			mesh.name = "temp";
+		}
 		bool meshIsSaved = AssetDatabase.Contains(mesh); // If is saved then only show it in the project view.
 
 		#region Create directories if Mesh and path doesn't exists:
