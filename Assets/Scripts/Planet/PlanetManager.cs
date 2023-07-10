@@ -41,9 +41,7 @@ namespace Planet
                     land.Neighbors = Lands.OrderBy(i => Vector3.Distance(i.Position, land.Position)).ToList();
                     land.Neighbors = land.Neighbors.Take(7).ToList();
                     land.Neighbors = land.Neighbors.Where(i => !i.IsSea && i!=land).ToList();
-                    Debug.Log(land.Neighbors.Count);
                 }
-
             }
 
             // TempShowNeighbors();

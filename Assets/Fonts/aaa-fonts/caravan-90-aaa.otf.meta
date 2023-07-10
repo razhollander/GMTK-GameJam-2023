@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: cb3260ae2995bed4f9b35be44c648ecd
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Caravan DL 2.0 AAA
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 93da7b5f89d8e3348a579ffbc411fcbb, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

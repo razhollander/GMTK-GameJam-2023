@@ -2,6 +2,7 @@
 /* GameManager.cs */
 using UnityEngine;
 using System.Collections;
+using Audio;
 using UnityEngine.UI;
 
 namespace SimpleHealthBar_SpaceshipExample
@@ -73,7 +74,7 @@ namespace SimpleHealthBar_SpaceshipExample
 			// Start the spawning timers.
 			StartCoroutine( "SpawnTimer" );
 			StartCoroutine( "SpawnHealthTimer" );
-
+			
 			// Update the score text to reflect the current score on start.
 			UpdateScoreText();
 		}

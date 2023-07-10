@@ -63,6 +63,8 @@ public class GameManager : MonoBehaviour, IHeatIntervalObserver
         Loose?.Invoke();
 
         Score.Instance.SaveHighScore();
+        Score.Instance.isDisabled = true;
+
         _loseUI.gameObject.SetActive(true);
         _loseUI.Show();
     }

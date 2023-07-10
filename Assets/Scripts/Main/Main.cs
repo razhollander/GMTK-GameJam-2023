@@ -34,8 +34,6 @@ namespace Main
 
                 }
             });
-
-            AudioManager.Instance.Play(AudioManager.SoundsType.BackgroundMusic, true, true);
         }
 
         public void ToggleTutorial()
